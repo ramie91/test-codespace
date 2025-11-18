@@ -1,0 +1,1103 @@
+<html>
+<head>
+<title>HashMyFiles: Calculate MD5/SHA1/CRC32 hash of files</title>
+<link rel="stylesheet" href="../main.css">
+<meta name="keywords" content="Calculate, Hash,MD5,SHA1,CRC32,SHA-256,SHA-512,SHA-384,Windows">
+<meta name="description" content="HashMyFiles is small utility that allows you to calculate the MD5/SHA1/CRC32/SHA-256/SHA-512/SHA-384  hashes of one or more files in your system.">
+<meta http-equiv="x-dns-prefetch-control" content="off">
+
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="NirSoft" />
+<meta property="og:url" content="https://www.nirsoft.net/utils/hash_my_files.html" />
+<link rel="canonical" href="https://www.nirsoft.net/utils/hash_my_files.html" />
+<link rel="alternate" type="application/rss+xml" title="NirSoft Updates" href="https://feeds.feedburner.com/nirsoft/voiG">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P2Q08WF7BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2Q08WF7BK');
+</script>
+
+
+
+
+
+	
+
+
+
+
+
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td colspan="3" class="siteheader" height="50">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr style="height:10px">
+<td>
+<td>
+
+<tr>
+<td>
+<a href="//www.nirsoft.net">
+<img src="/nirsoft2.gif" border="0">
+</a>
+
+<td>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Top Ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="3603023613"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+
+
+
+<tr style="height:10px">
+<td>
+<td>
+
+
+</table>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" class="siteheader" style="width:170px">
+
+<table border="0" cellpadding="3" width="100%"  style="width:170px">
+<tr class="menub1"><td nowrap><a href="//www.nirsoft.net">Main Page</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="//blog.nirsoft.net">Blog</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/search_freeware.html">Search</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/faq.html">FAQ</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/top_utilities_downloads.html">TOP 10</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/pad">Pad Files</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/contact-new.html">Contact</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/about_nirsoft_freeware.html">About...</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="https://www.nirsoft.net/donate.html" style="color:#000080">Donate</a><br>
+</td></tr>
+</table>
+
+<table border="0" cellpadding="3" width="100%">
+<tr class="menub2"><td nowrap><a href="/utils/index.html">All Utilities</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/password_recovery_tools.html">Password Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/system_tools.html">System Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/web_browser_tools.html">Browser Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/programmer_tools.html">Programmer Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/network_tools.html">Network Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/outlook_office_software.html">Outlook/Office</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/x64_download_package.html">64-bit Download</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/panel">Panel</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/computer_forensic_software.html">Forensics</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/alpha">Pre-Release Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/articles">Articles</a><br>
+</td></tr>
+
+</table>
+
+
+
+
+<p>
+
+<center>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Left Side -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="8544847776"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+</center>
+
+
+
+</td>
+
+<td class="menutomain">&nbsp;
+</td>
+
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="toptomain" colspan="3">
+</td>
+<tr>
+<td style="width:7px">&nbsp;</td>
+<td valign="top">
+
+
+
+<table border="0" class="utilcaption" cellspacing="3">
+<tr><td><img src="hashmyfiles_icon.gif">
+<td>HashMyFiles v2.50 - Calculate MD5/SHA1/CRC32/SHA-256/SHA-512/SHA-384 hashes of your files
+<br>
+Copyright (c) 2007 - 2024 Nir Sofer
+</table>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" async="async" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=nirsofer"></script>
+<!-- AddThis Button END -->
+
+
+<p>
+<h4 class="utilsubject">See Also</h4>
+<ul>
+<li><a href="search_my_files.html">SearchMyFiles Utility</a> - You can use the <a href="search_my_files.html">Duplicate Search Mode</a> in this utility for finding duplicate files on your system.
+<li><a href="outlook_nk2_edit.html">NK2Edit</a> - Edit, merge and fix the AutoComplete files (.NK2) of Microsoft Outlook.
+</ul>
+
+
+<p>
+<h4 class="utilsubject">Description</h4>
+HashMyFiles is small utility that allows you to calculate the hashes (MD5, SHA1, CRC32, SHA-256, SHA-512, SHA-384) of one or more files in your system.
+You can easily copy the hashes list into the clipboard, or save them into text/html/xml file.
+<br>
+HashMyFiles can also be launched from the context menu of Windows Explorer, and display the hashes
+of the selected file or folder.
+
+<p>
+<h4 class="utilsubject">System Requirements</h4>
+This utility works on Windows 2000/XP/2003/Vista/Windows 7/Windows 8/Windows 10/Windows 11. Older versions of Windows are not supported.
+
+<p>
+<h4 class="utilsubject">Versions History</h4>
+<ul>
+
+<li>Version 2.50:
+<ul>
+<li>Added 'Live Hashes Display' option. When it's turned on, HashMyFiles displays the hashes of every file immediately after they are calculated, instead of waiting until all files are processed.
+<li>Added new columns: 'Hash Start Time', 'Hash End Time', 'Hashing Duration'.
+</ul>
+
+<li>Version 2.44:
+<ul>
+<li>You can now send the hash data to stdout by specifying empty string as filename, for example: 
+<br>
+HashMyFiles.exe /File &quot;C:\Temp\*.*&quot; /scomma &quot;&quot; | more
+</ul>
+
+
+
+<li>Version 2.43:
+<ul>
+<li>Added /cfg command-line option to start HashMyFiles with the specified config file.
+</ul>
+
+
+
+<li>Version 2.42:
+<ul>
+<li>Added 'Drag & Drop / Explorer Paste Folder Mode' option, which controls how folder is added when dragging a folder from Windows Explorer or pasting a folder from Windows Explorer. 
+<li>There are 2 option to choose: 'Add only files from the base folder' (The default option) or 'Add files from the base folder and all its subfolders'. 
+<li>Added option to change the sorting column from the menu (View -> Sort By). Like the column header click sorting, if you click again the same sorting menu item, it'll switch between ascending and descending order.
+</ul>
+
+
+<li>Version 2.41:
+<ul>
+<li>Fixed bug: The 'Open In VirusTotal Web Site' string of the Explorer menu was not loaded from the translation file.
+</ul>
+
+
+<li>Version 2.40:
+<ul>
+<li>The process of hashing very large files is now faster than previous versions. 
+<li>Fixed to display hashes for zero-length files.
+</ul>
+
+
+
+<li>Version 2.38:
+<ul>
+<li>Updated the 'Open In VirusTotal Web site' option to work with SHA1 and MD5 hashes.
+</ul>
+
+
+<li>Version 2.37:
+<ul>
+<li>Added option to choose another font (name and size) to display in the main window (Options -> Select Another Font). 
+</ul>
+
+
+
+<li>Version 2.36:
+<ul>
+<li>Fixed another problem when hashing multiple files from the Explorer context menu.
+</ul>
+
+
+<li>Version 2.35:
+<ul>
+<li>Fixed again the 'Open In VirusTotal Web site' option, because the link on 2.33 didn't work for some users.
+Also, HashMyFiles displays an error message if you try to use this option while SHA256 is turned off, because VirusTotal doesn't support MD5 hashes anymore.
+<li>Added 'Copy SHA384' and 'Copy SHA512' options.
+<li>Fixed problem when hashing multiple files from the Explorer context menu.
+</ul>
+
+
+<li>Version 2.33:
+<ul>
+<li>Added HashMyFiles icon to the Explorer context menu.
+<li>Fixed the 'Open In VirusTotal Web site' option to open a link that allows you to reanalyze the file.
+</ul>
+
+
+<li>Version 2.32:
+<ul>
+<li>Fixed bug: HashMyFiles failed to remember the last size/position of the properties window if it was not located in the primary monitor. 
+
+</ul>
+
+
+<li>Version 2.31:
+<ul>
+<li>You can now resize the properties window, and the last size/position of this window is saved in the .cfg file.
+</ul>
+
+
+<li>Version 2.30:
+<ul>
+<li>The Copy MD5/SHA1/SHA256 options now work with multiple selected items.
+</ul>
+
+
+<li>Version 2.25:
+<ul>
+<li>Added command-line options to turn on/off specific hash types, for example:
+<br>
+HashMyFiles.exe /MD5 1 /SHA1 1 /SHA256 0
+
+</ul>
+
+<li>Version 2.24:
+<ul>
+<li>Added 'Open Folder In Explorer' option.
+</ul>
+
+<li>Version 2.23:
+<ul>
+<li>Fixed the 'Mark Hash In Clipboard' option to work with unlimited amount of hashes (In previous versions it was limited to 255 characters)
+</ul>
+
+
+<li>Version 2.22:
+<ul>
+<li>Added 'Entry Modified Time' column (Available only on Windows Vista or later with NTFS file system). 
+</ul>
+
+
+<li>Version 2.21:
+<ul>
+<li>Fixed bug: HashMyFiles created a csv file without header when using /SaveDirect command-line option with 'Add Header Line To CSV/Tab-Delimited File' option turned on.
+</ul>
+
+
+
+<li>Version 2.20:
+<ul>
+<li>Fixed the 'Open In VirusTotal Web site' option to work properly when 'Show Hashes In Uppercase' option is turned on.
+</ul>
+
+
+
+<li>Version 2.19:
+<ul>
+<li>Added new information to 'File Attributes' column:  'I' for 'Not Content Indexed', 'E' for encrypted file, 'X' for 'No Scrub File', and 'V' for 'Integrity Attribute'. 
+</ul>
+
+
+
+<li>Version 2.18:
+<ul>
+<li>Fixed bug: The 'Run As Administrator' option failed to work on some systems.
+</ul>
+
+
+<li>Version 2.17:
+<ul>
+<li>Fixed bug: the extension column displayed a wrong value when the folder name had a dot character.
+<li>Increased the size of bottom status bar to display long paths.
+</ul>
+
+<li>Version 2.16:
+<ul>
+<li>Explorer context menu inside HashMyFiles: When you right-click on a single item while holding down the shift key, HashMyFiles now displays the context menu of Windows Explorer, instead of the HashMyFiles context menu.
+</ul>
+
+
+<li>Version 2.15:
+<ul>
+<li>Added /SaveDirect command-line option for using with the other save command-line options (/scomma, /stab, /sxml, and so on...), which allows you to export 
+the hashes directly to a file, instead of accumulating all hashes in memory and then save them to file in the end.
+</ul>
+
+
+
+<li>Version 2.11:
+<ul>
+<li>Added 'Run As Administrator' option (Ctrl+F11).
+</ul>
+
+
+<li>Version 2.10:
+<ul>
+<li>Added accelerator key to 'Open In VirusTotal Web Site' option. (Ctrl+R)
+<li>Fixed the 'Open In VirusTotal Web Site' option to work properly with MD5 hash when there is no SHA256 hash.
+<li>Fixed bug: HashMyFiles failed to remember the last size/position of the main window if it was not located in the primary monitor. 
+</ul>
+
+
+<li>Version 2.05:
+<ul>
+<li>Added option to add 'Open In VirusTotal Web Site' to the context menu of Windows explorer. When right-clicking on a file
+in Windows Explorer and choosing 'Open In VirusTotal Web Site', HashMyFiles calculates the hash of this file and then opens it in VirusTotal Web site.
+<li>Added /virustotal command-line option, which calculates the hash of the specified file  and then opens it in VirusTotal Web site.
+</ul>
+
+<li>Version 2.03:
+<ul>
+<li>Fixed HashMyFiles to handle daylight saving time properly, like Explorer on Windows 7. 
+</ul>
+
+<li>Version 2.02:
+<ul>
+<li>Added 'Copy SHA256' option (F11)
+</ul>
+
+<li>Version 2.01:
+<ul>
+<li>If SHA256 hash is not active, 'Open In VirusTotal Web site' option now works with MD5 hashes.
+</ul>
+
+<li>Version 2.00:
+<ul>
+<li>Added 'Open In VirusTotal Web site' option. (Works only when SHA256 hash is active)
+<br>
+If you have a software file that other people already submitted to VirusTotal, this option will open a Web page in VirusTotal Web site with the Antivirus scanning result.
+</ul>
+
+<li>Version 1.97:
+<ul>
+<li>You can now use environment strings in the 'Add Folder' and 'Add By Wildcard' options (For example: %AppData%\*.* )
+<li>Added 64-bit build.
+</ul>
+
+<li>Version 1.96:
+<ul>
+<li>Fixed bug: HashMyFiles displayed hashes for empty files, and marked them as identical to the string in the clipboard.
+<li>Fixed the flickering while scrolling the hash list.
+</ul>
+
+<li>Version 1.95:
+<ul>
+<li>When selecting one or more files located on a remote network and choosing 'Move To Recycle Bin',  HashMyFiles
+now asks you whether you want to delete the files, because remote network files cannot be sent to Recycle Bin.
+<li>When HashMyFiles asks you whether to delete files or move them to Recycle Bin, the default answer is now set to 'No'.
+<li>Accelerator keys change: Del key is now used for 'Remove Selected Files' option.
+<li>Added 'Mark Odd/Even Rows' option, under the View menu. When it's turned on, the odd and even rows are displayed in different color, to make it easier to read a single line.
+<li>Added 'Auto Size Columns+Headers' option, which allows you to automatically resize the columns according to the row values and column headers. 
+	
+</ul>
+
+
+<li>Version 1.90:
+<ul>
+<li>Fixed bug: HashMyFiles failed to detect identical files properly if the user unchecked the MD5, SHA1, and CRC32 hash types.
+</ul>
+
+
+<li>Version 1.89:
+<ul>
+<li>Fixed bug: HashMyFiles didn't display any hash if the user unchecked the MD5, SHA1, and CRC32 hash types.
+</ul>
+
+
+<li>Version 1.88:
+<ul>
+<li>Fixed the 'Mark Hash In Clipboard' option to work with CRC32.
+</ul>
+
+
+<li>Version 1.87:
+<ul>
+<li>Fixed bug: The 'Mark Hash In Clipboard' option failed to work with the SHA-256, SHA-512, and SHA-384 hashes.
+</ul>
+
+<li>Version 1.86:
+<ul>
+<li>Fixed bug: HashMyFiles failed to display the size and date/time information for a filename that begins with dot character.
+</ul>
+
+<li>Version 1.85:
+<ul>
+<li>Added support for SHA-384 hashes. (Supported on Windows XP/SP3, Windows Vista, Windows 7, Windows Server 2003, and Windows Server 2008)
+</ul>
+
+<li>Version 1.81:
+<ul>
+<li>Added 'CRC32 Display Mode' - Hexadecimal or Decimal. 
+
+</ul>
+
+<li>Version 1.80:
+<ul>
+<li>Added support for SHA-256 and SHA-512 hashes. These hashes are supported on Windows XP/SP3, Windows Vista, Windows 7, Windows Server 2003, and Windows Server 2008.
+
+</ul>
+
+<li>Version 1.72:
+<ul>
+<li>You can now drag one or more files from the window of HashMyFiles into Explorer window or other application.
+</ul>
+
+<li>Version 1.71:
+<ul>
+<li>Added 'Remove Selected Files' (Ctrl+R), which remove the selected files from the list of hashes.
+</ul>
+
+<li>Version 1.70:
+<ul>
+<li>Added 'Add Header Line To CSV/Tab-Delimited File' option. When this option is turned on, the column names are added
+as the first line when you export to csv or tab-delimited file.
+</ul>
+
+
+<li>Version 1.68:
+<ul>
+<li>Added 'Copy CRC32' to the context menu.
+</ul>
+
+<li>Version 1.67:
+<ul>
+<li>Added 'Copy CRC32' option.
+</ul>
+
+<li>Version 1.66:
+<ul>
+<li>In 'Add By Wildcard' window, the browse button now works properly.
+</ul>
+
+<li>Version 1.65:
+<ul>
+<li>Added 'Add By Wildcard' option (F6), which allows you to add multiple files by specifying wildcard and subfolder depth.
+<li>Added /wildcard command-line option for using the new 'Add By Wildcard' option from command-line.
+</ul>
+
+<li>Version 1.61:
+<ul>
+<li>Fixed bug: Export to .csv files didn't work well if one of the values contained comma characters.
+</ul>
+<li>Version 1.60:
+<ul>
+<li>Added 'File Attributes' column.
+<li>Added 'Show Time in GMT' option.
+<li>Added 'Move To Recycle Bin' option.
+<li>Fixed missing icons problem in Windows7/x64.
+</ul>
+
+<li>Version 1.55:
+<ul>
+<li>Added 'Delete Selected Files' option, which allows you to easily delete duplicated files.
+</ul>
+
+<li>Version 1.52:
+<ul>
+<li>Added sorting command-line options.
+</ul>
+
+<li>Version 1.51:
+<ul>
+<li>Fixed bug: Modified Time and Created Time displayed the same date/time.
+</ul>
+
+<li>Version 1.50:
+<ul>
+<li>Added 'Explorer Paste' option, which allows you to paste a list of files that copied from Explorer window or from any other software
+that copy files to the clipboard, including some utilities of NirSoft, like
+<a href="https://www.nirsoft.net/utils/search_my_files.html" target="SearchMyFiles">SearchMyFiles</a>, 
+<a href="https://www.nirsoft.net/utils/ie_cache_viewer.html" target="IECacheView">IECacheView</a>, and 
+<a href="https://www.nirsoft.net/utils/registered_dll_view.html" target="RegDllView">RegDllView</a>. (by using the 'Explorer Copy' option)
+</ul>
+
+
+<li>Version 1.47:
+<ul>
+<li>Fixed bug: Save command-line options failed to work in the last release.
+</ul>
+
+<li>Version 1.46:
+<ul>
+<li>Fixed issue: When HashMyFiles window is hidden and there is an icon in the taskbar, running HashMyFiles again will open the existing 
+instance of HashMyFiles, instead of creating another one.
+</ul>
+
+<li>Version 1.45:
+<ul>
+<li>Added 'Put Icon In Tray' option.
+</ul>
+
+<li>Version 1.43:
+<ul>
+<li>When you specify empty string (&quot;&quot;) in the /folder command-line option, HashMyFiles
+will now use the current folder.
+</ul>
+
+<li>Version 1.42:
+<ul>
+<li>Added AutoComplete to select folder dialog-box
+</ul>
+
+<li>Version 1.41:
+<ul>
+<li>Fixed bug: 'Mark Hash In Clipboard' option marked all hashes when one or more hash types were deselected.
+</ul>
+
+<li>Version 1.40:
+<ul>
+<li>Added 'Hash Types' sub-menu under options. Allows you to select which types of hashes you want to calculate.
+</ul>
+
+<li>Version 1.37:
+<ul>
+<li>Fixed bug: When dragging a file into HashMyFiles window while it's already processed by HashMyFiles, the file was added multiple times.
+</ul>
+
+<li>Version 1.36:
+<ul>
+<li>Fixed bug: When 'Add files in subfolders' was selected, only sub-folders files were added.
+</ul>
+
+<li>Version 1.35:
+<ul>
+<li>Added 'Select Folder' dialog-box.
+<li>Added new option: 'Add files in subfolders'.
+<li>Added /folders command-line option
+<li>Added file extension column.
+<li>'Select Process' dialog-box is now resizable.
+</ul>
+
+<li>Version 1.31:
+<ul>
+<li>Added support for adding multiple files in 'Add File' option.
+</ul>
+
+<li>Version 1.30:
+<ul>
+<li>Added new columns: File Version and Product Version. (for exe and dll files)
+</ul>
+
+<li>Version 1.29:
+<ul>
+<li>Fixed bug: The main window lost the focus when the user switched to another application and then returned back to HashMyFiles.
+</ul>
+
+
+<li>Version 1.28:
+<ul>
+<li>Display single file progress information (in percent) while hashing large files.
+</ul>
+
+<li>Version 1.27:
+<ul>
+<li>Added new file type in save - comma-delimited file (.csv)
+<li>Added new command-line option - /scomma
+</ul>
+
+<li>Version 1.26:
+<ul>
+<li>'Mark Identical Hashes' option - now also works with saved HTML files and HTML reports.
+</ul>
+
+
+<li>Version 1.25:
+<ul>
+<li>Add new column: 'Identical' - When there are 2 or more identical hashes, this column is filled with a number
+(1 for the first identical hashes, 2 for the second, and so on...)
+<li>Add 'Mark Identical Hashes' option - Mark identical hashes with up to 8 different colors.
+</ul>
+
+<li>Version 1.20:
+<ul>
+<li>Fixed bug: When using 'Add Process Files' option, the filenames displayed in short path format.
+</ul>
+
+
+<li>Version 1.19:
+<ul>
+<li>New command-line option: /files (support for loading multiple files)
+</ul>
+
+<li>Version 1.18:
+<ul>
+<li>Fixed bug in Unicode version: wrong characters added to clipboard copy option.
+</ul>
+
+<li>Version 1.17:
+<ul>
+<li>Added 'Mark Hash In Clipboard' option.
+If this options is selected, the hash that you copy to the clipboard is compared to the MD5/SHA1 hashes
+that are currently displayed in HashMyFiles. If there is a match, the hash line is marked in green color.
+</ul>
+
+
+<li>Version 1.16:
+<ul>
+<li>Added 'FF FE' characters in the beginning of the saved Unicode files (Unicode version only). 
+</ul>
+
+
+<li>Version 1.15:
+<ul>
+<li>Fixed bug: HashMyFiles remained in memory if you closed it while calculating hashes.
+<li>New option: 'Add Process Files' - Allows you to get the hashes of all DLL files of the selected process.
+</ul>
+
+<li>Version 1.10:
+<ul>
+<li>Explorer Context Menu - If an instance of HashMyFiles is already running, the selected files
+will be added to the existing instance, instead of creating a new one.
+<li>File icons are now displayed according to the file type.
+<li>New option: Always On Top.
+<li>Added 'Stop' menu item while calculating the hashes.
+<li>Added CRC32 calculations.
+<li>Added new columns: Modified Time, Created Time, and File Size.
+
+</ul> 
+
+<li>Version 1.00 - First Release.
+</ul>
+
+
+
+<p>
+<img src="hashmyfiles.gif">
+
+<p>
+<h4 class="utilsubject">Using HashMyFiles</h4>
+HashMyFiles doesn't require any installation process or additional DLL files.
+In order to start using it, simply run the executable file (HashMyFiles.exe).
+<br>
+After you run it, you can add files and folders that you want to view their MD5/SHA1 hashes.
+You can do it by using the 'Add File' and 'Add Folder' options under the File menu, or simply by draging 
+the files and folder from Explorer into the main window of HashMyFiles.
+<br>
+After adding the desired files, you can copy the  MD5/SHA1 hashes to the clipboard, or save the hashes list into
+text/html/xml file.
+
+
+<p>
+<h4 class="utilsubject">Explorer Context Menu</h4>
+HashMyFiles can also be used directly from Windows Explorer.
+In order to enable this feature, go to the Options menu, and choose the 'Enable Explorer Context Menu' option.
+After you enable this feature, you can right-click on any file or folder on Windows Explorer, and choose the 
+'HashMyFiles' item from the menu.
+<br>
+If you run the HashMyFiles option for a folder, it'll display the hashes for all files in the selected folder.
+<br>
+If you run the HashMyFiles option for a single file, it'll display only the hashes for that file.
+
+<p>
+Notice: Static menu items of Explorer may not work well with multiple files.
+If you use the HashMyFiles context menu with multiple files, it's possible that multiple instances of HashMyFiles will be opened.
+<br>
+If you want to get the hash of multiple files from Explorer window, use Copy & Explorer Paste, or drag the files
+into the HashMyFiles window.
+
+<p>
+<img src="hashmyfiles_contextmenu.png">
+
+<p>
+<h4 class="utilsubject">Command-Line Options</h4>
+<table border="1" cellpadding="5" bordercolor="#000000">
+
+<tr><td nowrap>
+/file &lt;Filename | Folder | Wildcard&gt;
+<td>Specifies the filename, folder, or wildcard that you want to hash.
+
+<tr><td nowrap>
+/files &lt;Filename&gt; &lt;Filename&gt; &lt;Filename&gt; ...
+<td>Specify multiple filenames, folders, or wildcards that you want to hash.
+
+<tr><td nowrap>
+/folder &lt;Folder&gt; 
+<td>Specifies a folder and all its subfolders.
+
+<tr><td nowrap>
+/wildcard &lt;Full Path Wildcard&gt; &lt;Subfolder Depth&gt; 
+<td>
+Specifies wildcard with full path (e.g: c:\folder\*.exe) and the depth of subfolders to scan.
+For &lt;Subfolder Depth&gt; parameter: 0 = no subfolders, 1 = one level of subfolders, 2 = two level of subfolders, and so on... 1000 = Infinite number of subfolders.
+
+
+<tr><td nowrap>
+/virustotal &lt;Filename&gt;
+<td>
+Calculates the hash of the specified file  and then opens it in VirusTotal Web site.
+
+
+<tr><td nowrap>
+<br>/MD5 {0 | 1}
+<br>/SHA1 {0 | 1}
+<br>/CRC32 {0 | 1}
+<br>/SHA256 {0 | 1}
+<br>/SHA512 {0 | 1}
+<br>/SHA384 {0 | 1}
+<td>
+Allows you to turn on/off the specified hash type (0 = Turn Off, 1 = Turn On).
+For example:
+<br>
+HashMyFiles.exe /MD5 1 /SHA1 1 /SHA256 0
+
+
+
+
+<tr><td nowrap>
+/cfg &lt;Filename&gt;
+<td>
+Start HashMyFiles with the specified configuration file.
+For example:
+<br>
+HashMyFiles.exe /cfg &quot;c:\config\hmf.cfg&quot;
+<br>
+HashMyFiles.exe /cfg &quot;%AppData%\HashMyFiles.cfg&quot;
+
+
+
+<tr><td nowrap>
+/stext &lt;Filename&gt;
+<td>Save the hashes list into a regular text file.
+
+<tr><td nowrap>
+/stab &lt;Filename&gt;
+<td>Save the hashes list into a tab-delimited text file.
+
+<tr><td nowrap>
+/stabular &lt;Filename&gt;
+<td>Save the hashes list into a tabular text file.
+
+<tr><td nowrap>
+/shtml &lt;Filename&gt;
+<td>Save the hashes list into HTML file (Horizontal).
+
+<tr><td nowrap>
+/sverhtml &lt;Filename&gt;
+<td>Save the hashes list into HTML file (Vertical).
+
+<tr><td nowrap>
+/sxml &lt;Filename&gt;
+<td>Save the hashes list to XML file.
+
+<tr><td nowrap>
+/scomma &lt;Filename&gt;
+<td>Save the hashes list to comma-delimited file.
+
+<tr><td nowrap>
+/sort &lt;column&gt;
+<td>
+This command-line option can be used with other save options for sorting by the desired column.
+If you don't specify this option, the list is sorted according to the last sort that you made from the user interface.
+The &lt;column&gt; parameter can specify the column index (0 for the first column, 1 for the second column, and so on) or
+the name of the column, like &quot;Filename&quot; and &quot;Identical&quot;.
+You can specify the '~' prefix character (e.g: &quot;~Identical&quot;) if you want to sort in descending order.
+You can put multiple /sort in the command-line if you want to sort by multiple columns.
+<p>
+
+<tr><td nowrap>
+/nosort 
+<td>
+When you specify this command-line option, the list will be saved without any sorting.
+
+
+<tr><td nowrap>
+/SaveDirect 
+<td>
+Save the hashes list in SaveDirect mode.
+For using with the other save command-line options ( /scomma, /stab, /sxml, and so on...) When you use the SaveDirect mode, 
+the hash lines are saved directly to the disk, without loading them into the memory first. This means that you can save a list with large amount of hashes into your disk without any memory problem, as long as you have enough disk space to store the saved file. The drawback of this mode: You cannot sort the lines according to the column you choose with /sort command-line option. 
+ 
+
+
+</table>
+
+<p>
+Examples:
+<br>
+HashMyFiles.exe /file &quot;c:\temp\*.zip&quot; /shtml &quot;c:\temp\1.html&quot;
+<br>
+HashMyFiles.exe /file &quot;d:\temp\myfile.zip&quot; /stab &quot;d:\temp\myfile.txt&quot;
+<br>
+HashMyFiles.exe /file &quot;d:\my files&quot;
+<br>
+HashMyFiles.exe /files &quot;c:\temp\*.zip&quot; &quot;c:\temp\1234.exe&quot; &quot;c:\temp\Hello.exe&quot; /shtml &quot;c:\temp\1.html&quot;
+<br>
+HashMyFiles.exe /folder &quot;c:\temp&quot; /shtml &quot;c:\temp\1.html&quot;
+<br>
+HashMyFiles.exe /folder &quot;c:\temp&quot; /shtml &quot;c:\temp\1.html&quot; /sort &quot;Identical&quot; /sort &quot;Filename&quot;
+
+<br>
+HashMyFiles.exe /folder &quot;c:\temp&quot; /shtml &quot;c:\temp\1.html&quot; /sort ~1 
+<br>
+HashMyFiles.exe /wildcard &quot;c:\temp\*.zip&quot; 1  /shtml &quot;c:\temp\1.html&quot;
+
+<br>
+HashMyFiles.exe /SaveDirect /folder &quot;c:\temp&quot; /scomma &quot;c:\temp\1.csv&quot; 
+
+
+<p>
+<h4 class="utilsubject">Translating HashMyFiles to other languages</h4>
+In order to translate HashMyFiles to other language, follow the instructions below:
+<ol>
+<li>Run HashMyFiles with /savelangfile parameter:
+<br>
+HashMyFiles.exe /savelangfile
+<br>
+A file named HashMyFiles_lng.ini will be created in the folder of HashMyFiles utility.
+<li>Open the created language file in Notepad or in any other text editor. 
+<li>Translate all string entries to the desired language.
+Optionally, you can also add your name and/or a link to your Web site. 
+(TranslatorName and TranslatorURL values) If you add this information, it'll be 
+used in the 'About' window. 
+ 
+<li>After you finish the translation, Run HashMyFiles, and all translated 
+strings will be loaded from the language file.
+<br>If you want to run HashMyFiles without the translation, simply rename the language file, or move 
+it to another folder. 
+
+</ol>
+
+
+
+
+<p>
+<h4 class="utilsubject">License</h4>
+This utility is released as freeware. 
+You are allowed to freely distribute this utility via floppy disk, CD-ROM, 
+Internet, or in any other way, as long as you don't charge anything for this.  
+If you distribute this utility, you must include all files in
+the distribution package, without any modification !
+
+<p>
+<h4 class="utilsubject">Disclaimer</h4>
+The software is provided &quot;AS IS&quot; without any warranty, either expressed or implied,
+including, but not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The author will not be liable for any special, incidental,
+consequential or indirect damages due to loss of data or any other reason. 
+
+<p>
+<h4 class="utilsubject">Feedback</h4>
+If you have any problem, suggestion, comment, or you found a bug in my utility, 
+you can send a message to <a href="mailto:nirsofer@yahoo.com">nirsofer@yahoo.com</a>
+
+
+
+<table border="0" cellpadding="10" width="100%">
+<tr><td align="center">
+<a class="downloadline" href="hashmyfiles.zip">Download HashMyFiles</a>
+
+<tr><td align="center">
+<a class="downloadline" href="hashmyfiles-x64.zip">Download HashMyFiles for 64-bit systems</a>
+
+<tr><td align="center">
+<a class="downloadline" href="hashmyfiles98.zip">Download HashMyFiles - Non-Unicode Version (For Windows 98) </a>
+
+</table>
+
+
+
+HashMyFiles is also available in other languages. In order to change the language of 
+HashMyFiles, download the appropriate language zip file, extract the 'hashmyfiles_lng.ini', 
+and put it in the same folder that you Installed HashMyFiles utility.
+<p/>
+<table class="mytable1"><tr class="utiltableheader">
+<th>Language</th><th>Translated By</th><th>Date</th><th>Version</th></tr>
+
+<tr><td><a href="trans/hashmyfiles_arabic.zip">Arabic</a></td><td>
+<a href="https://downzen.com/windows/hashmyfiles/" target="trans">Ammar Kurd</a></td><td>22/01/2019</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_brazilian_portuguese.zip">Brazilian Portuguese</a></td><td>Marcos Carvalho - Cassiano Delgado</td><td>02/12/2015</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_bulgarian.zip">Bulgarian</a></td><td>
+<a href="https://zamunda.net" target="trans">Георги Н. Цветанов</a></td><td>20/06/2024</td><td>2.44</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_czech.zip">Czech</a></td><td>
+<a href="http://preklady.buchtic.net" target="trans">Buchtič</a></td><td>18/07/2012</td><td>1.90</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_dutch.zip">Dutch</a></td><td>Jan Verheijen</td><td>09/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_french.zip">French</a></td><td>
+<a href="http://www.netbew.com" target="trans">Anthony MAGNAN (Netbew)</a></td><td>10/02/2022</td><td>2.43</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_french1.zip">French</a></td><td>Largo</td><td>11/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_german.zip">German</a></td><td>«Latino»</td><td>21/04/2025</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_german1.zip">German</a></td><td>
+<a href="http://vdobiasch.go.cc" target="trans">V. Dobiasch; B. Gemsleben</a></td><td>14/12/2010</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_greek.zip">Greek</a></td><td>
+<a href="https://www.geogeo.gr" target="trans">geogeo.gr</a></td><td>31/05/2018</td><td>2.30</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_hungarian.zip">Hungarian</a></td><td>Timinoun</td><td>18/02/2025</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_italian.zip">Italian</a></td><td>Styb</td><td>12/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_italian1.zip">Italian</a></td><td>Fabius</td><td>17/12/2014</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_japanese.zip">Japanese</a></td><td>Hiroaki Nakano</td><td>10/07/2021</td><td>2.41</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_japanese1.zip">Japanese</a></td><td>
+<a href="https://coolvitto.hateblo.jp" target="trans">coolvitto</a></td><td>11/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_korean.zip">Korean</a></td><td>
+<a href="http://www.kolanp.com" target="trans">Jaehyung Lee</a></td><td>02/03/2021</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_norwegian.zip">Norwegian</a></td><td>
+<a href="http://weiss.no" target="trans">Martin Weiss</a></td><td>08/10/2019</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_persian.zip">Persian</a></td><td>
+<a href="https://zendegiyesabz.com/" target="trans">ZendegiyeSabz</a></td><td>31/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_polish.zip">Polish</a></td><td>Arek Czak Lipiany/BestiaPL</td><td>27/09/2022</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_portuguese_brazil.zip">Portuguese Brazil</a></td><td>Marcos Brandão Carvalho</td><td>05/04/2009</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_romanian.zip">Romanian</a></td><td>
+<a href="http://midimaniacs.no-ip.org" target="trans">Jaff (Oprea Nicolae)</a></td><td>29/07/2013</td><td>2.01</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_russian.zip">Russian</a></td><td>usbflash && Dm. Yerokhin</td><td>09/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_schinese.zip">Simplified Chinese</a></td><td>
+<a href="https://gtemps.com" target="trans">Qiang</a></td><td>04/12/2021</td><td>2.43</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_schinese1.zip">Simplified Chinese</a></td><td>DaiXQ021</td><td>24/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_schinese2.zip">Simplified Chinese</a></td><td>
+<a href="http://dickmoore.ysepan.com" target="trans">DickMoore</a></td><td>18/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_serbian.zip">Serbian</a></td><td>Bojan Maksimoviж</td><td>12/02/2025</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_serbian1.zip">Serbian</a></td><td>
+<a href="http:// majstor_dane[at]yahoo[dot]com" target="trans"> Danijel Muharemovic</a></td><td>23/07/2014</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_slovak.zip">Slovak</a></td><td>František Fico</td><td>05/01/2025</td><td>2.44</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_spanish.zip">Spanish</a></td><td>
+<a href="https://sites.google.com/site/rivica" target="trans">Ricardo A. Rivas</a></td><td>08/03/2021</td><td>2.38</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_swedish.zip">Swedish</a></td><td>Leif Larsson</td><td>11/12/2009</td><td>1.60</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_tchinese.zip">Traditional Chinese</a></td><td>
+<a href="https://toc.icu" target="trans">TOC SH</a></td><td>29/12/2024</td><td>2.50</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_tchinese1.zip">Traditional Chinese</a></td><td>
+<a href="http://ppt.cc/GTNy" target="trans">Jamese.WeiChun</a></td><td>03/07/2015</td><td>2.11</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_tchinese2.zip">Traditional Chinese</a></td><td>
+<a href="https://zhtwnet.com" target="trans">Danfong Hsieh</a></td><td>09/12/2024</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_thai.zip">Thai</a></td><td>Surachet Km.4</td><td>24/12/2008</td><td>&nbsp;</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_turkish.zip">Turkish</a></td><td>
+<a href="https://harbee.blogspot.com/" target="trans">HARUN ARI</a></td><td>29/07/2023</td><td>2.44</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_ukrainian.zip">Ukrainian</a></td><td>ShriEkeR</td><td>12/07/2009</td><td>1.47</td></tr>
+
+<tr><td><a href="trans/hashmyfiles_valencian.zip">Valencian</a></td><td>
+<a href="http://vjatv.iespana.es" target="trans">vjatv</a></td><td>22/04/2008</td><td>&nbsp;</td></tr>
+
+</table>
+<p/>
+
+
+
+
+</td>
+
+<td width="10">&nbsp;&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+</td>
+
+
+
+
+</tr>
+
+</table>
+
+
+</body>
+
+
+</html>

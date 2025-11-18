@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>How to create an SD patch</title>
+    <meta name="theme-color" content="#FFF" />
+    <meta name="slack-app-id" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="REMEMBER! Every intervention to MIB firmware can result a boot loop. If this happens you will have to flash the original FW via emergency mode. Everything you do is at your own risk!" />
+    <meta name="darkreader-lock" />
+    <link rel="manifest" href="/static/manifest.webmanifest" />
+    <link rel="canonical" href="https://mibwiki.one/s/5260f4df-06c1-4e34-9cd8-2514b4b794f2" data-react-helmet="true" />
+    
+    <link rel="shortcut icon" type="image/png" href="/images/favicon-32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" type="image/png" href="/static/images/apple-touch-icon.png" sizes="192x192" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="VAG MIB2 Wiki" />
+    <style>
+      @font-face {
+        font-family: "Inter";
+        font-display: swap;
+        font-feature-settings: "ss03", "cv05";
+        src: url("/fonts/Inter.var.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "Inter";
+        font-display: swap;
+        font-feature-settings: "ss03", "cv05";
+        font-style: italic;
+        src: url("/fonts/Inter-italic.var.woff2") format("woff2");
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+
+      #root {
+        flex: 1;
+        min-height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+    <script nonce="70dcbfedbc1fe7608d76354a49bfc251">
+      window.env = {"URL":"https://mibwiki.one","AWS_S3_UPLOAD_BUCKET_URL":"https://mibwiki.one/","AWS_S3_ACCELERATE_URL":"","CDN_URL":"","COLLABORATION_URL":"wss://mibwiki.one","ENVIRONMENT":"production","FILE_STORAGE_IMPORT_MAX_SIZE":51200000,"PDF_EXPORT_ENABLED":false,"DEFAULT_LANGUAGE":"en_US","EMAIL_ENABLED":true,"APP_NAME":"Outline","analytics":{}};
+    </script>
+  
+    <script nonce="70dcbfedbc1fe7608d76354a49bfc251">
+      if (window.localStorage && window.localStorage.getItem("theme") === "dark") {
+        var color = "#111319";
+        document.querySelector("#root").style.background = color;
+        document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
+      }
+    </script>
+    <script type="module" nonce="70dcbfedbc1fe7608d76354a49bfc251" src="/static/assets/index-waWK2d6a.js"></script>
+  </body>
+</html>

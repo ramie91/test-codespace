@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>AnyToISO - Open/Extract/Convert to ISO, Extract ISO, Make ISO</title>
+    <meta name="description" content="File Extract/Convert To ISO on Windows & macOS, CD/DVD/Blu-ray disk to ISO, Folder to ISO" />
+  <meta name="keywords" content="CrystalIDEA,Uninstall Tool,AnyToISO,Macs Fan Control,SpeedyFox" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="/assets/css/all.css?bust=1759329487" media="all" />
+  	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" type="text/css" media="all" />
+	    	<link rel="alternate" hreflang="de" href="/de/anytoiso" />
+	    	<link rel="alternate" hreflang="nl" href="/nl/anytoiso" />
+	    	<link rel="alternate" hreflang="fr" href="/fr/anytoiso" />
+	    	<link rel="alternate" hreflang="ru" href="/ru/anytoiso" />
+    <script src="/assets/js/all.js?bust=1759329487"></script>
+    <script async defer data-domain="crystalidea.com" src="https://webstatistics.io/js/plausible.js"></script>
+</head>
+<body>
+<div class="nav-container-about">
+	<div class="nav-top-container">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top border" style="background-color: #e3f2fd;">
+    <a class="navbar-brand"
+        href="/anytoiso">
+        <span class="icon-32 icon-32-anytoiso"></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li>
+                <a class="nav-link " href="/uninstall-tool">Uninstall Tool </a>
+            </li>
+            <li>
+                <a class="nav-link active" href="/anytoiso">AnyToISO</a>
+                    <ul class="navbar-nav navbar-sub">
+                        <li><a class="nav-link" href="/anytoiso">Overview</a></li>
+                        <li><a class="nav-link" href="/anytoiso/file-extract-convert-to-iso">Features</a></li>
+                        <li><a class="nav-link" href="/anytoiso/buy">Pricing & Buy</a></li>
+                        <li><a class="nav-link" href="/anytoiso/support">Support</a></li>
+                        <li><a class="nav-link" href="/anytoiso/download">Download</a></li>
+                    </ul>
+            </li>
+            <li>
+                <a class="nav-link " href="/macs-fan-control">Macs Fan Control</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="navbar-nav">
+            <li>
+                <a class="nav-link " href="/store">Store</a>
+            </li>
+            <li>
+                <a class="nav-link " href="/blog
+">Blog</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="navbar-sticky-helper"></div>
+		<div class="nav-top">
+			<ul>
+				<li><a  href="/uninstall-tool">Uninstall Tool</a></li>
+				<li><a class='current' href="/anytoiso">AnyToISO</a></li>
+				<li><a  href="/macs-fan-control">Macs Fan Control</a></li>
+			</ul>
+			<ul class="float-right">
+				<li><a  href="/store">Store</a></li>
+				<li><a  href="/blog
+">Blog</a></li>
+				<li><a  href="/
+">Home</a></li>
+			</ul>	
+		</div>
+	</div>
+</div>
+<div class="nav-secondary-container">
+	<div class="nav-secondary">
+		<ul class="logo"> 
+			<li> <a href="/anytoiso"><span class="icon-32 icon-32-anytoiso"></a> </li>
+			<li> <a href="/anytoiso"> <span class="font-white">AnyTo</span><span class="font-blue">ISO</span> </a> </li> 
+		</ul>
+		<ul>
+			<li><a class="btn current" href="/anytoiso">Overview</a></li>
+			<li><a class="btn" href="/anytoiso/file-extract-convert-to-iso">Features</a></li>
+			<li><a class="btn" href="/anytoiso/buy">Pricing & Buy</a></li>
+			<li><a class="btn" href="/anytoiso/support">Support</a></li>
+			<li><a class="btn try" href="/anytoiso/download">Download</a></li>
+		</ul>
+	</div>
+</div>
+<div class="stripe stripe-blue stripe-blue-header stripe-noborder product-intro">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<h1>Extract/Convert to ISO any disk image <br> Create ISO from CD/DVD/Blu-ray disks and folders</h1>
+				<ul>
+				  <li>Support of DMG, RAR, 7Z, PKG... (20+ formats)</li>
+				  <li>Command line support</li>
+				  <li>Integration with Explorer and Apple Finder</li>
+				</ul>
+			</div>
+			<div class="col-lg-5">
+				<a href="/anytoiso/file-extract-convert-to-iso">
+					<div class="boxshot boxshot-anytoiso"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="stripe stripe-gray stripe-noborder-top product-intro-actions">
+	<div class="container">
+		<a class="btn btn-success" href="/anytoiso/download">Free Download</a>
+		<a class="btn btn-secondary" href="/anytoiso/file-extract-convert-to-iso">See Features</a>
+	</div>
+</div>
+<div class="stripe product-features">
+	<div class="container">
+		<h1 class="text-center">Ultimate Optical Disk Imaging Utility / Extractor / ISO Creator</h1>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="feature">
+					<div class="icon-circle">
+						<i class="fas fa-file"></i>
+					</div>
+					<div class="feature-content">
+						<a href="/anytoiso/file-extract-convert-to-iso">File Extract/Convert To ISO</a>
+						Convert to standard ISO/Extract any CD/DVD image or archive (7Z/RAR/ZIP/...).
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-lg-4">
+				<div class="feature feature-top">
+					<div class="icon-circle">
+						<i class="fas fa-compact-disc"></i>
+					</div>
+					<div class="feature-content">
+						<a href="/anytoiso/create-iso-from-cd-dvd-mac-windows">CD/DVD/Blu-ray disk to ISO</a>
+						The final ISO image can be later extracted with AnyToISO or burned to another disk.
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-lg-4">	
+				<div class="feature feature-top">
+					<div class="icon-circle">
+						<i class="fas fa-folder-open"></i>
+					</div>
+					<div class="feature-content">
+						<a href="/anytoiso/folder-to-iso-files-to-iso-create-iso-from-folder">Folder to ISO</a>
+						 Create ISO images from files and folders located on your local disk.
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="stripe stripe-gray">
+	<div class="container">
+		<div id="tour-carousel" class="carousel slide lazy product-tour-carousel carousel-medium">
+			<ol class="carousel-indicators">
+				<li data-target="#tour-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#tour-carousel" data-slide-to="1"></li>
+				<li data-target="#tour-carousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item item active">
+					<h1 class="text-center">File Extract / Convert to ISO on Windows & Mac</h1>
+					<div class="h1-subtitle">
+						Supports most disk image and archive file formats.
+						<a href="/anytoiso/file-extract-convert-to-iso">Learn More</a>
+					</div>
+					<a href="/anytoiso/file-extract-convert-to-iso">
+						<img class="osdetect" src="/assets/images/anytoiso/carousel1.png" data-rjs="2" alt="CrystalIDEA AnyToISO">
+					</a>
+				</div>
+				<div class="carousel-item item">
+					<h1 class="text-center">CD/DVD/Blu-ray disk to ISO on Windows & Mac</h1>
+					<div class="h1-subtitle">
+						The resulting ISO image will contain the same file system as it appears on the source disk.
+						<a href="/anytoiso/create-iso-from-cd-dvd-mac-windows">Learn More</a>
+					</div>
+					<a href="/anytoiso/create-iso-from-cd-dvd-mac-windows">
+						<img class="osdetect" src="/assets/images/anytoiso/carousel2.png" data-rjs="2" alt="CrystalIDEA AnyToISO">
+					</a>
+				</div>
+				<div class="carousel-item item">
+					<h1 class="text-center">Folder to ISO on Windows & Mac</h1>
+					<div class="h1-subtitle">
+						Resulting ISO can have 9660, Joliet and/or UDF file systems.
+						<a href="/anytoiso/folder-to-iso-files-to-iso-create-iso-from-folder">Learn More</a>
+					</div>
+					<a href="/anytoiso/folder-to-iso-files-to-iso-create-iso-from-folder">
+						<img class="osdetect" src="/assets/images/anytoiso/carousel3.png" data-rjs="2" alt="CrystalIDEA AnyToISO">
+					</a>
+				</div>
+			</div>
+			<a class="carousel-control-prev carousel-left carousel-nav ease-effect" href="#tour-carousel" data-slide="prev">
+				<span class="fa fa-angle-left"></span>
+			</a>
+			<a class="carousel-control-next carousel-right carousel-nav ease-effect" href="#tour-carousel" data-slide="next">
+				<span class="fa fa-angle-right"></span>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="stripe stripe-blue-light product-quote-cta">
+	<div class="container">	
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<a href="/anytoiso/download" style="width: 260px" class="btn btn-lg btn-primary btn-block">Try AnyToISO Now</a>
+			</div>
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-8">
+				<div class="quote-content">
+					&ldquo;AnyToISO has been a mainstay for me for several years. It has handled whatever I have thrown at it, quietly, and without complaints. It is easy to forget that it is a product with developers who work hard to provide a good product. I know that there must be many people who are not aware of such a utility as the function is unique.&rdquo;
+				</div>
+				<div class="quote-credits">– Michael Reith, Fresno, CA, USA</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="stripe product-news">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<div id="testimonial-carousel" class="product-testimonial-box carousel slide lazy">
+					<ol class="carousel-indicators">
+						<li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#testimonial-carousel" data-slide-to="1"></li>
+						<li data-target="#testimonial-carousel" data-slide-to="2"></li>
+						<li data-target="#testimonial-carousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="col-lg-3 quote-image">
+									<img src="/assets/images/uninstall-tool/review_softpedia.png" width="120" height="100">
+								</div>
+								<div class="col-lg-9">
+									<div class="quote-box">
+										<div class="quote-content">
+											&ldquo;If you've struggled to convert a format to ISO then you might find AnyToISO Converter offers a simple but effective solution.&rdquo;
+										</div>
+										<div class="quote-credits">&ndash; Nick Mead, Softpedia</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item item">
+							<div class="row">
+								<div class="col-lg-3 quote-image">
+									<img data-src="/assets/images/anytoiso/review_pcadvisor.png" width="120">
+								</div>
+								<div class="col-lg-9">
+									<div class="quote-box">
+										<div class="quote-content">
+											&ldquo;AnyToISO is a simple and easy-to-use tool for working with ISO files.&rdquo;
+										</div>
+										<div class="quote-credits">&ndash; Mike Williams, PC Advisor</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item item">
+							<div class="row">
+								<div class="col-lg-3 quote-image">
+									<img data-src="/assets/images/uninstall-tool/review_cnet.png" width="100" height="100">
+								</div>
+								<div class="col-lg-9">
+									<div class="quote-box">
+										<div class="quote-content">
+											&ldquo;It offers a lot, such as the sort of user interface we love: just a clean, simple, and efficient. Using AnyToISO couldn't be easier.&rdquo;
+										</div>
+										<div class="quote-credits">&ndash; CNET</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item item">
+							<div class="row">
+								<div class="col-lg-3 quote-image">
+									<img data-src="/assets/images/anytoiso/review_macupdate.png">
+								</div>
+								<div class="col-lg-9">
+									<div class="quote-box">
+										<div class="quote-content">
+											&ldquo;It just works. This app is essential for anyone who works with ISO images and dislikes using the terminal. For some bizzare reason Apple prefers not to let users create ISO images within the GUI.&rdquo;
+										</div>
+										<div class="quote-credits">&ndash; Xenophile, MacUpdate.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5">
+<h3>Latest AnyToISO posts from our blog:</h3>
+<div class="news-title">
+	<a href="/blog/drop-windows-xp-vista">
+		Drop Windows XP/Vista support
+	</a>
+</div>
+<p class="news-content">
+	Windows XP and Windows Vista will no longer be supported in future versions of CrystalIDEA apps. Server versions of these legacy systems will be discontinued as well (Windows Server 2003/2008)....
+</p>
+<div class="news-title">
+	<a href="/blog/malware-abusing-anytoiso-and-crystalbit-solutions">
+		Malware abusing AnyToISO and CrystalBit Solutions
+	</a>
+</div>
+<p class="news-content">
+	We’ve received two reports from people running Windows who were infected by a Trojan (or some another kind of malware) by executing a file signed by our company (CrystalBit Solutions)....
+</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="stripe stripe-gray">
+	<div class="container">
+		<h2 class="text-center">AnyToISO interface is translated into most languages:</h2>
+		<div class="text-center"><img src="/assets/images/anytoiso/translation.png"></a></div>
+	</div>
+</div>
+<div class="stripe footer-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 footer-content-menus">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="footer-content-title">Subscribe to CrystalIDEA news</div>
+						<p>Join 14.000+ subscribers and receive product updates and  relevant software related articles.</p>
+<form class="footer-content-subscription" action="https://crystalidea.us20.list-manage.com/subscribe?u=7010332a1f494c7eb0b38ba49&id=b9cd65229f" method="post" target="_blank" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
+    <div class="input-group">
+        <input type="email" placeholder="Your email address" name="EMAIL" id="mce-EMAIL" class="form-control" required="">
+        <input type="hidden" name="SOURCE" id="SOURCE" value="footer">
+        <div class="form-left-element" aria-hidden="true"><input type="text" name="b_294ad0bd155f1ed38eb82601e_ef5c13e9e9" tabindex="-1" value=""></div>
+		<input type="hidden" name="group[3163][4]" id="mce-group[3163]-3163-2" value="4">
+        <span class="input-group-btn"> <button class="btn btn-secondary" type="submit"><i class="far fa-envelope"></i></button> </span> </div>
+</form>
+						<div class="footer-content-title footer-content-title-margin">Connect with us</div>
+						<div class="footer-content-connect">
+							<a class="ease-effect" title="Twitter!" href="https://twitter.com/crystalidea"><i class="fab fa-twitter"></i></a>
+							<a class="ease-effect" title="Github" href="https://github.com/crystalidea"><i class="fab fa-github"></i></a>
+							<a class="ease-effect" title="RSS" href="/feed.xml"><i class="fas fa-rss"></i></a>
+							<a class="ease-effect" title="Subscribe to CrystalIDEA news" href="http://eepurl.com/bsBaSz"><i class="fas fa-envelope"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-5 footer-content-links">
+						<div class="footer-content-title">Products</div>
+						<ul>
+							<li><a href="/uninstall-tool">Uninstall Tool</a></li>
+							<li><a href="/anytoiso">AnyToISO</a></li>
+							<li><a href="/macs-fan-control">Macs Fan Control</a></li>
+						</ul>
+						<div class="footer-content-title footer-content-title-margin">Languages</div>
+						<ul>
+								<li><a href="/anytoiso" >English</a></li>
+								<li><a href="/de/anytoiso" >Deutsch</a></li>
+								<li><a href="/nl/anytoiso" >Nederlands</a></li>
+								<li><a href="/fr/anytoiso" >Français</a></li>
+								<li><a href="/ru/anytoiso" >Русский</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>		
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-4">
+				<div class="cta-box">
+					<div class="cta-box-title">Try AnyToISO</div>
+<p>Get started in seconds and try AnyToISO for free now.</p>
+<a href="/anytoiso/download" class="btn btn-primary">Download</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer-nav ">
+	<div class="footer-nav-inner">
+		<a href="/
+"><span class="crystalidea-footer-logo"></span></a>
+		<ul>
+			<li><a href="/contact">Contact</a></li>
+			<li><a href="/privacy-policy">Privacy Policy</a></li>
+			<li><a href="/eula">EULA</a></li>
+			<li><a href="/uninstall">Uninstall</a></li>
+			<li>&copy; 2005-2025 <a href="/
+">CrystalIDEA</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
