@@ -1,0 +1,7 @@
+# Useful File locations
+
+Here you will find the path of useful files you will dealing with in case of need:
+
+ ![](assets/97853edc-ed0c-4147-aaa0-500abd125788.redirect_id_97853edc-ed0c-4147-aaa0-500abd125788)
+
+Also see [here](https://mibwiki.one/doc/mounting-vmdk-in-qnx-vm-yztTMD3AqQ)

@@ -1,0 +1,48 @@
+# E2PTool
+
+\
+E2PTool is a utility to creat shell commands to edit MHI2 eeprom.
+
+Useful for manual unit conversions
+
+* Region conversions (e.g. US --> EU)
+* MIB2.0 --> 2.5
+
+\
+ ![](assets/82769744-50c7-4169-8122-4cbbe265b387.redirect_id_82769744-50c7-4169-8122-4cbbe265b387)
+
+\
+This tool makes this process easier and safer.
+
+Input field required and press "Generate".
+
+\
+ ![](assets/657d0b21-cd33-4624-9af5-78eadbe5d05f.redirect_id_657d0b21-cd33-4624-9af5-78eadbe5d05f)
+
+E2PTool will generate a list of commands in the syle of
+
+`"on -f rcc /usr/apps/modifyE2P ...."`
+
+These have to be executed within RCC shell either via [UART or Telnet](/doc/telnet-and-uart-shell-access-6ojvSNAqui) on the target MHI2 unit
+
+
+> [!INFO]
+> Depending on what you wnat to change, not all commands are required.
+> [!WARNING]
+> In [Emergency Mode](/doc/enter-rcc-blue-efu-emergency-ifs-u6Pt9h5acV) `modifyE2P`  binary is not available
+Restart your unit afterwards to apply changes:
+
+`/usr/apps/mib2_ioc_flash reboot`
+
+\
+## Software Requirements:
+
+Oracle JDK 15.0.1 required to run:
+
+* Download link below
+* https://www.heise.de/download/product/java-standard-edition-java-se-jdk-34074
+
+\
+## Download
+
+[Link](https://mibsolution.one/wl/?id=OWIa6oE2I0D90iQmMWiHAd4qoRRGsbbv)
