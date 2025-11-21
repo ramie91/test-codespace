@@ -45,7 +45,7 @@ Format an SD card with `FAT32` file system.
 
 Make sure to set the `Allocation unit size` to the smallest option available (example `4096B`).
 
- ![SD card formatting options](assets/24be8eba-05f5-4813-b2de-1e2120ebdd50.png)
+ ![SD card formatting options](../../assets/24be8eba-05f5-4813-b2de-1e2120ebdd50.png)
 
 ## Update to highest supported firmware
 
