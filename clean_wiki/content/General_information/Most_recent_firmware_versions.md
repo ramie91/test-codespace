@@ -1,17 +1,10 @@
 # Most recent firmware versions
 
 
-:::info
-Compare SW Train version from your unit with the list below to see if you are running the most recent firmware version available for your device. Learn more about checking SW Train details.
-
-:::
-
-
-:::info
-By default, unit will not let you update the firmware to a different series (for example form `02xx` to `04xx`) but with some effort that can be done. See 02xx to 04xx firmware update.
-
-:::
-
+> [!INFO]
+> Compare SW Train version from your unit with the list below to see if you are running the most recent firmware version available for your device. Learn more about checking SW Train details.
+> [!INFO]
+> By default, unit will not let you update the firmware to a different series (for example form `02xx` to `04xx`) but with some effort that can be done. See 02xx to 04xx firmware update.
 ## MST2 VW ZR by TechniSat/Preh
 
 ```

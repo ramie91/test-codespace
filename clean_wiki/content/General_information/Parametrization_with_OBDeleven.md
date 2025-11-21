@@ -1,17 +1,10 @@
 # Parametrization with OBDeleven
 
 
-:::info
-This works only for Android version. iOS version does not support direct EEPROM access.
-
-:::
-
-
-:::info
-In this example I’m going to show how to enable VIM under `0x240` address.
-
-:::
-
+> [!INFO]
+> This works only for Android version. iOS version does not support direct EEPROM access.
+> [!INFO]
+> In this example I’m going to show how to enable VIM under `0x240` address.
 ## Requirements
 
 
@@ -38,11 +31,8 @@ In this example I’m going to show how to enable VIM under `0x240` address.
    You can see that couple `00` and `06` are changed to `ff`.  Basically this means that speed limits for certain features were changed from `0km/h` and `6km/h` to `255km/h`.
 
 
-:::info
-Last `4` bytes (`30 34 97 5b`) are version ID (`ASCII`) and checksum (`CRC-16 CCITT-FALSE`).
-
-:::
-
+> [!INFO]
+> Last `4` bytes (`30 34 97 5b`) are version ID (`ASCII`) and checksum (`CRC-16 CCITT-FALSE`).
 ## How to read different parameters
 
 Unlike other applications. In order to read the dataset, not only must you specify which dataset you would like to read within OBDeleven, but you must also tell it the length of the dataset. Stating the wrong byte length results in an error. There are some missing lengths, if found. It is greatly appreciated if these can be filled out.

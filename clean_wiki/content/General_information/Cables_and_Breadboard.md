@@ -10,9 +10,9 @@ Get a sets like this with cables all 3 variants:
 * female to male
 
 \
- ![](assets/80d83f71-40cf-4c62-9e7b-b9c890831876.png)
+ ![](../../assets/80d83f71-40cf-4c62-9e7b-b9c890831876.png)
 
- ![](assets/cd465c54-f24b-4a6a-8ea7-e86fd8400aca.png)
+ ![](../../assets/cd465c54-f24b-4a6a-8ea7-e86fd8400aca.png)
 
 ## Where to buy?
 

@@ -1,107 +1,85 @@
 # MHI2(Q) screens
 
 
-:::info
-VW, Skoda and Seat MHI2 interfaces are very similar. Especially [Service Mode](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-service-mode-menu) Menu is identical
-
-:::
-
+> [!INFO]
+> VW, Skoda and Seat MHI2 interfaces are very similar. Especially [Service Mode](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-service-mode-menu) Menu is identical
 # Navigation Screen
 
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
-|  ![](assets/c891735d-f77b-4ed0-920d-f98b966ccbba.png) |  ![](assets/c60f9c58-793b-482b-a7cc-d19015aecbe3.png) |  ![](assets/7069df21-b29d-4a40-a675-13a78afec55f.png) |
+|  ![](../../assets/c891735d-f77b-4ed0-920d-f98b966ccbba.png) |  ![](../../assets/c60f9c58-793b-482b-a7cc-d19015aecbe3.png) |  ![](../../assets/7069df21-b29d-4a40-a675-13a78afec55f.png) |
 
 # Main Menu
 
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
-|  ![](assets/c8464b03-3ee5-4db2-90ad-9911609e586b.png) |  ![](assets/46e5ec83-51ab-4eca-8ec2-fadd96d51265.png) |  ![](assets/30acbe53-716a-4454-851d-5cd854aab10d.png) |
+|  ![](../../assets/c8464b03-3ee5-4db2-90ad-9911609e586b.png) |  ![](../../assets/46e5ec83-51ab-4eca-8ec2-fadd96d51265.png) |  ![](../../assets/30acbe53-716a-4454-851d-5cd854aab10d.png) |
 
 \
 # **Service Mode** Menu
 
 
-:::tip
-Press Menu button for 5 sec to enter **Service Mode** Menu
-
-:::
-
+> [!TIP]
+> Press Menu button for 5 sec to enter **Service Mode** Menu
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
-|  ![](assets/deaa878b-cf9f-482b-926e-aa4da2cde075.png) |  ![Press MENU for 5 seconds](assets/cfed5e13-2dce-4009-bc31-56a30bad7e26.png) |  ![Press MENU for 5 seconds](assets/7a59d114-c927-4b14-acf6-cb0ebdfad6c7.png) |
+|  ![](../../assets/deaa878b-cf9f-482b-926e-aa4da2cde075.png) |  ![Press MENU for 5 seconds](../../assets/cfed5e13-2dce-4009-bc31-56a30bad7e26.png) |  ![Press MENU for 5 seconds](../../assets/7a59d114-c927-4b14-acf6-cb0ebdfad6c7.png) |
 
 ## Software update/version
 
 
-:::info
-Start **FW installation** or M.I.B installtion from here.
-
-Get **TRAIN** information MHI2…
-
-:::
-
+> [!INFO]
+> Start **FW installation** or M.I.B installtion from here.
+> 
+> Get **TRAIN** information MHI2…
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
-|  ![](assets/6f1a3be5-ab52-4fc8-b40c-65b437e4a628.png) |  ![](assets/b3f3fbc5-4d77-453f-989f-c73547234451.png) |  ![](assets/a5551bf0-8e91-44a3-bf85-81d85362a776.png) |
+|  ![](../../assets/6f1a3be5-ab52-4fc8-b40c-65b437e4a628.png) |  ![](../../assets/b3f3fbc5-4d77-453f-989f-c73547234451.png) |  ![](../../assets/a5551bf0-8e91-44a3-bf85-81d85362a776.png) |
 
 ## Function enabling codes (FEC,SWaP)
 
 
-:::info
-Enter [Service Mode](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-service-mode-menu)  and select `Function enabling codes (FEC,SWaP)` will show all installed FECs and their status
-
-:::
-
+> [!INFO]
+> Enter [Service Mode](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-service-mode-menu)  and select `Function enabling codes (FEC,SWaP)` will show all installed FECs and their status
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
-|    |  ![Press MENU for 5 seconds](assets/cfed5e13-2dce-4009-bc31-56a30bad7e26.png) |    |
-|    |  ![click ](assets/d00a361f-5456-4d62-a2e0-725a1ca6a506.png) |    |
-|    |  ![list of all FEC codes and their status](assets/e21b53f8-6831-46b9-b167-dc1902634b65.png) |    |
-|    |  ![click a FEC code to get details](assets/decc0a15-0584-4697-80d9-3838a5524897.png) |    |
+|    |  ![Press MENU for 5 seconds](../../assets/cfed5e13-2dce-4009-bc31-56a30bad7e26.png) |    |
+|    |  ![click ](../../assets/d00a361f-5456-4d62-a2e0-725a1ca6a506.png) |    |
+|    |  ![list of all FEC codes and their status](../../assets/e21b53f8-6831-46b9-b167-dc1902634b65.png) |    |
+|    |  ![click a FEC code to get details](../../assets/decc0a15-0584-4697-80d9-3838a5524897.png) |    |
 
 ## Testmode Menu: GEM, SWDL, etc via [Service Mode](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-service-mode-menu)
 
 
-:::info
-Enter [Service Mode](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-service-mode-menu) and select `Testmode`
-
-Access to Green Engineering Menu (GEM), SWDL - custom FW update and more
-
-:::
-
+> [!INFO]
+> Enter [Service Mode](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-service-mode-menu) and select `Testmode`
+> 
+> Access to Green Engineering Menu (GEM), SWDL - custom FW update and more
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
-|  ![](/api/attachments.redirect?id=2ae06a58-796b-41e1-a234-7bb2ce0bf147 " =832x416") |  ![](assets/d06ee502-7cdf-4968-a9af-fed10e44f4d3.png) |  ![](assets/d6d499f1-aaad-4f85-a1f9-059b145cad85.png) |
+|  ![](/api/attachments.redirect?id=2ae06a58-796b-41e1-a234-7bb2ce0bf147 " =832x416") |  ![](../../assets/d06ee502-7cdf-4968-a9af-fed10e44f4d3.png) |  ![](../../assets/d6d499f1-aaad-4f85-a1f9-059b145cad85.png) |
 
 ## SWDL - **S**oft**w**are **D**own **L**oad (manual/user defined)
 
 
-:::info
-SWDL user defined FW install will enable selection of update packages before installation
-
-* `Y(es)` - will be installed completly
-* `N(o)` - No installation
-* `S(ome)` - only some packaged e.g. within `RCC`/`MMX2` are selected
-* `N/A` - not available: not part of this FW update
-
-:::
-
-
-:::tip
-This is valid for FW updates, but also for Installation of maps, radio station db, GraceNote and M.I.B.
-
-:::
-
+> [!INFO]
+> SWDL user defined FW install will enable selection of update packages before installation
+> 
+> * `Y(es)` - will be installed completly
+> * `N(o)` - No installation
+> * `S(ome)` - only some packaged e.g. within `RCC`/`MMX2` are selected
+> * `N/A` - not available: not part of this FW update
+> [!TIP]
+> This is valid for FW updates, but also for Installation of maps, radio station db, GraceNote and M.I.B.
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
-|  ![check box ](assets/ce257c79-0341-458b-8cc9-78459ae32a37.png) |  ![check box ](assets/bdc5fdc2-6b94-4f6d-ad18-ca79ec2615c1.png) |  ![1. click on ](assets/4ccfbf24-31b8-4808-911d-40580539d8d0.png) |
-|  ![press ](assets/d49ba318-06b1-491d-9017-5ab5351eaf4b.png) |  ![press ](assets/58ee1c48-da9d-454d-b62f-b0f5dcecefb3.png) |    |
-|  ![select SD card](assets/e1fbae5b-0ff1-419a-bd46-a94bbf6f2b50.png) |  ![select SD card](assets/4b25ab1a-cece-4dd9-b62c-82244235d09e.png) |  ![select SD card](assets/4a159315-c02b-4b06-b41b-32e6b852e496.png) |
-|  ![FW update details - in this case TRAIN is shown](assets/01ed511d-4803-458b-a276-69fa50574480.png) |  ![FW update details - in this case TRAIN is shown](assets/060a48b5-1a76-4627-ac0e-8d23790e3ad7.png) |  ![FW update details - in this case TRAIN is shown](assets/ecd0877c-3dc0-4032-8e89-545774e804ae.png) |
-|  ![wait ...](assets/3f25040d-8489-4a12-a283-88a144c18466.png) |  ![wait ...](assets/4d0574f9-f010-4f9f-aac5-0a172d96994f.png) |  ![wait ...](assets/c14029b3-d89a-4867-926a-404b0a0b7047.png) |
-|  !['Select all' -> switch all packages to Y(es)](assets/fb026ff2-8d1a-4faa-b8b6-76a5bd1c535a.png) |  !['Select all' -> switch all packages to Y(es)](assets/bd6c53af-a647-4677-be78-c73cd026bf93.png) |  !['Select all' -> switch all packages to Y(es)](assets/c6ddb52b-bc4a-4ea2-9b32-e131ba541cb0.png) |
-|  ![](assets/50fdb30f-477c-48c0-a2f4-64fd2568a2bd.png) |  ![](assets/bfcb5709-a3a8-4d2e-a815-920bebf5c263.png) |  ![](assets/39b46668-30c5-4d03-bc4e-d33d2e348c16.png) |
+|  ![check box ](../../assets/ce257c79-0341-458b-8cc9-78459ae32a37.png) |  ![check box ](../../assets/bdc5fdc2-6b94-4f6d-ad18-ca79ec2615c1.png) |  ![1. click on ](../../assets/4ccfbf24-31b8-4808-911d-40580539d8d0.png) |
+|  ![press ](../../assets/d49ba318-06b1-491d-9017-5ab5351eaf4b.png) |  ![press ](../../assets/58ee1c48-da9d-454d-b62f-b0f5dcecefb3.png) |    |
+|  ![select SD card](../../assets/e1fbae5b-0ff1-419a-bd46-a94bbf6f2b50.png) |  ![select SD card](../../assets/4b25ab1a-cece-4dd9-b62c-82244235d09e.png) |  ![select SD card](../../assets/4a159315-c02b-4b06-b41b-32e6b852e496.png) |
+|  ![FW update details - in this case TRAIN is shown](../../assets/01ed511d-4803-458b-a276-69fa50574480.png) |  ![FW update details - in this case TRAIN is shown](../../assets/060a48b5-1a76-4627-ac0e-8d23790e3ad7.png) |  ![FW update details - in this case TRAIN is shown](../../assets/ecd0877c-3dc0-4032-8e89-545774e804ae.png) |
+|  ![wait ...](../../assets/3f25040d-8489-4a12-a283-88a144c18466.png) |  ![wait ...](../../assets/4d0574f9-f010-4f9f-aac5-0a172d96994f.png) |  ![wait ...](../../assets/c14029b3-d89a-4867-926a-404b0a0b7047.png) |
+|  !['Select all' -> switch all packages to Y(es)](../../assets/fb026ff2-8d1a-4faa-b8b6-76a5bd1c535a.png) |  !['Select all' -> switch all packages to Y(es)](../../assets/bd6c53af-a647-4677-be78-c73cd026bf93.png) |  !['Select all' -> switch all packages to Y(es)](../../assets/c6ddb52b-bc4a-4ea2-9b32-e131ba541cb0.png) |
+|  ![](../../assets/50fdb30f-477c-48c0-a2f4-64fd2568a2bd.png) |  ![](../../assets/bfcb5709-a3a8-4d2e-a815-920bebf5c263.png) |  ![](../../assets/39b46668-30c5-4d03-bc4e-d33d2e348c16.png) |
 
 **[Continue with update and press](https://mibwiki.one/doc/mhi2q-screens-Z6jhPLo51S/#h-start-fw-update)** `START`
 
@@ -109,100 +87,71 @@ This is valid for FW updates, but also for Installation of maps, radio station d
 ### Select partial packages from collections
 
 
-:::info
-Same procedure and nearly identical menus on Seat and VW.
-
-Example below is based on Skoda (G13)
-
-:::
-
+> [!INFO]
+> Same procedure and nearly identical menus on Seat and VW.
+> 
+> Example below is based on Skoda (G13)
 \
 In this example we want to select `ifs-root` package from `RCC` collection.
 
- ![select and enter ](assets/b3959ea0-d773-4cc0-9c88-2c7425dde37c.png)
+ ![select and enter ](../../assets/b3959ea0-d773-4cc0-9c88-2c7425dde37c.png)
 
- ![select and enter ](assets/5bd40be7-6ae2-4bea-bcb5-802f0992a8bb.png)
+ ![select and enter ](../../assets/5bd40be7-6ae2-4bea-bcb5-802f0992a8bb.png)
 
- ![check box on Application](assets/31f7a5b5-fc0a-4ae4-8bee-3adbf24fdf8f.png)
+ ![check box on Application](../../assets/31f7a5b5-fc0a-4ae4-8bee-3adbf24fdf8f.png)
 
- ![go back one step](assets/b243df2c-5f32-47ad-adf4-08ce0acdc33f.png)
+ ![go back one step](../../assets/b243df2c-5f32-47ad-adf4-08ce0acdc33f.png)
 
- ![\`](assets/90a9d69f-38b3-4a81-8d3e-11c7357de148.png)
+ ![\`](../../assets/90a9d69f-38b3-4a81-8d3e-11c7357de148.png)
 
 \
- ![\`](assets/c8df3ecb-f65c-4c3f-9520-205e958fccb2.png)
+ ![\`](../../assets/c8df3ecb-f65c-4c3f-9520-205e958fccb2.png)
 
 \
 # Start FW Update
 
 
-:::info
-Standard FW update will take \~20 min
-
-Full FW update with all packages on Y(es) \~40 min
-
-Unit will restart several times during update!
-
-:::
-
-
-:::tip
-Only flash FW with external power connected to car. Running on engine power can lead to bad blocks during flasing.
-
-:::
-
-
-:::warning
-Keep the Kessy remote inside the vehicle, or even tape it to the dashboard. [Check here why that’s important](/doc/kessy-updates-JeN8RUuHyK).
-
-:::
-
-
-:::warning
-In case on an error occurs during update do **__not__** cancel the update.
-
-* Check [error code](/doc/swdlclient-error-code-tables-3aXOIeCIM2) table
-* Take a screenshot and post your issue in e.g. MIB2 telegram channel
-
-If the error code points towards a read error, this is always caused by a bad SD card or missing files.
-
-Yes, we see this very often even with new SD card.
-
-
-1. Leave system on
-2. Do not exit FW update mode
-3. Remove SD card and put new one in
-4. Hit retry button
-5. Normally FW update will continue and finish
-
-:::
-
-
+> [!INFO]
+> Standard FW update will take \~20 min
+> 
+> Full FW update with all packages on Y(es) \~40 min
+> 
+> Unit will restart several times during update!
+> [!TIP]
+> Only flash FW with external power connected to car. Running on engine power can lead to bad blocks during flasing.
+> [!WARNING]
+> Keep the Kessy remote inside the vehicle, or even tape it to the dashboard. [Check here why that’s important](/doc/kessy-updates-JeN8RUuHyK).
+> [!WARNING]
+> In case on an error occurs during update do **__not__** cancel the update.
+> 
+> * Check [error code](/doc/swdlclient-error-code-tables-3aXOIeCIM2) table
+> * Take a screenshot and post your issue in e.g. MIB2 telegram channel
+> 
+> If the error code points towards a read error, this is always caused by a bad SD card or missing files.
+> 
+> Yes, we see this very often even with new SD card.
+> 
+> 
+> 1. Leave system on
+> 2. Do not exit FW update mode
+> 3. Remove SD card and put new one in
+> 4. Hit retry button
+> 5. Normally FW update will continue and finish
 ---
 
 
-:::info
-Select `Start` on SWDL screen to initiate FW update with the currently selected packages.
+> [!INFO]
+> Select `Start` on SWDL screen to initiate FW update with the currently selected packages.
+ ![Next ...](../../assets/88861390-9639-4110-8336-0fdf47e135cf.png)
 
-:::
-
- ![Next ...](assets/88861390-9639-4110-8336-0fdf47e135cf.png)
-
- ![1st reboot will occur after a few secounds](assets/3c8d9c59-51ef-48a1-9840-6603f329dfb1.png)
+ ![1st reboot will occur after a few secounds](../../assets/3c8d9c59-51ef-48a1-9840-6603f329dfb1.png)
 
 # GEM - Enable user defined SWDL
 
 
-:::info
-Before user defined SWDL can be used, it must be activated in GEM - e.g. via M.I.B., like shown on screen below.
-
-:::
-
-
-:::tip
-After the box is ticked exit GEM (do **NOT** reboot), remove M.I.B SD from unit, and insert SD with FW update.
-
-:::
-
+> [!INFO]
+> Before user defined SWDL can be used, it must be activated in GEM - e.g. via M.I.B., like shown on screen below.
+> [!TIP]
+> After the box is ticked exit GEM (do **NOT** reboot), remove M.I.B SD from unit, and insert SD with FW update.
 \
- ![](assets/9f432248-0a14-4516-9f1c-809d6462e8cd.png)
+ ![](../../assets/9f432248-0a14-4516-9f1c-809d6462e8cd.png)

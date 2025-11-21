@@ -1,12 +1,8 @@
 # Recovering delphibin.ifs via TTL cable
 
 
-:::info
-The procedure below will only work if you installed [MST2 activator by Congo & Duke](https://mibwiki.one/doc/mst2-activator-by-congo-duke-BZSWMHrSq5) before
-
-:::
-
-
+> [!INFO]
+> The procedure below will only work if you installed [MST2 activator by Congo & Duke](https://mibwiki.one/doc/mst2-activator-by-congo-duke-BZSWMHrSq5) before
 1. Format SD card in FAT32 and write delphibin.ifs into the root of this SD card
 2. Insert SD card to SD slot 1
 3. Connect [TTL adapter to MMX of quadlock](https://mibwiki.one/doc/connecting-ttl-adapter-to-uart-on-quadlock-1W9jYvWXFN)
@@ -124,23 +120,20 @@ The procedure below will only work if you installed [MST2 activator by Congo & D
    ```
 
    
-:::info
-   Note: if you will not be quick enough - just press Eject button on DVD and unit will reboot and give you one more chance :)
-
-   :::
-
-Good luck!
-
-Reference: [https://www.drive2.com/l/672324698301807382/](https://www.drive2.ru/l/672324698301807382/)
-
-\
-
-:::tip
-if you never installed MST2 activator by Congo & Duke, the console will be disabled and pressing ENTER will not show # prompt.\nIn this case you possibly have following variants:\n1. Connect SPI programmer to QSPI chip, read the image, corrupt STDB partition in this image and write the image back. Then BOOT1 will detect corrupted STDB and will automatically run EMB (emergency OS that will read metainfo2.txt from SD card and start automatic recovery of the unit)
-
-
-2. Short sysboot5 (by other words L4 pin of DRA74 RCC chip) to GND. This will force IPL to start SD card recovery procedure (loading of custom IPL from SD card). 
-
-:::
-
+> [!INFO]
+> Note: if you will not be quick enough - just press Eject button on DVD and unit will reboot and give you one more chance :)
+> 
+>    :::
+> 
+> Good luck!
+> 
+> Reference: [https://www.drive2.com/l/672324698301807382/](https://www.drive2.ru/l/672324698301807382/)
+> 
+> \
+> 
+> :::tip
+> if you never installed MST2 activator by Congo & Duke, the console will be disabled and pressing ENTER will not show # prompt.\nIn this case you possibly have following variants:\n1. Connect SPI programmer to QSPI chip, read the image, corrupt STDB partition in this image and write the image back. Then BOOT1 will detect corrupted STDB and will automatically run EMB (emergency OS that will read metainfo2.txt from SD card and start automatic recovery of the unit)
+> 
+> 
+> 2. Short sysboot5 (by other words L4 pin of DRA74 RCC chip) to GND. This will force IPL to start SD card recovery procedure (loading of custom IPL from SD card).
 \

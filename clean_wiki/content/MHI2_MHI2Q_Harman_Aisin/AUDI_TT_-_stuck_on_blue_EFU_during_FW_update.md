@@ -6,15 +6,15 @@ Updating from very old FW version leaves the MIB unit stuck in the blue EAU scre
 
 It scans metainfo and does nothing. Inserting stock MHI2_ER_AU43x_P5098 SD does not help too.
 
- ![](assets/f2fa30b7-6d2a-4617-9694-365a368d0c52.png)
+ ![](../../assets/f2fa30b7-6d2a-4617-9694-365a368d0c52.png)
 
- ![](assets/d60f3ec8-1a9b-4aeb-81d6-1b4e0d6713a4.png)
+ ![](../../assets/d60f3ec8-1a9b-4aeb-81d6-1b4e0d6713a4.png)
 
 ## Manually flash to fix
 
 To fix the unit you must enter into [Emergency IFS](/doc/enter-rcc-blue-efu-emergency-ifs-u6Pt9h5acV) using [UART](/doc/connect-uart-to-mhi2-1W9jYvWXFN) connection and manually flash ifs-root and DSP binary. You can see them in the [update.txt](https://mibwiki.one/doc/audi-tt-0Um0TH0aSv/edit#h-updatetxt-from-unit-with-failed-fw-update-from-train-mhi2erau43xs10741) below with the TODO status that means that they are not updated yet: 
 
- ![manually flash ifs-root and DSP](assets/736d482f-cf92-4dc5-b9ae-2c7376633254.png)
+ ![manually flash ifs-root and DSP](../../assets/736d482f-cf92-4dc5-b9ae-2c7376633254.png)
 
 ## update.txt from the unit with MHI2_ER_AU43x_S1074_1 train where FW update to MHI2_ER_AU43x_P5098 failed
 

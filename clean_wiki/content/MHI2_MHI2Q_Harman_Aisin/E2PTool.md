@@ -9,7 +9,7 @@ Useful for manual unit conversions
 * MIB2.0 --> 2.5
 
 \
- ![](assets/82769744-50c7-4169-8122-4cbbe265b387.png)
+ ![](../../assets/82769744-50c7-4169-8122-4cbbe265b387.png)
 
 \
 This tool makes this process easier and safer.
@@ -17,7 +17,7 @@ This tool makes this process easier and safer.
 Input field required and press "Generate".
 
 \
- ![](assets/657d0b21-cd33-4624-9af5-78eadbe5d05f.png)
+ ![](../../assets/657d0b21-cd33-4624-9af5-78eadbe5d05f.png)
 
 E2PTool will generate a list of commands in the syle of
 
@@ -26,17 +26,10 @@ E2PTool will generate a list of commands in the syle of
 These have to be executed within RCC shell either via [UART or Telnet](/doc/telnet-and-uart-shell-access-6ojvSNAqui) on the target MHI2 unit
 
 
-:::info
-Depending on what you wnat to change, not all commands are required.
-
-:::
-
-
-:::warning
-In [Emergency Mode](/doc/enter-rcc-blue-efu-emergency-ifs-u6Pt9h5acV) `modifyE2P`  binary is not available
-
-:::
-
+> [!INFO]
+> Depending on what you wnat to change, not all commands are required.
+> [!WARNING]
+> In [Emergency Mode](/doc/enter-rcc-blue-efu-emergency-ifs-u6Pt9h5acV) `modifyE2P`  binary is not available
 Restart your unit afterwards to apply changes:
 
 `/usr/apps/mib2_ioc_flash reboot`

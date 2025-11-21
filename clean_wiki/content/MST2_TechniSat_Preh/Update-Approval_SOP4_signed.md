@@ -1,11 +1,8 @@
 # Update-Approval_SOP4_signed
 
 
-:::info
-Thanks to `Update-Approval_SOP4_signed.7z` where metainfo2.txt contains most of the unit variants (exact list [here](/doc/fw-patch-overview-newest-available-fw-online-approvalsd-patch-possibility-lp6tfDSrpl)) and the line \[cpu\\onlineservices\\1\\default\\Dir\] allows to copy unsigned files from regular SD card. All you need is just to generate [hashes.txt](https://github.com/lprot/MIB-Tools/blob/master/hashes_calc.py) with sha1 checksums of the files.
-
-:::
-
+> [!INFO]
+> Thanks to `Update-Approval_SOP4_signed.7z` where metainfo2.txt contains most of the unit variants (exact list [here](/doc/fw-patch-overview-newest-available-fw-online-approvalsd-patch-possibility-lp6tfDSrpl)) and the line \[cpu\\onlineservices\\1\\default\\Dir\] allows to copy unsigned files from regular SD card. All you need is just to generate [hashes.txt](https://github.com/lprot/MIB-Tools/blob/master/hashes_calc.py) with sha1 checksums of the files.
 # Signed metainfo2.txt
 
 ```

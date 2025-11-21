@@ -3,16 +3,13 @@
 Depending on unit configuration you get a **MOST not available error** during FW installation, if MOST is not connected to unit - e.g. you are working on bench.
 
 \
- ![MOST not available error](assets/215c67ad-e741-47ca-b8f4-b76f034e457a.png)
+ ![MOST not available error](../../assets/215c67ad-e741-47ca-b8f4-b76f034e457a.png)
 
 # How to clear error
 
 
-:::info
-[Option 5](https://mibwiki.one/doc/most-not-available-skipmostpopuptxt-iyYsnJIynP/#h-option-5-the-winner) is recommended! Using M.I.B beta 3.x.x and newer
-
-:::
-
+> [!INFO]
+> [Option 5](https://mibwiki.one/doc/most-not-available-skipmostpopuptxt-iyYsnJIynP/#h-option-5-the-winner) is recommended! Using M.I.B beta 3.x.x and newer
 ## Option 1
 
 Remove MOST coding (external AMP, VC/AID) from unit
@@ -21,7 +18,7 @@ Remove MOST coding (external AMP, VC/AID) from unit
 
 use MOST loop cable on the back of the unit
 
-##  ![](assets/93eff949-861d-4561-9bd5-ab9500b5ac3f.jpg)Option 3
+##  ![](../../assets/93eff949-861d-4561-9bd5-ab9500b5ac3f.jpg)Option 3
 
 Use `skipMostPopup.txt` flag on unit.
 
@@ -31,14 +28,11 @@ Use `skipMostPopup.txt` flag on unit.
 
 use M.I.B function - Toggle skipMostPopup
 
- ![](assets/6d5e9455-707c-4901-a6a8-92adbb061d23.png)
+ ![](../../assets/6d5e9455-707c-4901-a6a8-92adbb061d23.png)
 
 ## Option 5 - the winner!
 
 
-:::info
-Just install M.I.B on system - `skipMostPopup.txt` - will be set during installation
-
-:::
-
+> [!INFO]
+> Just install M.I.B on system - `skipMostPopup.txt` - will be set during installation
 \

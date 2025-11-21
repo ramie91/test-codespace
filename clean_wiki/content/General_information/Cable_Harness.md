@@ -1,11 +1,11 @@
 # Cable Harness
 
 \
- \n  ![cable harness](assets/3148d6cf-b2a2-4d04-9788-c163b2d233dc.png)
+ \n  ![cable harness](../../assets/3148d6cf-b2a2-4d04-9788-c163b2d233dc.png)
 
- ![plugs](assets/ec8ec97a-20f3-4db4-8567-2b2ea800c8a8.png)
+ ![plugs](../../assets/ec8ec97a-20f3-4db4-8567-2b2ea800c8a8.png)
 
- ![screen video cable](assets/356bf032-5c1b-4871-b34d-ce8410c03bef.png)
+ ![screen video cable](../../assets/356bf032-5c1b-4871-b34d-ce8410c03bef.png)
 
 ## Where to buy?
 

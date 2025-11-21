@@ -2,11 +2,8 @@
 
 \
 
-:::info
-Make a backup copy before making any changes.
-
-:::
-
+> [!INFO]
+> Make a backup copy before making any changes.
 \
 
 ---

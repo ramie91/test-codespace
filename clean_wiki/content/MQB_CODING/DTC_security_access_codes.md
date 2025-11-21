@@ -1,11 +1,8 @@
 # DTC security access codes
 
 
-:::info
-List of currently known access codes
-
-:::
-
+> [!INFO]
+> List of currently known access codes
 ## Master key
 
 * `20103`

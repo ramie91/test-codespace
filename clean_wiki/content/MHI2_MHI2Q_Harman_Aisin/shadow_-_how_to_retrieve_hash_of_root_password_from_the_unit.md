@@ -23,7 +23,7 @@ cat /net/mmx/dev/fs0 >/net/mmx/fs/sda0/MMX_fs0.bin
 
 Open`\MMX2\efs-sys\XX\default\efs-system.img`or MMX-fs0.bin in any hex editor like HxD and search for`root:`
 
- ![](assets/80bc4e78-d958-479e-9bdf-b948b8af80cd.png)
+ ![](../../assets/80bc4e78-d958-479e-9bdf-b948b8af80cd.png)
 
 Hash is brWtVCU7RcmTw in this case.
 
@@ -43,11 +43,11 @@ To get ifs-root-stage1 you need to exctract IFS-root.ifs from the RCC-fs0.bin fi
 * start offset 0x0540000
 * end offset somewhere with PORSCHE, which is the end of ifs-root-stage2 image
 
-   ![](assets/64237170-698e-4719-be5e-37c88b43d30c.png)
+   ![](../../assets/64237170-698e-4719-be5e-37c88b43d30c.png)
 
 Save selection from start offset till end offset as a new file and split it into stage1 and stage2 with IFSTool, then unpack ifs-root-stage2.ifs and get `/etc/shadow_rcc` file:
 
- ![](assets/486676f7-944c-4132-84aa-ce69c758d8da.png)Alternatively you can find the hash in the unpacked image file using `root:` in HxD search 
+ ![](../../assets/486676f7-944c-4132-84aa-ce69c758d8da.png)Alternatively you can find the hash in the unpacked image file using `root:` in HxD search 
 
 \
 # Brute force the hash to find password
@@ -57,11 +57,8 @@ QNX6.5 on MHI2 uses DES hashes with salt stored in the first two characters of t
 E.g. in hash: WmRI0ymbfbbUw the salt is: Wm  
 
 
-:::info
-Usually brute forcing can be done in 2 days.
-
-Sometimes, with limiting the possible characters and their combinations used in other known password even in a couple of hours.
-
-:::
-
+> [!INFO]
+> Usually brute forcing can be done in 2 days.
+> 
+> Sometimes, with limiting the possible characters and their combinations used in other known password even in a couple of hours.
 \

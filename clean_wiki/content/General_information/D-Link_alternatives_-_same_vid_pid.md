@@ -8,14 +8,11 @@ This one is [reported](https://t.me/c/1341800461/120614) to be working:
 \
 U-GREEN 100 MBit Ethernet - **USB 2.0**
 
- ![](assets/a4fd1ef9-dc5c-4cc5-bf05-2bebcfb0f4b8.png)
+ ![](../../assets/a4fd1ef9-dc5c-4cc5-bf05-2bebcfb0f4b8.png)
 
 
-:::warning
-UBS 3.0 will NOT work!
-
-:::
-
+> [!WARNING]
+> UBS 3.0 will NOT work!
 \
 \
 # Where to buy?

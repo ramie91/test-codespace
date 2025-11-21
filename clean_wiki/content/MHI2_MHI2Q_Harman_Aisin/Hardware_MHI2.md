@@ -2,28 +2,28 @@
 
 ## Front cover
 
- ![MHI2 unit with a SIM card slot (LTE module)](assets/35e62ca3-6d80-424d-858d-e6b60c2383be.png)
+ ![MHI2 unit with a SIM card slot (LTE module)](../../assets/35e62ca3-6d80-424d-858d-e6b60c2383be.png)
 
 ## RCC (Radio and Car Control) Mainboard / PCB (Printed Circuit Board)
 
- ![RCC board bottom view. Chips: RCC, NOR, IOC (Renesas V850) ](assets/faecbda8-44a6-48c9-aeee-2491aea8de38.png)
+ ![RCC board bottom view. Chips: RCC, NOR, IOC (Renesas V850) ](../../assets/faecbda8-44a6-48c9-aeee-2491aea8de38.png)
 
-\n   ![RCC board top view with MMX board top view on top ](assets/71c335db-bbf3-40b2-91f8-073ae2cbe10a.png)       ![RCC board top view with MMX board removed](assets/8a296985-2a7b-46fd-98ba-b4a6b101ee23.png)
+\n   ![RCC board top view with MMX board top view on top ](../../assets/71c335db-bbf3-40b2-91f8-073ae2cbe10a.png)       ![RCC board top view with MMX board removed](../../assets/8a296985-2a7b-46fd-98ba-b4a6b101ee23.png)
 
 ## MMX (Multi Media eXtension) Mainboard / PCB (Printed Circuit Board)
 
- ![MMX board top view. Chips: Tegra30, NAND, 4xSDRAM ](assets/953c3d7c-8f8f-4f3a-82e7-b0d7d14de818.png)
+ ![MMX board top view. Chips: Tegra30, NAND, 4xSDRAM ](../../assets/953c3d7c-8f8f-4f3a-82e7-b0d7d14de818.png)
 
- ![MMX board bottom view. Chips: NOR ](assets/fd82e12e-f7c2-469d-996d-9142df7c54bd.png)
+ ![MMX board bottom view. Chips: NOR ](../../assets/fd82e12e-f7c2-469d-996d-9142df7c54bd.png)
 
 \
- ![MMX board chip details](assets/0fb20843-25dd-4fee-9bfc-9b5b4e6c0e6c.png)
+ ![MMX board chip details](../../assets/0fb20843-25dd-4fee-9bfc-9b5b4e6c0e6c.png)
 
 ## MMX - alternative PCB layouts
 
-Over time different MMX PCB layouts can be found in MHI2 units (see also above) ![](assets/27c82043-d800-40fe-a198-9e366401bf3d.png)MMX Tegra30 Peripherals / Pinouts
+Over time different MMX PCB layouts can be found in MHI2 units (see also above) ![](../../assets/27c82043-d800-40fe-a198-9e366401bf3d.png)MMX Tegra30 Peripherals / Pinouts
 
-[Tegra3_publicTRM_DP05644001_v03.pdf 23726005](assets/6f30c417-2c55-445a-bc10-68b2c120b8b4.pdf)
+[Tegra3_publicTRM_DP05644001_v03.pdf 23726005](../../assets/6f30c417-2c55-445a-bc10-68b2c120b8b4.pdf)
 
 UARTD is exposed as the MMX UART console on the quadlock
 
@@ -43,9 +43,6 @@ WLAN
 You can find more addresses in **/net/mmx/mnt/system/etc/boot/startup.sh**
 
 
-:::info
-[MMX board on the MHI2Q](https://mibwiki.one/doc/mhi2q-qualcomm-OjscS91N94) does not have Tegra30, NOR and NAND chips. They are replaced with Qualcomm and eMMC chips.
-
-:::
-
+> [!INFO]
+> [MMX board on the MHI2Q](https://mibwiki.one/doc/mhi2q-qualcomm-OjscS91N94) does not have Tegra30, NOR and NAND chips. They are replaced with Qualcomm and eMMC chips.
 \

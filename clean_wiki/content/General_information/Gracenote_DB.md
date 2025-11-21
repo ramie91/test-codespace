@@ -1,11 +1,8 @@
 # Gracenote DB
 
 
-:::info
-Gracenote2 is an algorithm that uses ID of the played CD/DVD or file to read the artist metadata, cover art, music genre, mood information, descriptions, episode information etc. from Gracenote2 database and makes the media player to display it.
-
-:::
-
+> [!INFO]
+> Gracenote2 is an algorithm that uses ID of the played CD/DVD or file to read the artist metadata, cover art, music genre, mood information, descriptions, episode information etc. from Gracenote2 database and makes the media player to display it.
 The latest Gracenote2 DB version for MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units can be found on mibsolution.one
 
 \
@@ -22,16 +19,13 @@ These packages contain metainfo2.txt and can be installed on MHI2/MHI2Q like reg
 
 \
 
-:::success
-**GOOD TO KNOW!** BMW **MGU** navi units use the same Gracenote2 DB format but get updates more frequently than MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units. To use BMW MGU Gracenote2 DB on MHI2/MHI2Q/MHS2 you need to convert 300x300 images in DB to 170x170 images.
-
-:::
-
+> [!SUCCESS]
+> **GOOD TO KNOW!** BMW **MGU** navi units use the same Gracenote2 DB format but get updates more frequently than MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units. To use BMW MGU Gracenote2 DB on MHI2/MHI2Q/MHS2 you need to convert 300x300 images in DB to 170x170 images.
 Comparison of BMW and VAG gdb_info in [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
 
 | BMW MGU type | **MHI2/MHI2Q/MHS2** |
 |----|----|
-|  ![Gracenote-DB for MGU 03-2022 Europe_ENTD_000055EB_003_022_003](assets/c7734de4-7cb6-4654-b50d-8cc0e2032e35.png) |  ![V21](assets/7cf2db39-41b1-42ef-8ab4-eeb70e0fb4b6.png) |
+|  ![Gracenote-DB for MGU 03-2022 Europe_ENTD_000055EB_003_022_003](../../assets/c7734de4-7cb6-4654-b50d-8cc0e2032e35.png) |  ![V21](../../assets/7cf2db39-41b1-42ef-8ab4-eeb70e0fb4b6.png) |
 
 # BMW MGU type download sources:
 
@@ -54,7 +48,7 @@ ENTD_000055ED_006_023_004 = Gracenote-DB 23-1 for MGU21 03/2023 Japan\nENTD_0000
 \
 # Gracenote1 DB format used on MHIG ([MIB1 High](https://mibwiki.one/collection/mhig-harman-mib1-high-yWXdNjSDcm)) and BMW EVO units
 
- ![](assets/8b8dbefc-caa4-4085-be68-9948595e5007.png)
+ ![](../../assets/8b8dbefc-caa4-4085-be68-9948595e5007.png)
 
 The same format is also used on [Accura](https://acuranavi.navigation.com/cms/page.GracenoteAlpine3.2/en_US/AcuraNA/USD), [Fiat](https://21stcenturyfiat124spider.wordpress.com/2022/12/05/gracenote-music-database-version-12-update/), [Mazda2](https://infotainment.mazdahandsfree.com/gracenote), [Toyota](https://toyota-en-us.visteoninfotainment.com/how-to-update-gracenote) Visteon (RAV4/Prius/Yaris),  and [Honda](http://dls.download.navigation.com/filedownload/DownloadFile?rid=r1593554258) MIBs. Password for **\*.up** file **5X/9vAVhovyU2ygK**
 
@@ -97,12 +91,12 @@ Count = 24
 
 <https://www.polestar.com/de/manual/polestar-1/2021/downloads/gracenote/>
 
- ![](assets/4b56f866-94a9-4a9f-bfcd-ab6aff0a22ed.png)
+ ![](../../assets/4b56f866-94a9-4a9f-bfcd-ab6aff0a22ed.png)
 
- ![](assets/c411192c-6a57-44e4-be39-42aec2e159c7.png)
+ ![](../../assets/c411192c-6a57-44e4-be39-42aec2e159c7.png)
 
 ## Mazda
 
 <https://connect.mazda.com/en/support/gracenote_update/>
 
- ![](assets/0837fd0f-7241-4388-9255-e32bb4eab82d.png)
+ ![](../../assets/0837fd0f-7241-4388-9255-e32bb4eab82d.png)

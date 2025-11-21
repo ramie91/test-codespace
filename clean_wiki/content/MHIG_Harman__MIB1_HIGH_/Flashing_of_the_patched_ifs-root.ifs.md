@@ -1,13 +1,10 @@
 # Flashing of the patched ifs-root.ifs
 
 
-:::tip
-The description below is for learning purposes only. The easiest way to apply
-
-the patch is **[More Incredible Bash](https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/archive/refs/heads/main.zip)** via GEM>**m.i.b.>patch_unit_aio**
-
-:::
-
+> [!TIP]
+> The description below is for learning purposes only. The easiest way to apply
+> 
+> the patch is **[More Incredible Bash](https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/archive/refs/heads/main.zip)** via GEM>**m.i.b.>patch_unit_aio**
 ## You will need:
 
 * `ifs-root.ifs` from https://mibsolution.one/#/1/9/_pre MIB2/MHIG - HARMANor patched by you
@@ -29,12 +26,8 @@ the patch is **[More Incredible Bash](https://github.com/Mr-MIBonk/M.I.B._More-I
    Password: depends on MU version
 
 
-:::info
-While typing in the password you will not see characters. that’s normal.
-
-:::
-
-
+> [!INFO]
+> While typing in the password you will not see characters. that’s normal.
 3. Send `stfu` command to stop debug messages from being send via console.
 
 ## Create backup
@@ -51,18 +44,10 @@ While typing in the password you will not see characters. that’s normal.
 ## Flashing
 
 
-:::warning
-If you are working on bench without ignition on signal, main unit will turn off automatically after 30 minutes. That’s you time gap to perform flashing if you want to risk it without ignition on signal.
-
-:::
-
-
-:::warning
-Steps below assume that the new ifs-root.ifs file starts at address `540000`.
-
-:::
-
-
+> [!WARNING]
+> If you are working on bench without ignition on signal, main unit will turn off automatically after 30 minutes. That’s you time gap to perform flashing if you want to risk it without ignition on signal.
+> [!WARNING]
+> Steps below assume that the new ifs-root.ifs file starts at address `540000`.
 1. Make sure that the SD card is in `SD1` port and new `ifs-root.ifs` image is in the root directory of the SD card.
 2. Unlock flash: `flashunlock`
 3. Flash new image: `flashit -a 540000 -d -v -f /net/mmx/fs/sda0/ifs-root.ifs`

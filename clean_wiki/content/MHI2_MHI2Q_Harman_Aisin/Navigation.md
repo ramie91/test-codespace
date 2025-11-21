@@ -3,7 +3,7 @@
 After changing the firmware in your unit, there's a good chance that your navigation will no longer work like so:
 
 \
- ![](assets/eaeb86de-3ffc-4ab7-801f-142d6c68bacd.png)There are a few things that can cause problems like this, we'll fix all of them as needed!
+ ![](../../assets/eaeb86de-3ffc-4ab7-801f-142d6c68bacd.png)There are a few things that can cause problems like this, we'll fix all of them as needed!
 
 \
 * [Map FEC Codes](#h-map-fec-codes)
@@ -17,15 +17,15 @@ After changing the firmware in your unit, there's a good chance that your naviga
 The first thing to do is check the SWAP/Fec codes. Bring up the Service Menu and go to “Function Enabling Codes (FEC, SWaP)”
 
 \
- ![](assets/5bf0bff3-92e2-4303-9d75-39cb5cdaea54.png)   ![](assets/16127217-7797-4b73-85b3-85893c41bf7c.png)Go to Installed codes. It may have a list of codes like this (Valid or Invalid)
+ ![](../../assets/5bf0bff3-92e2-4303-9d75-39cb5cdaea54.png)   ![](../../assets/16127217-7797-4b73-85b3-85893c41bf7c.png)Go to Installed codes. It may have a list of codes like this (Valid or Invalid)
 
 \
 \
- ![](assets/a1c55a26-af15-4342-92b8-d9540ad5d20c.png)Or it might be blank
+ ![](../../assets/a1c55a26-af15-4342-92b8-d9540ad5d20c.png)Or it might be blank
 
 \
 \
- ![](assets/fbfcb94e-21b2-4678-875b-9a610553b5e6.png)Either way, we need to make sure that a matching code for your brand & region has been added.
+ ![](../../assets/fbfcb94e-21b2-4678-875b-9a610553b5e6.png)Either way, we need to make sure that a matching code for your brand & region has been added.
 
 \
 \
@@ -58,7 +58,7 @@ Make sure you've got V2.7.4 (or newer).
 Download and install this tool onto a SD card, then go into the patches folder and find the one that matches the firmware you've got installed:
 
 \
- ![](assets/ee0efd86-efff-4c55-af45-50263e07dbb0.png)Open up the “addFecs.txt” file in a good text editor like Sublime Text or Notepad++ (windows built in notepad is not always safe with regard to line endings)
+ ![](../../assets/ee0efd86-efff-4c55-af45-50263e07dbb0.png)Open up the “addFecs.txt” file in a good text editor like Sublime Text or Notepad++ (windows built in notepad is not always safe with regard to line endings)
 
 \
 Add the Maps FEC you've calculated above. There will likely be a similar map code already there, but possibly for a different region. If so, replace it with your desired code.
@@ -67,7 +67,7 @@ Add the Maps FEC you've calculated above. There will likely be a similar map cod
 **Make sure you leave an empty line on the bottom of the file, or the last code might be missed!**
 
 \
- ![](assets/ee236832-c396-4dcc-a3a6-5f656575ec8f.png)Save and close the file, eject the SD card and insert into SD1 on the unit.
+ ![](../../assets/ee236832-c396-4dcc-a3a6-5f656575ec8f.png)Save and close the file, eject the SD card and insert into SD1 on the unit.
 
 \
 Go back to Service menu and “Software Update/Version” → “Update”. Follow it through to install M.I.B. Launcher.
@@ -81,7 +81,7 @@ After it's finished installing and reboots back to normal mode, bring up “Serv
 Go to that and scroll down to to the main menu of option.
 
 \
- ![](assets/533e9524-4cad-43f0-a7a1-6ee15fb7fd92.png)If you haven't already done so previously you should really run a backup.
+ ![](../../assets/533e9524-4cad-43f0-a7a1-6ee15fb7fd92.png)If you haven't already done so previously you should really run a backup.
 
 \
 Then go to “patch_ifs-root” → “Flash patched image”. This will enable many of the other m.i.b features.
@@ -115,7 +115,7 @@ Download and install that tool onto an SD card and install it on the unit like a
 Once that’s finished, head to GEM and there should be a new menu entry for mqbcoding. Navigate into mqbcoding → customization → coding and there will be a Brand setting. Make sure that’s set to the brand you want/expect the unit to be and hit the Reboot button seen on the screen:
 
 \
- ![](assets/62196970-b4e0-49cc-b92f-6d5ef943ab5f.png)If that’s already set to the correct brand, move on to…
+ ![](../../assets/62196970-b4e0-49cc-b92f-6d5ef943ab5f.png)If that’s already set to the correct brand, move on to…
 
 \
 ### Installed Map
@@ -133,17 +133,17 @@ Download and extract on SD card or USB Stick. Install onto unit like any other u
 If the Update screen “Start” is disabled, scroll down until you see the NavDB and related lines:
 
 \
- ![](assets/78549f72-0ed5-495f-b73f-eb76ddf8de99.png)if they're not marked Y you'll need to overide these. Go back to the Service Menu → Testmode → Green Engineering Menu.
+ ![](../../assets/78549f72-0ed5-495f-b73f-eb76ddf8de99.png)if they're not marked Y you'll need to overide these. Go back to the Service Menu → Testmode → Green Engineering Menu.
 
 \
 Go to “production” → “rcc_prod” → “swdl_prod” and enable “User Define SWDL”
 
 \
- ![](assets/70a91c56-3a31-4a30-93eb-876b109d209b.png)Start “Service Menu” again, “Testmode” → “SWDL”
+ ![](../../assets/70a91c56-3a31-4a30-93eb-876b109d209b.png)Start “Service Menu” again, “Testmode” → “SWDL”
 
 \
 \
- ![](assets/26758691-6786-4cbd-94a5-6a7d12da4478.png)Click on “Software Download Manual Download”. It may or may not show a checkbox, just click on it once either way.Tthen click on “Start Download”.
+ ![](../../assets/26758691-6786-4cbd-94a5-6a7d12da4478.png)Click on “Software Download Manual Download”. It may or may not show a checkbox, just click on it once either way.Tthen click on “Start Download”.
 
 \
 \
@@ -157,7 +157,7 @@ Hopefully it now installs without incident for you.
 However I had troubles installing this, getting error 137, 138 and 143 during the installation.
 
 \
- ![](assets/989a5929-6055-4042-bc08-cfbe2f1865db.png)I had to re-try with different SD cards and a different map download pack a few times, usually with a different error on screen each time.  Eventually it settled on showing this error a few times in a row, even with different map versions on different media.
+ ![](../../assets/989a5929-6055-4042-bc08-cfbe2f1865db.png)I had to re-try with different SD cards and a different map download pack a few times, usually with a different error on screen each time.  Eventually it settled on showing this error a few times in a row, even with different map versions on different media.
 
 \
 #### Force wipe nav partition

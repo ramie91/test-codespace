@@ -1,15 +1,11 @@
 # Emergency Flash Utility (EFU) via TTL cable
 
 
-:::info
-Connect via TTL cable to [MMX UART on the quadlock](https://mibwiki.one/doc/connecting-ttl-adapter-to-uart-on-quadlock-1W9jYvWXFN). Press and hold shift+e while powering on the unit. This will run RED EFU (Emergency Flash Utility). Unit must receive the key presses before you see “Press <E> to run Emergency Flash Utility.”
-
-:::
-
-
+> [!INFO]
+> Connect via TTL cable to [MMX UART on the quadlock](https://mibwiki.one/doc/connecting-ttl-adapter-to-uart-on-quadlock-1W9jYvWXFN). Press and hold shift+e while powering on the unit. This will run RED EFU (Emergency Flash Utility). Unit must receive the key presses before you see “Press <E> to run Emergency Flash Utility.”
 1. Power on the unit via quadlock and keep pressing shift+e until you see something like:
 
- ![](assets/475b945a-28ca-45e5-9106-24291b221be5.png)
+ ![](../../assets/475b945a-28ca-45e5-9106-24291b221be5.png)
 
 \
 

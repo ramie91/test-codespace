@@ -1,34 +1,24 @@
 # Manual Firmware Restore
 
 
-:::warning
-Proceed only if you know what you are doing and always flash only from Emergency IFS (on RCC) or EFU (on MMX)!!!
-
-:::
-
+> [!WARNING]
+> Proceed only if you know what you are doing and always flash only from Emergency IFS (on RCC) or EFU (on MMX)!!!
 If some partitions of the RCC NOR, MMX NOR or MMX NAND are damaged, mixed FW partitions are installed or unit is infected by APG it might be useful to restore it manually.
 
 Makes it sense to reflash completely or only in parts - depends on what was done to your MIB.
 
 
-:::tip
-Take files from stock FW update or extract out of RCC_fs0 and MMX_fs0 backup
-
-:::
-
-
-:::warning
-Stock **mifs-stage1.img** and **eifs.img** **MUST** be [edited with hex editor](/doc/android-mifs-stage1img-and-eifsimg-9LO3d7AH6D) (first bytes of these files should start from ANDROID! string).
-
-If you ignore this and flash files starting from AÿDÿOÿDÿ you will brick the unit. Read how to change AÿDÿOÿDÿ→ANDROID! here.
-
-\
-Before running commands below, check the folder structure of your target FW as it might be different from the example below.
-
-Make sure, that all files are available and commands fit your FW.
-
-:::
-
+> [!TIP]
+> Take files from stock FW update or extract out of RCC_fs0 and MMX_fs0 backup
+> [!WARNING]
+> Stock **mifs-stage1.img** and **eifs.img** **MUST** be [edited with hex editor](/doc/android-mifs-stage1img-and-eifsimg-9LO3d7AH6D) (first bytes of these files should start from ANDROID! string).
+> 
+> If you ignore this and flash files starting from AÿDÿOÿDÿ you will brick the unit. Read how to change AÿDÿOÿDÿ→ANDROID! here.
+> 
+> \
+> Before running commands below, check the folder structure of your target FW as it might be different from the example below.
+> 
+> Make sure, that all files are available and commands fit your FW.
 Example:
 
 ```bash

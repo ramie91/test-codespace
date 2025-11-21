@@ -1,11 +1,8 @@
 # Parametrization with CarScanner
 
 
-:::info
-In this example I’m going to describe how to upload dataset for ICC to address `0x7000`.
-
-:::
-
+> [!INFO]
+> In this example I’m going to describe how to upload dataset for ICC to address `0x7000`.
 ## Requirements
 
 * iOS/Android phone.
@@ -46,12 +43,8 @@ In this example I’m going to describe how to upload dataset for ICC to address
 6. Press `Export` to backup original data. Save the file on the phone. For example as `5F_0x7000_dump.txt`.
 
 
-:::info
-if you see `Current state: UnknownError`, most likely there’s no data to read as this address is empty. This is normal if you are trying to parametrize new devices or unsupported features. You will not be able to backup it since there’s no dataset over there that you can read.
-
-:::
-
-
+> [!INFO]
+> if you see `Current state: UnknownError`, most likely there’s no data to read as this address is empty. This is normal if you are trying to parametrize new devices or unsupported features. You will not be able to backup it since there’s no dataset over there that you can read.
 7. Press `Import` and point to previously prepared `5F_0x7000_dataset.txt` file with dataset.
 8. Press `Write` and wait. It will take around 1 minute, during which main unit will reboot.
 9. When it’s done, you can use `Read` option again to confirm that the data was stored correctly.

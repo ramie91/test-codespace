@@ -8,19 +8,19 @@ Some 1st findings
 
 `use` does not provide any output
 
- ![](assets/15699f65-7cc8-4e97-9e25-ac5c454c4c28.png)
+ ![](../../assets/15699f65-7cc8-4e97-9e25-ac5c454c4c28.png)
 
 # /eso/bin/apps/dmdt
 
 Debug Tool for DisplayManager
 
- ![](assets/659f32b5-ec78-46fa-9895-0528b5989379.png)
+ ![](../../assets/659f32b5-ec78-46fa-9895-0528b5989379.png)
 
 ## dm 0 on
 
 upper left corner image is the main screen, also changes with pressing of buttons on unit
 
- ![](assets/d7eb4b7a-acb9-401e-b844-f4e355b7b7ce.png)             ![](assets/aedeaf92-fb4a-4f37-a239-38b1bc655e3b.png)
+ ![](../../assets/d7eb4b7a-acb9-401e-b844-f4e355b7b7ce.png)             ![](../../assets/aedeaf92-fb4a-4f37-a239-38b1bc655e3b.png)
 
 ### dmdt dm 0 off
 
@@ -31,7 +31,7 @@ switches back to normal menu display
 
 List of available outputs and their resolutions
 
- ![](assets/bba6ea0b-eea7-48bc-9891-4170ed9ef3ba.png)
+ ![](../../assets/bba6ea0b-eea7-48bc-9891-4170ed9ef3ba.png)
 
 ## dmdt gc
 
@@ -205,7 +205,7 @@ displaymanager knows 32 contexts:
 
 ### With just internal MIB main screen (G13 9.2’’):
 
- ![](assets/02a07153-90b7-487c-8e56-7b3ec7d9fd4a.png)
+ ![](../../assets/02a07153-90b7-487c-8e56-7b3ec7d9fd4a.png)
 
 ### with MIB main screen (G13 9.2’’)  and VC connected:
 
@@ -237,7 +237,7 @@ However, test have shown, that VC seems to be also refereced by `display 4`
 
 which allows for certain manipulation based on the commands below.
 
- ![from displaymanger.json - id:4 for Cluster Display](assets/5fb0555a-89af-4ce7-977e-1708bf75e800.png)
+ ![from displaymanger.json - id:4 for Cluster Display](../../assets/5fb0555a-89af-4ce7-977e-1708bf75e800.png)
 
 \
 ## dmdt dc
@@ -262,10 +262,10 @@ If stuck on black/purple screen, it can be recovered with `dmdt sb 0`
 3rd screen from the upper left is the VC map view
 
 \
- ![](assets/90f05d00-368a-4cc6-a1b6-885096314f1e.png)
+ ![](../../assets/90f05d00-368a-4cc6-a1b6-885096314f1e.png)
 
 \
- ![](assets/92e47f07-1de1-4880-aa41-0c404f96fab8.png)
+ ![](../../assets/92e47f07-1de1-4880-aa41-0c404f96fab8.png)
 
 # Take screenshots via console command
 
@@ -278,7 +278,7 @@ Screenshot from main screen on Unit:
 `/eso/bin/apps/vom_debugtool`
 
 \
- ![](assets/0871642b-91c2-4447-990f-3fb3ab50d03f.png)
+ ![](../../assets/0871642b-91c2-4447-990f-3fb3ab50d03f.png)
 
 Functions have to be tested.
 
@@ -289,12 +289,12 @@ There are some more ascii strings to explain start command in binary
 using the script below \*.png/bmp/jpg/gif/tga can be displayed on screen
 
 \
- ![](assets/0960481e-6a63-46c8-8db0-7c892ef9cc9d.png)
+ ![](../../assets/0960481e-6a63-46c8-8db0-7c892ef9cc9d.png)
 
 Animated gifs are not working
 
 \
-[ showscreen.sh](assets/606a48bc-9e65-4058-9139-c951a2d222b5)
+[ showscreen.sh](../../assets/606a48bc-9e65-4058-9139-c951a2d222b5)
 
 ```bash
 echo "displaying ${1}"
@@ -319,7 +319,7 @@ fi
 ```
 
 \
- ![](assets/2e7b1cfe-bf6d-4520-9519-7220cf3f5767.png)
+ ![](../../assets/2e7b1cfe-bf6d-4520-9519-7220cf3f5767.png)
 
 Fom loadandshowimage binary
 
@@ -347,7 +347,7 @@ AA is directly streamed as a h264 video stream from usb to screen.
 
 In `/etc/eso/production/gal.json` video dump can be enabled and in /tmp files like `AAPDumpVideoSink_1970-01-01_12-12-25.h264` will be crated, which can be converted to mp4 and viewed in vlc etc - recording a full screen view of everything that happens:
 
- ![](assets/3fe18e33-e8a1-4211-b11a-ce2eedd67c14.png)
+ ![](../../assets/3fe18e33-e8a1-4211-b11a-ce2eedd67c14.png)
 
 \
 Due to this video streamin `dmdt sc` and also screenshots do not have any effect as its seems.
