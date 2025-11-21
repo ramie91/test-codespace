@@ -8,31 +8,31 @@
 
 There are some cases which you can print <http://mslw.com/bb/showthread.php?tid=1476>
 
- ![Works with PREH MIB2 and MIB3 too](assets/17f534e8-d3b2-41d2-967e-f34c1c5f0735.redirect_id_17f534e8-d3b2-41d2-967e-f34c1c5f0735)
+ ![Works with PREH MIB2 and MIB3 too](assets/17f534e8-d3b2-41d2-967e-f34c1c5f0735.jpg)
 
 * **SD Card Socket <https://mslw.com/product/sd-card-socket>**
 
   $10.00 USD - I am not using it, but it should be useful
 
- ![](assets/54c2450f-e1d1-4a35-a26e-f801c743647c.redirect_id_54c2450f-e1d1-4a35-a26e-f801c743647c)
+ ![](assets/54c2450f-e1d1-4a35-a26e-f801c743647c.jpg)
 
 * **ICFRIEND V2 8-Bit Socket <https://mslw.com/product/icfriend-v2-8-bit-socket>**
 
   $15.00 USD - For EMMC R/W
 
- ![](assets/f1b50bc2-911d-4618-a55f-60b5c8181dd1.redirect_id_f1b50bc2-911d-4618-a55f-60b5c8181dd1)
+ ![](assets/f1b50bc2-911d-4618-a55f-60b5c8181dd1.jpg)
 
 * **SPI/I2C/1W/UART DIP24W 3M** <https://mslw.com/product/spii2c-zif-socket>
 
   $15.00 USD - for Delphi NOR repair, you also need BGA24 5\*5 DIP socket
 
- ![](assets/80ea85ac-b553-41e2-b2f6-b9cc7f997e5e.redirect_id_80ea85ac-b553-41e2-b2f6-b9cc7f997e5e)
+ ![](assets/80ea85ac-b553-41e2-b2f6-b9cc7f997e5e.jpg)
 
 * **BGA24 5\*5 DIP8 socket <https://www.aliexpress.com/item/1005002484310142.html>**
 
   $23.40 USD - for Delphi NOR
 
- ![](assets/90882895-8276-4de6-b64a-a5673d63fb00.redirect_id_90882895-8276-4de6-b64a-a5673d63fb00)
+ ![](assets/90882895-8276-4de6-b64a-a5673d63fb00.jpg)
 
 \
 **With this assembly I was able to read/write delphi EMMC**
@@ -41,11 +41,11 @@ There are some cases which you can print <http://mslw.com/bb/showthread.php?tid=
 * ICFRIEND V2 8-Bit Socket
 
 \
- ![](assets/3542cf8e-7814-4a37-b4e7-4479124835a3.redirect_id_3542cf8e-7814-4a37-b4e7-4479124835a3)
+ ![](assets/3542cf8e-7814-4a37-b4e7-4479124835a3.jpg)
 
- ![](assets/e9690033-e990-43b4-9815-d022b6db15ca.redirect_id_e9690033-e990-43b4-9815-d022b6db15ca)
+ ![](assets/e9690033-e990-43b4-9815-d022b6db15ca.jpg)
 
- ![](assets/77f0511e-99e5-410d-8b3a-d51e1af79ca5.redirect_id_77f0511e-99e5-410d-8b3a-d51e1af79ca5)
+ ![](assets/77f0511e-99e5-410d-8b3a-d51e1af79ca5.jpg)
 
 \
 **With this assembly I was able to read, erase and write delphi NOR** (Yes, erase and program NOR from unit)
@@ -56,11 +56,11 @@ There are some cases which you can print <http://mslw.com/bb/showthread.php?tid=
 
   \
 
- ![](assets/3cfde50f-1420-4d82-86c4-6f1f660ee487.redirect_id_3cfde50f-1420-4d82-86c4-6f1f660ee487)
+ ![](assets/3cfde50f-1420-4d82-86c4-6f1f660ee487.jpg)
 
- ![](assets/f56924c5-7e1d-42c5-b532-ce22ffead69b.redirect_id_f56924c5-7e1d-42c5-b532-ce22ffead69b)
+ ![](assets/f56924c5-7e1d-42c5-b532-ce22ffead69b.jpg)
 
- ![](assets/b9a1b4e4-c80b-44ba-a8e8-3b278b5f4ab5.redirect_id_b9a1b4e4-c80b-44ba-a8e8-3b278b5f4ab5)
+ ![](assets/b9a1b4e4-c80b-44ba-a8e8-3b278b5f4ab5.jpg)
 
 \
 \

@@ -54,8 +54,11 @@ Make sure to change CPU ID to the one from your device in the `metainfo2.txt` fi
 ## Regional coding
 
 
-> [!INFO]
-> Review module `5F` coding and adaptation values for navigation region, radio band region, SDS region, mirror link region. More details needed.
+:::info
+Review module `5F` coding and adaptation values for navigation region, radio band region, SDS region, mirror link region. More details needed.
+
+:::
+
 ## Other things that you might need to do
 
 ### Patching CP
@@ -67,8 +70,11 @@ Make sure to change CPU ID to the one from your device in the `metainfo2.txt` fi
 ### Removing old map FEC/SWaP codes
 
 
-> [!INFO]
-> If unit still has FEC/SWaP code for old navigation region it might not let you use navigation.
+:::info
+If unit still has FEC/SWaP code for old navigation region it might not let you use navigation.
+
+:::
+
 ### Uploading FEC/SWaP codes
 
 [5F - Inserting FECs with OBDeleven](/doc/5f-inserting-fecs-with-obdeleven-7VLr20F2Z5)
@@ -76,8 +82,11 @@ Make sure to change CPU ID to the one from your device in the `metainfo2.txt` fi
 ### Patching CID
 
 
-> [!INFO]
-> If you don’t have the original VW/Seat/Skoda SD card, you can patch CID and use any SD card for navigation database.
+:::info
+If you don’t have the original VW/Seat/Skoda SD card, you can patch CID and use any SD card for navigation database.
+
+:::
+
 [TechniSat CID Patch with Toolbox](/doc/technisat-cid-patch-with-toolbox-eP90AjJFOZ)
 
 ### Clearing fault codes

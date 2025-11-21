@@ -4,9 +4,9 @@
 
 # Activating FoD (Function on Demand) by writing FECs (Feature Enabling Codes) into ECU #19 (Gateway):
 
- ![](assets/82fd3285-bc9f-4220-9b00-c1b0f8a33505.redirect_id_82fd3285-bc9f-4220-9b00-c1b0f8a33505)
+ ![](assets/82fd3285-bc9f-4220-9b00-c1b0f8a33505.jpg)
 
-[MIB3_Audi_FOD.7z 19074191](assets/2c5242cf-4375-437d-89ed-63bc2350af22.redirect_id_2c5242cf-4375-437d-89ed-63bc2350af22)
+[MIB3_Audi_FOD.7z 19074191](assets/2c5242cf-4375-437d-89ed-63bc2350af22.7z)
 
 
 ---

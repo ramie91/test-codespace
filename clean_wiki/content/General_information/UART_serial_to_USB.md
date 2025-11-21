@@ -1,19 +1,29 @@
 # UART/serial to USB
 
 
-> [!INFO]
-> To make use of the UART converter you also have to get some [cables and breadboard](/doc/cables-and-breadboard-z59sPfRzTc)
+:::info
+To make use of the UART converter you also have to get some [cables and breadboard](/doc/cables-and-breadboard-z59sPfRzTc)
+
+:::
+
 \
 Get a UART to USB converter like this one:      ![This one](/api/attachments.redirect?id=3775b8be-ad2f-4bae-a51b-9feefd90be06 " =320x155")
 
- ![or one of these](assets/cf44f264-975f-42b9-acff-c2e706e75a7d.redirect_id_cf44f264-975f-42b9-acff-c2e706e75a7d)
+ ![or one of these](assets/cf44f264-975f-42b9-acff-c2e706e75a7d.png)
 
 \
 
-> [!WARNING]
-> Note that converter has to be able to run at 3.3V
-> [!TIP]
-> Get minimum 2-3 as you might need to [connect to RCC and MMX](/doc/telnet-and-uart-shell-access-6ojvSNAqui) at the same time
+:::warning
+Note that converter has to be able to run at 3.3V
+
+:::
+
+
+:::tip
+Get minimum 2-3 as you might need to [connect to RCC and MMX](/doc/telnet-and-uart-shell-access-6ojvSNAqui) at the same time
+
+:::
+
 \
 ## Where to buy:
 

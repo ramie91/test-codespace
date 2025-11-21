@@ -1,13 +1,19 @@
 # 5F - Enabling Developer Mode and Hidden Menu
 
 
-> [!WARNING]
-> Hidden menus, bootloaders, etc… Don’t use functions that you are not 100% sure about or will break your unit.
+:::warning
+Hidden menus, bootloaders, etc… Don’t use functions that you are not 100% sure about or will break your unit.
+
+:::
+
 ## MIB
 
 
-> [!INFO]
-> Requires `Development mode` session instead of standard `Diagnostic mode` session. Not all diagnostic tools can switch session modes.
+:::info
+Requires `Development mode` session instead of standard `Diagnostic mode` session. Not all diagnostic tools can switch session modes.
+
+:::
+
 ### with OBDeleven
 
 
@@ -23,8 +29,11 @@
 3. Reboot the unit with [key combination](/doc/key-combinations-and-shortcuts-7tk8NfVoLo) for your device.
 
 
-> [!INFO]
-> Old versions of VCDS will not support `S12345` code. This “dirty hack” to change diagnostic mode, which was introduced in one of the latest VCDS versions.
+:::info
+Old versions of VCDS will not support `S12345` code. This “dirty hack” to change diagnostic mode, which was introduced in one of the latest VCDS versions.
+
+:::
+
 ### with VCP
 
 
@@ -52,8 +61,15 @@
 ## More info
 
 
-> [!INFO]
-> Unit might require reboot for the developer mode to be active.
-> [!TIP]
-> After enabling developer mode, check how to use [button combination](/doc/key-combinations-and-shortcuts-7tk8NfVoLo) in your unit for developer functions.
+:::info
+Unit might require reboot for the developer mode to be active.
+
+:::
+
+
+:::tip
+After enabling developer mode, check how to use [button combination](/doc/key-combinations-and-shortcuts-7tk8NfVoLo) in your unit for developer functions.
+
+:::
+
 \

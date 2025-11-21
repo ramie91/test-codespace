@@ -8,9 +8,9 @@ I want to share my experience with applying ASI to a 2015 Audi R8.
 \
 First I enabled GEM /SWDL then selected all Y(es) and updated to MHI2_ER_AU62x_P5099_MU1340 (R8)
 
- ![](assets/8ac9eb5c-f3d9-4439-ac3a-1a019675f993.redirect_id_8ac9eb5c-f3d9-4439-ac3a-1a019675f993)
+ ![](assets/8ac9eb5c-f3d9-4439-ac3a-1a019675f993.jpg)
 
- ![](assets/7ab5c1f6-a102-4130-903f-3924f0f8d40d.redirect_id_7ab5c1f6-a102-4130-903f-3924f0f8d40d)
+ ![](assets/7ab5c1f6-a102-4130-903f-3924f0f8d40d.jpg)
 
 \
 I then applied CarPlay/AA and lifetime maps using [M.I.B](/doc/mib-more-incredible-bash-CO492qmzLk). Once, this was done I realized that ASI button in cockpit was not visible → VC update was needed.
@@ -41,7 +41,7 @@ After update was completed the VC is now on FW 0253.
 And all is working fine, as hoped for!
 
 \
- ![](assets/88017bd0-e436-4a9f-b3e5-3d0128a51b8a.redirect_id_88017bd0-e436-4a9f-b3e5-3d0128a51b8a)
+ ![](assets/88017bd0-e436-4a9f-b3e5-3d0128a51b8a.jpg)
 
 \
 \

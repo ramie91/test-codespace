@@ -28,7 +28,7 @@ So to switch this Skoda unit to VW, I could use `MHI2_ER_VWG11_K3342_MU1427`, or
 
 Once you've picked your firmware pack, unzip it onto a SD card, making sure the metainfo2.txt and folders next to it are all in the main folder of the SD card, not inside a separate folder.
 
- ![](assets/c334cc66-ad88-4876-bd1a-9f3b7a1e6bd0.redirect_id_c334cc66-ad88-4876-bd1a-9f3b7a1e6bd0)We will change a couple of settings in the installer to make the unit accept it.
+ ![](assets/c334cc66-ad88-4876-bd1a-9f3b7a1e6bd0.png)We will change a couple of settings in the installer to make the unit accept it.
 
 Open the `metainfo2.txt` file in a text editor like Sublime Text or Notepad++
 
@@ -166,26 +166,26 @@ Once it starts up again we're ready to install. Head to the service menu (for mo
 
 Go to "production" → "rcc_prod" → "swdl_prod" and enable "User Define SWDL"
 
- ![](assets/9d026b09-0794-41d7-b98d-bc66523479b0.redirect_id_9d026b09-0794-41d7-b98d-bc66523479b0)Start "Service Menu" again and go to "Testmode" → "SWDL"
+ ![](assets/9d026b09-0794-41d7-b98d-bc66523479b0.png)Start "Service Menu" again and go to "Testmode" → "SWDL"
 
 \
- ![](assets/b8595bc9-ab55-418c-b45e-6e5355647af9.redirect_id_b8595bc9-ab55-418c-b45e-6e5355647af9)Click on "Software Download Manual Download". It may or may not show a checkbox, just click on it once either way. Then click on "Start Download".
+ ![](assets/b8595bc9-ab55-418c-b45e-6e5355647af9.png)Click on "Software Download Manual Download". It may or may not show a checkbox, just click on it once either way. Then click on "Start Download".
 
 \
 You should be at the **Sofware update/versions** screen now, click "Update" and go through the wizard.
 
- ![](assets/57e40804-984e-4d72-b10e-c6378c70b0af.redirect_id_57e40804-984e-4d72-b10e-c6378c70b0af)  ![](assets/70e52c8e-985b-4c11-b892-e2781cd84984.redirect_id_70e52c8e-985b-4c11-b892-e2781cd84984)Select the **SD card**, it'll scan the update on the card.
+ ![](assets/57e40804-984e-4d72-b10e-c6378c70b0af.png)  ![](assets/70e52c8e-985b-4c11-b892-e2781cd84984.png)Select the **SD card**, it'll scan the update on the card.
 
 \
 When you get to the module list screen though there should be a "Select All" button at the top. Some of the modules will possibly be **N** by default…
 
- ![](assets/d38d0eff-a24d-4550-b3b5-dcfca55239fa.redirect_id_d38d0eff-a24d-4550-b3b5-dcfca55239fa)Press  **Select All** to ensure everything gets enabled for install, irrespective of what's currently installed.
+ ![](assets/d38d0eff-a24d-4550-b3b5-dcfca55239fa.png)Press  **Select All** to ensure everything gets enabled for install, irrespective of what's currently installed.
 
 \
- ![](assets/fee0dae6-630f-4ed7-a5bf-0fd4eb6d78aa.redirect_id_fee0dae6-630f-4ed7-a5bf-0fd4eb6d78aa)Start the upgrade
+ ![](assets/fee0dae6-630f-4ed7-a5bf-0fd4eb6d78aa.png)Start the upgrade
 
 \
- ![](assets/373271cf-bb0b-4c41-a689-a53190a99198.redirect_id_373271cf-bb0b-4c41-a689-a53190a99198)It'll reboot into the update system and should be pretty much self-contained from here.
+ ![](assets/373271cf-bb0b-4c41-a689-a53190a99198.png)It'll reboot into the update system and should be pretty much self-contained from here.
 
 Part way through it should reboot and will suddenly be continuing the upgrade with the new brand theme.
 
@@ -193,15 +193,15 @@ Once finished, it'll show a summary of modules installed, hit back and it'll pro
 
 The unit should reboot and now be running your desired brand!
 
- ![](assets/0def54d5-8ba9-4d22-b810-d0e767e96a0e.redirect_id_0def54d5-8ba9-4d22-b810-d0e767e96a0e)
+ ![](assets/0def54d5-8ba9-4d22-b810-d0e767e96a0e.png)
 
 At this point, you may however run into an issue with the navigation…
 
- ![](assets/d2d2665e-a7d0-4ceb-abd9-42152e7d3e2c.redirect_id_d2d2665e-a7d0-4ceb-abd9-42152e7d3e2c)If so, see the [Navigation section down the bottom of this page](#h-navigation).
+ ![](assets/d2d2665e-a7d0-4ceb-abd9-42152e7d3e2c.png)If so, see the [Navigation section down the bottom of this page](#h-navigation).
 
 \
 Also, you might get an error overlayed on all screens "Component protection active"
 
- ![](assets/62f33708-4a59-4930-a1a1-988dce98ba5b.redirect_id_62f33708-4a59-4930-a1a1-988dce98ba5b)This can be fixed by installing the "patch_ifs-root" in M.I.B. tool, instructions for which are described in [Map FEC Codes](#h-map-fec-codes) section at the start of the [Navigation section down the bottom of this page](#h-navigation).
+ ![](assets/62f33708-4a59-4930-a1a1-988dce98ba5b.png)This can be fixed by installing the "patch_ifs-root" in M.I.B. tool, instructions for which are described in [Map FEC Codes](#h-map-fec-codes) section at the start of the [Navigation section down the bottom of this page](#h-navigation).
 
 \

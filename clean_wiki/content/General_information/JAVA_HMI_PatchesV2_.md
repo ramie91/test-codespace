@@ -110,7 +110,7 @@ You will find out that “released” is used 4 times in Java code but only once
 
 If you want a shorter text, change the length counter of there String  before the Text
 
- ![](assets/b7f8b53a-ef24-418b-bea3-b1ed5db0676e.redirect_id_b7f8b53a-ef24-418b-bea3-b1ed5db0676e)
+ ![](assets/b7f8b53a-ef24-418b-bea3-b1ed5db0676e.png)
 
 but as the next String starts right after, you can not write more text, without breaking internal references. 
 
@@ -129,13 +129,13 @@ unfortunately “released” is too short to fit the text “ViewEntered”.
 
 (String)"CancelLabel" in the init function does not seem to have much technical use, maybe only for logging. so lets try to reuse this.
 
- ![](assets/731dc948-4aa9-4362-b929-33c2e8b5d45d.redirect_id_731dc948-4aa9-4362-b929-33c2e8b5d45d)
+ ![](assets/731dc948-4aa9-4362-b929-33c2e8b5d45d.png)
 
 do a test and decompile the patched JXE, now the init function changed. 
 
 Do a MIB2 test, the Popup still works.
 
- ![](assets/cadea15d-8cd0-4063-acec-b344fe903e87.redirect_id_cadea15d-8cd0-4063-acec-b344fe903e87)Why? Lets have a look on the JAR Bytecode now. 
+ ![](assets/cadea15d-8cd0-4063-acec-b344fe903e87.png)Why? Lets have a look on the JAR Bytecode now. 
 
 You can use Eclipse IDE and import the JAR , as the source code is unavailable, it will show bytecode.
 
@@ -158,17 +158,17 @@ So if you assemble the bytes you should find the exact match
 
 if you did not find it lets take just more code  above/ below
 
- ![](assets/185843db-4dd7-4fcf-9ed5-052f57c0117f.redirect_id_185843db-4dd7-4fcf-9ed5-052f57c0117f)
+ ![](assets/185843db-4dd7-4fcf-9ed5-052f57c0117f.png)
 
 \
 So lets see what we really want to change and look on the desired endresult
 
 \
- ![](assets/0a4957b0-dd36-43e4-8fe1-9b63804789d3.redirect_id_0a4957b0-dd36-43e4-8fe1-9b63804789d3)so lets swap the first ldc reference from \[56\](released) to \[47\](cancelLabel now “ViewEntered”)
+ ![](assets/0a4957b0-dd36-43e4-8fe1-9b63804789d3.png)so lets swap the first ldc reference from \[56\](released) to \[47\](cancelLabel now “ViewEntered”)
 
 you can spot Line/Byte 16+18 and 42+44  from the code above here:
 
- ![](assets/875c939a-06b0-4507-a994-b5644af48a9c.redirect_id_875c939a-06b0-4507-a994-b5644af48a9c)and attach the same event as for the widget 7 (confirm button)  by swapping the ldc reference \[57\] to \[58\]
+ ![](assets/875c939a-06b0-4507-a994-b5644af48a9c.png)and attach the same event as for the widget 7 (confirm button)  by swapping the ldc reference \[57\] to \[58\]
 
 \
 As the “ViewEntered” Event is probably only triggered by a View/Popup we must not assigning it to Widget 4 ( Cancel button), but to PopupView Widget 0 by swapping the iconst_4 to iconst_0 in Line/Byte Position 7
@@ -176,7 +176,7 @@ As the “ViewEntered” Event is probably only triggered by a View/Popup we mus
 Result:
 
 \
- ![](assets/b4423f24-29de-407d-91f5-89970cf27b3e.redirect_id_b4423f24-29de-407d-91f5-89970cf27b3e)This is all done by looking up the command values like iconst_4, aaload, invokeinterface etc.. and thus finding the correct occurrence in the JXE binary data.
+ ![](assets/b4423f24-29de-407d-91f5-89970cf27b3e.png)This is all done by looking up the command values like iconst_4, aaload, invokeinterface etc.. and thus finding the correct occurrence in the JXE binary data.
 
 Always do a decompile of your current changes to see if your change was successful and if you hit the right spot, and diff the new  java file against the original version like shown above
 

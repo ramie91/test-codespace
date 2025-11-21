@@ -1,8 +1,11 @@
 # Boot Loop after reboot - M.I.B
 
 
-> [!INFO]
-> Good news - at least in some cases
+:::info
+Good news - at least in some cases
+
+:::
+
 \
 If you encounter a boot loop or general boot issue after using M.I.B.
 
@@ -17,8 +20,11 @@ It might look like this:
 
 \
 
-> [!INFO]
-> Pull fuse for your MHI2 unit - wait a minute and put it back - and force a hard reset and cold boot of unit.
+:::info
+Pull fuse for your MHI2 unit - wait a minute and put it back - and force a hard reset and cold boot of unit.
+
+:::
+
 \
 This normally fixes your issue!
 

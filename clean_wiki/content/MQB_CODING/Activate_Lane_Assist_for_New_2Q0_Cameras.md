@@ -1,6 +1,6 @@
 # Activate Lane Assist for New 2Q0 Cameras
 
- ![](assets/2daf173f-c35e-4507-844c-45032e9d0f96.redirect_id_2daf173f-c35e-4507-844c-45032e9d0f96)
+ ![](assets/2daf173f-c35e-4507-844c-45032e9d0f96.png)
 
 \
 ## Modul “A5 Front Sensor” → Long coding

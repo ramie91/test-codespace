@@ -3,8 +3,11 @@
 # MHI2_ER_SEG11_P4709_1 MU1447 AIO
 
 
-> [!INFO]
-> Custom all-in-one FW update based on [metainfo2 exploit](/doc/metainfo2txt-exploit-VcFdFs4rds).
+:::info
+Custom all-in-one FW update based on [metainfo2 exploit](/doc/metainfo2txt-exploit-VcFdFs4rds).
+
+:::
+
 ## Requirements
 
 * Seat with MIB2 High system
@@ -18,12 +21,15 @@
 ### Fully automated FW update
 
 
-> [!INFO]
-> With this new method you ony have to place the created SD card in unit and reboot unit via key combination.
-> 
-> Installation will automatically start after reboot of unit.
-> 
-> Check more [key combinations and shortcuts](/doc/key-combinations-and-shortcuts-7tk8NfVoLo).
+:::info
+With this new method you ony have to place the created SD card in unit and reboot unit via key combination.
+
+Installation will automatically start after reboot of unit.
+
+Check more [key combinations and shortcuts](/doc/key-combinations-and-shortcuts-7tk8NfVoLo).
+
+:::
+
 `Swdlautorun.txt` in root will trigger an automatic installation of M.I.B without further user interaction.
 
 This function is deactivated by default. To enable automatic install rename `_Swdlautorun.txt` to `Swdlautorun.txt`
@@ -36,21 +42,32 @@ This function is deactivated by default. To enable automatic install rename `_Sw
 3. Turn the ignition on, wait for the infotainment system to boot up.
 
 
-> [!WARNING]
-> Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/doc/kessy-updates-JeN8RUuHyK)).
+:::warning
+Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/doc/kessy-updates-JeN8RUuHyK)).
+
+:::
+
+
 4. Restore factory settings in system settings.
 5. Place SD card in `SD 1` port.
 6. Press and hold `MENU` button to enter Service Menu.
 
 
-> [!INFO]
-> Check more [key combinations and shortcuts](/doc/key-combinations-and-shortcuts-7tk8NfVoLo).
+:::info
+Check more [key combinations and shortcuts](/doc/key-combinations-and-shortcuts-7tk8NfVoLo).
+
+:::
+
+
 6. Go to `Software update/Versions` → `Update` → `SD 1`.
 7. Wait for the update to be installed. It will take some time, the system will reboot couple times during firmware update procedure.
 
 
-> [!WARNING]
-> If you are stuck in bootscreen for a long time, check [this information](/doc/error-stuck-in-old-bootscreen-after-update-Mo8SLGI0sU).
+:::warning
+If you are stuck in bootscreen for a long time, check [this information](/doc/error-stuck-in-old-bootscreen-after-update-Mo8SLGI0sU).
+
+:::
+
 ## Features
 
 
@@ -58,8 +75,12 @@ This function is deactivated by default. To enable automatic install rename `_Sw
 2. FecContainer will be adjusted with missing FECs during the installation including code for latest maps (`073000EE`).
 
 
-> [!TIP]
-> `addFecs.txt` in `/common/tools/` can be adjusted as needed. Change add FECS with e.g. notepad.
+:::tip
+`addFecs.txt` in `/common/tools/` can be adjusted as needed. Change add FECS with e.g. notepad.
+
+:::
+
+
  3. Skin 4 (Carbon) will be configured during install to avoid boot up issues
  4. Screening 1 will be configured during install to avoid boot up issues.
  5. CarPlay and AndroidAuto will be enabled during the installation.
@@ -73,14 +94,14 @@ This function is deactivated by default. To enable automatic install rename `_Sw
 
 ### Screen - manual install
 
- ![](assets/7d275af9-e206-4233-8033-68d07cb44180.redirect_id_7d275af9-e206-4233-8033-68d07cb44180)
+ ![](assets/7d275af9-e206-4233-8033-68d07cb44180.png)
 
- ![](assets/0e294f6a-4982-40ee-b9dc-dcd70bcbfcd8.redirect_id_0e294f6a-4982-40ee-b9dc-dcd70bcbfcd8)
+ ![](assets/0e294f6a-4982-40ee-b9dc-dcd70bcbfcd8.png)
 
- ![](assets/cc66e94e-80a6-4d31-a7b4-7c795e3b8478.redirect_id_cc66e94e-80a6-4d31-a7b4-7c795e3b8478)
+ ![](assets/cc66e94e-80a6-4d31-a7b4-7c795e3b8478.png)
 
- ![](assets/03df9fa7-ed7f-41aa-8942-22fe1fa2835f.redirect_id_03df9fa7-ed7f-41aa-8942-22fe1fa2835f)
+ ![](assets/03df9fa7-ed7f-41aa-8942-22fe1fa2835f.png)
 
- ![](assets/e8fcea44-e047-423c-888e-e919bf01a923.redirect_id_e8fcea44-e047-423c-888e-e919bf01a923)
+ ![](assets/e8fcea44-e047-423c-888e-e919bf01a923.png)
 
 \

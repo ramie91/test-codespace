@@ -17,7 +17,7 @@
  7. `ping 172.16.250.248 -t`
  8. If ping is ok, connect with putty in telnet mode to `172.16.250.248:22111` and you will see:
 
-     ![](assets/31990ac8-f6e7-4f45-bd46-c845f435b2b9.redirect_id_31990ac8-f6e7-4f45-bd46-c845f435b2b9)
+     ![](assets/31990ac8-f6e7-4f45-bd46-c845f435b2b9.png)
  9. Select hexadecimal string and putty will copy it into clipboard. Do **NOT CLOSE** putty window.
 10. Open `mmx_challenge.txt` in **notepad++** and press `Ctrl` **+** `V` to paste copied string. Save.
 11. Run `response.exe` and it will generate `mmx_response.txt`

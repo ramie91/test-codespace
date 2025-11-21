@@ -6,6 +6,6 @@ It seems the MIB3 Preh units have a root vulnerability
 
 More documentation here 
 
-[EU-24-Parnishchev-OverTheAirVW.pdf 5495148](assets/375055cb-b541-401e-b29e-9714481b94a7.redirect_id_375055cb-b541-401e-b29e-9714481b94a7)
+[EU-24-Parnishchev-OverTheAirVW.pdf 5495148](assets/375055cb-b541-401e-b29e-9714481b94a7.pdf)
 
 \nAs of writing, this method has not been fully documented.

@@ -21,7 +21,7 @@ I had unit stucked on update screen. In **/extbin/** were folders **apps** (full
 In **metainfo2.txt** is part where is **EXTBIN_APPS.bin** extracted into **/extbin/apps_bak/** so I think it’s related. But someone who knows more can fix the information.
 
 \
- ![](assets/60636065-1f6d-4614-98dc-5429cf364e47.redirect_id_60636065-1f6d-4614-98dc-5429cf364e47)
+ ![](assets/60636065-1f6d-4614-98dc-5429cf364e47.jpg)
 
 \
 \

@@ -1,12 +1,23 @@
 # D-Link patch (FEC, SWaP, CP, CID)
 
 
-> [!INFO]
-> Thanks to -XTR3M3- for creating the base for this how to and Yalmac for translation. This article is based on this work, but not linked in any way directly to the original author.
-> [!WARNING]
-> Patch files are different for each FW version. Make sure that you use the correct patch files for your unit.
-> [!SUCCESS]
-> Before reading this,  check SD Activator by Congo & Duke. 
+:::info
+Thanks to -XTR3M3- for creating the base for this how to and Yalmac for translation. This article is based on this work, but not linked in any way directly to the original author.
+
+:::
+
+
+:::warning
+Patch files are different for each FW version. Make sure that you use the correct patch files for your unit.
+
+:::
+
+
+:::success
+Before reading this,  check SD Activator by Congo & Duke. 
+
+:::
+
 | SWaP patch for | CP off patch for |
 |----|:---:|
 |    | MST2_US_AU_P0504D |
@@ -41,24 +52,31 @@
 * To recognize the unit without removal, it is necessary to hold down the MENU button on the radio for 3 seconds to open hidden service mode. In this menu go to `Software Update/Versions` and check `SW Train`.
 
   \
-   ![Service mode available after holding MENU button for 3 seconds.](assets/731125ca-a3ae-4b6c-a580-69a90bd843e0.redirect_id_731125ca-a3ae-4b6c-a580-69a90bd843e0)                                          ![SW Train example with European Volkswagen firmware.](assets/73723d74-4ee7-4501-bd99-a6bdc6de93aa.redirect_id_73723d74-4ee7-4501-bd99-a6bdc6de93aa)
+   ![Service mode available after holding MENU button for 3 seconds.](assets/731125ca-a3ae-4b6c-a580-69a90bd843e0.png)                                          ![SW Train example with European Volkswagen firmware.](assets/73723d74-4ee7-4501-bd99-a6bdc6de93aa.png)
 * Delphi SW Train Version scheme example: `MST2_EU_VW_P0891D`.
 
   \n
 
  ![](/api/attachments.redirect?id=805a2f34-a588-4dc7-b230-2af158022906 " =244x38")
 
- ![](assets/83405590-6e06-4d6a-9949-9f381002fd5b.redirect_id_83405590-6e06-4d6a-9949-9f381002fd5b)
+ ![](assets/83405590-6e06-4d6a-9949-9f381002fd5b.png)
 
 \
- ![Delphi SW Train Scheme](assets/0c0ef38b-8204-48c2-8355-7b8d9c80da75.redirect_id_0c0ef38b-8204-48c2-8355-7b8d9c80da75)
+ ![Delphi SW Train Scheme](assets/0c0ef38b-8204-48c2-8355-7b8d9c80da75.png)
 
 \
 
-> [!INFO]
-> If there is a D at the end of your SW Train version, you have a Delphi Unit.
-> [!TIP]
-> If you see a `PQ` or `ZR` after the vehicle brand or a `T` at the end in your SW Train version, then you have a [Technisat Preh Unit.](/doc/technisat-02xx-to-04xx-firmware-update-RZcERlnOpc)
+:::info
+If there is a D at the end of your SW Train version, you have a Delphi Unit.
+
+:::
+
+
+:::tip
+If you see a `PQ` or `ZR` after the vehicle brand or a `T` at the end in your SW Train version, then you have a [Technisat Preh Unit.](/doc/technisat-02xx-to-04xx-firmware-update-RZcERlnOpc)
+
+:::
+
 ## Requirements - What do you need?
 
 * Delphi MST2 unit,
@@ -70,22 +88,33 @@
 
 ## Network settings
 
- ![](assets/9c872184-f400-4c76-a01b-6cb3a76495fe.redirect_id_9c872184-f400-4c76-a01b-6cb3a76495fe)
+ ![](assets/9c872184-f400-4c76-a01b-6cb3a76495fe.png)
 
- ![](assets/20bed7c2-72a1-4e96-aa5a-dbdebb2ffccc.redirect_id_20bed7c2-72a1-4e96-aa5a-dbdebb2ffccc)
+ ![](assets/20bed7c2-72a1-4e96-aa5a-dbdebb2ffccc.png)
 
  ![](/api/attachments.redirect?id=44d85952-bf29-4c23-abb9-6db6b44a3117 " =296x337")
 
 ## Software-Version
 
 
-> [!INFO]
-> The patch files are different for each SW-Train and software version! \n Therefore, make sure that you use the right patch files for your unit!
-> [!WARNING]
-> If you use the wrong patch files, you will brick your unit in the worst case!
-> [!INFO]
-> In addition to the SW-Train mentioned in the first section, there is also the software version, which can be read at the end of the same menu item.
- ![](assets/0c4facc7-8828-4032-83bf-f487b436a2aa.redirect_id_0c4facc7-8828-4032-83bf-f487b436a2aa)
+:::info
+The patch files are different for each SW-Train and software version! \n Therefore, make sure that you use the right patch files for your unit!
+
+:::
+
+
+:::warning
+If you use the wrong patch files, you will brick your unit in the worst case!
+
+:::
+
+
+:::info
+In addition to the SW-Train mentioned in the first section, there is also the software version, which can be read at the end of the same menu item.
+
+:::
+
+ ![](assets/0c4facc7-8828-4032-83bf-f487b436a2aa.png)
 
 ## Activate Developer mode and GEM
 
@@ -96,10 +125,13 @@ Check: [5F - Enabling Developer Mode and Hidden Menu](/doc/5f-enabling-developer
 # Update FW
 
 
-> [!INFO]
-> Train\*\*~~In the~~ `~~08xx~~` ~~series, the firmware updates have not always been released ascending order.~~
-> 
-> ~~The~~ `~~0891~~` ~~is not the latest firmware, but~~ `~~0879~~` ~~is!~~
+:::info
+Train\*\*~~In the~~ `~~08xx~~` ~~series, the firmware updates have not always been released ascending order.~~
+
+~~The~~ `~~0891~~` ~~is not the latest firmware, but~~ `~~0879~~` ~~is!~~
+
+:::
+
 ~~P9122D (MU0842) ➔ P0867D (MU0867) \* ➔ P0890D (MU0890) ➔ P0891D (MU0891) ➔ P0876D (MU0876) \* ➔ P0879D (MU0879) \*\*~~
 
 \* = Telnet is not activated on this FW
@@ -107,8 +139,11 @@ Check: [5F - Enabling Developer Mode and Hidden Menu](/doc/5f-enabling-developer
 \*\*= there is a modified firmware (**MST2_EU_VW_P0879D-wTelnet**) on the mibsolution.one server **with** telnet activated. Read in the folder oft this FW: patch\\howto.txt !!!
 
 
-> [!TIP]
-> Downgrade/upgrade to a version supporting **telnet** and or having an **available patch**
+:::tip
+Downgrade/upgrade to a version supporting **telnet** and or having an **available patch**
+
+:::
+
 ## Run FW update
 
 
@@ -118,28 +153,31 @@ Check: [5F - Enabling Developer Mode and Hidden Menu](/doc/5f-enabling-developer
 4. Remove all other SD cards and USB devices!
 5. Press the MENU button on the radio longer until another (service) menu opens. Select the test mode there.
 
-    ![](assets/775f4134-1c54-461d-a606-38d85db6f4b1.redirect_id_775f4134-1c54-461d-a606-38d85db6f4b1)
+    ![](assets/775f4134-1c54-461d-a606-38d85db6f4b1.png)
 6. Switch to the "SWDL" category.
 
-    ![](assets/327f9c3a-bb45-47bd-bf1d-9408ce878891.redirect_id_327f9c3a-bb45-47bd-bf1d-9408ce878891)
+    ![](assets/327f9c3a-bb45-47bd-bf1d-9408ce878891.png)
 7. Activate Software Download Manual Download and tap "Start Download".
 
-    ![](assets/6441ca2d-f584-49d3-ae33-4523214aeff9.redirect_id_6441ca2d-f584-49d3-ae33-4523214aeff9)
+    ![](assets/6441ca2d-f584-49d3-ae33-4523214aeff9.png)
 8. Select source (SD card), select everything and start firmware update.
 
-    ![](assets/6bec0955-597d-4bce-9452-4333a2eb8174.redirect_id_6bec0955-597d-4bce-9452-4333a2eb8174)
+    ![](assets/6bec0955-597d-4bce-9452-4333a2eb8174.png)
 
 
-> [!WARNING]
-> What should be considered when updating the firmware?
-> 
-> •	Leave the ignition on
-> 
-> •	Turn off unnecessary consumers (lights, ventilation, ...)
-> 
-> •	Connect charger(at least  15A charging power, better 20A and more)
-> 
-> •	Depending on the unit (RAM/CPU), the update takes 20 to 60 minutes
+:::warning
+What should be considered when updating the firmware?
+
+•	Leave the ignition on
+
+•	Turn off unnecessary consumers (lights, ventilation, ...)
+
+•	Connect charger(at least  15A charging power, better 20A and more)
+
+•	Depending on the unit (RAM/CPU), the update takes 20 to 60 minutes
+
+:::
+
 ## Fix Software Version Management (SVM) error
 
 Use VCDS / OBDEleven / VCP to clear the erroro from unit.
@@ -147,8 +185,11 @@ Use VCDS / OBDEleven / VCP to clear the erroro from unit.
 # TELNET Connection
 
 
-> [!TIP]
-> Ethernet must be activated in GEM to enable telnet access.
+:::tip
+Ethernet must be activated in GEM to enable telnet access.
+
+:::
+
 ## Enable ethernet
 
 Hold down the MENU button on the radio until the Service menu appears.
@@ -156,25 +197,25 @@ Hold down the MENU button on the radio until the Service menu appears.
 Navigate to `Testmode`
 
 \
- ![](assets/82eccf29-8c19-4bf5-aeaa-6425077e9118.redirect_id_82eccf29-8c19-4bf5-aeaa-6425077e9118)
+ ![](assets/82eccf29-8c19-4bf5-aeaa-6425077e9118.png)
 
 Select `Green Engineering Menu`
 
 (optionally you can also get there directly by pressing the MENU button for a very long time)
 
- ![](assets/beeab519-370e-452b-a7da-ee08451035ad.redirect_id_beeab519-370e-452b-a7da-ee08451035ad)
+ ![](assets/beeab519-370e-452b-a7da-ee08451035ad.png)
 
 Change to the category "debugging mlp"
 
- ![](assets/2aee805a-8803-4d80-8ea4-daa339f88b27.redirect_id_2aee805a-8803-4d80-8ea4-daa339f88b27)
+ ![](assets/2aee805a-8803-4d80-8ea4-daa339f88b27.png)
 
 Check `Ethernet` box and restart the unit (hold down the power button for at least 10 seconds)
 
- ![](assets/051a4c9d-210d-425e-9062-cb724b4bcc03.redirect_id_051a4c9d-210d-425e-9062-cb724b4bcc03)
+ ![](assets/051a4c9d-210d-425e-9062-cb724b4bcc03.png)
 
 After the unit has been restarted enter same menu again and also check `Switch to MLP` must be checked. (Note: If only removing CP, it does not seem MLP needs to be selected 8/7/2023)
 
- ![](assets/9c514631-8649-43c4-babe-bd13518cfe14.redirect_id_9c514631-8649-43c4-babe-bd13518cfe14)
+ ![](assets/9c514631-8649-43c4-babe-bd13518cfe14.png)
 
 ## Connect with Putty - Telnet
 
@@ -189,17 +230,17 @@ The IP address is taken from the GEM menu `debugging mlp`.
 
 IP `192.168.1.4`  and port `23` are default on all units.
 
- ![Click open to connect to unit](assets/77c2892a-2f95-43ed-8102-e8c788774938.redirect_id_77c2892a-2f95-43ed-8102-e8c788774938)
+ ![Click open to connect to unit](assets/77c2892a-2f95-43ed-8102-e8c788774938.png)
 
 If everything has been configured correctly, you can tell from the QNX Neutrino login message that it worked.
 
 Only the word `root` (NO password) is required as a login to Delphi units.
 
- ![](assets/d8d8a43d-a8f5-413f-8c2f-ecd1d061d3b6.redirect_id_d8d8a43d-a8f5-413f-8c2f-ecd1d061d3b6)
+ ![](assets/d8d8a43d-a8f5-413f-8c2f-ecd1d061d3b6.png)
 
 As soon as `Welcome` is shown, commands can be entered.
 
- ![](assets/619b37b2-9a1d-4308-96b3-73ea1d2ed588.redirect_id_619b37b2-9a1d-4308-96b3-73ea1d2ed588)
+ ![](assets/619b37b2-9a1d-4308-96b3-73ea1d2ed588.png)
 
 # Patch unit
 
@@ -227,8 +268,11 @@ Attributes:
 ## Create backup - **recommended**
 
 
-> [!WARNING]
-> It is important to create a backup before starting to patch!
+:::warning
+It is important to create a backup before starting to patch!
+
+:::
+
 Insert empty the SD card into `SD 1` port and execute the following commands via putty.
 
 Enter the commands exactly!
@@ -323,10 +367,13 @@ echo "FINISHED - You can now remove SD Card"
 ## SWaP (FEC) patch
 
 
-> [!INFO]
-> **This patch is required to disable the verification of the signature of the FEC containers.** \n [Open MIB2 Delphi FEC Generator ](https://www.digital-eliteboard.com/threads/mib2-delphi-fec-generator-by-xtr3m3.495976/) by  XTR3M3 and select the appropriate featureenablecodes as desiredand thencreate/save the FEC container (right button). The VCNR and VIN can either be entered manually or imported from an existing (backup) FEC container.
+:::info
+**This patch is required to disable the verification of the signature of the FEC containers.** \n [Open MIB2 Delphi FEC Generator ](https://www.digital-eliteboard.com/threads/mib2-delphi-fec-generator-by-xtr3m3.495976/) by  XTR3M3 and select the appropriate featureenablecodes as desiredand thencreate/save the FEC container (right button). The VCNR and VIN can either be entered manually or imported from an existing (backup) FEC container.
+
+:::
+
 \
- ![](assets/ebc8aa25-ee68-4042-9af1-f07ad31d29fe.redirect_id_ebc8aa25-ee68-4042-9af1-f07ad31d29fe)
+ ![](assets/ebc8aa25-ee68-4042-9af1-f07ad31d29fe.png)
 
 However, an already patched FEC container can also be easily changed with your VCNR and FIN.
 
@@ -336,8 +383,11 @@ This `*.fec`  file and patched  `SWaP`  will be copied to SD card and insert 
 First, the patched  SWaP file is copied to unit.
 
 
-> [!WARNING]
-> Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially  relevant for users who use a translator because they partially insert unwanted spaces.
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially  relevant for users who use a translator because they partially insert unwanted spaces.
+
+:::
+
 ### MST2_patch.sh - manual input
 
 
@@ -382,15 +432,26 @@ echo "FINISHED - You can now remove SD Card"
 
 \
 
-> [!INFO]
-> Restart unit by long pressing the power button. \n A reboot can be seen by the boot logo and short-term loud fan noises
+:::info
+Restart unit by long pressing the power button. \n A reboot can be seen by the boot logo and short-term loud fan noises
+
+:::
+
+
 ---
 
 
-> [!INFO]
-> Now the patched FEC container is copied to unit.
-> [!WARNING]
-> Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is especially relevant for users who use a translator because they partially insert unwanted spaces.
+:::info
+Now the patched FEC container is copied to unit.
+
+:::
+
+
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is especially relevant for users who use a translator because they partially insert unwanted spaces.
+
+:::
+
 ### MST2_fec.sh - manual input
 
 
@@ -450,10 +511,17 @@ echo "FINISHED - You can now remove SD Card"
 ## Config (CID) patch
 
 
-> [!INFO]
-> **This patch disables SD card check for navigation (aftermarket SD cards).**
-> [!WARNING]
-> Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text..
+:::info
+**This patch disables SD card check for navigation (aftermarket SD cards).**
+
+:::
+
+
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text..
+
+:::
+
 This script can be copied to SD card or just executed by typing
 
 ```bash
@@ -463,10 +531,18 @@ grep -v "MIBST" /extbin/apps/cfg/MHConfig.cfg > /tmp/MHConfig.cfg && cp /tmp/MHC
 ## delphibin.ifs (CP) patch
 
 
-> [!INFO]
-> **This patch disables component protection check**
-> [!WARNING]
-> Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text.
+:::info
+**This patch disables component protection check**
+
+:::
+
+
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text.
+
+:::
+
+
 1. Copy patched `delphibin.ifs` that corresponds to Train and unit type onto the root of SD card
 2. Insert SD card into `SD 1` slot of the unit.
 3. Create backup of the original `delphibin.ifs`: \n `cp -Vfr /extbin/apps/bin/delphibin.ifs /sdc1/backup_delphibin.ifs`
@@ -480,7 +556,7 @@ grep -v "MIBST" /extbin/apps/cfg/MHConfig.cfg > /tmp/MHConfig.cfg && cp /tmp/MHC
 
 # [FEC Generator](https://www.digital-eliteboard.com/threads/mib2-delphi-fec-generator-by-xtr3m3.495976/)
 
- ![](assets/523b3a29-5274-4af4-9aa2-3b7d80ceb25f.redirect_id_523b3a29-5274-4af4-9aa2-3b7d80ceb25f)
+ ![](assets/523b3a29-5274-4af4-9aa2-3b7d80ceb25f.png)
 
 # References
 

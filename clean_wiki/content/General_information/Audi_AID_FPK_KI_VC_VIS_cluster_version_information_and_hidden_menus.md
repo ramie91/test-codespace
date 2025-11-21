@@ -15,9 +15,9 @@ Turn on ignition and quickly repeatedly press/release the 0.0 / SET key
 2. Keep holding "0.0" button and switch the ignition on
 
 \
- ![example for Audi A6](assets/a347f223-5e22-463f-ab69-4aff93ae04be.redirect_id_a347f223-5e22-463f-ab69-4aff93ae04be)
+ ![example for Audi A6](assets/a347f223-5e22-463f-ab69-4aff93ae04be.png)
 
- ![](assets/0daeb487-9c08-42c9-a69b-438735ef9988.redirect_id_0daeb487-9c08-42c9-a69b-438735ef9988)
+ ![](assets/0daeb487-9c08-42c9-a69b-438735ef9988.png)
 
 <https://youtu.be/fT_2lzO7Org>
 

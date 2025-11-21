@@ -1,14 +1,17 @@
 # Hardware and recovery via EFU
 
- ![](assets/e52668c6-b7dd-46eb-95c5-209ae9237d16.redirect_id_e52668c6-b7dd-46eb-95c5-209ae9237d16)
+ ![](assets/e52668c6-b7dd-46eb-95c5-209ae9237d16.png)
 
 Label of chinese Audi MMI with train MHS2_CN_AU_P1615
 
- ![](assets/dfcad070-1f11-44cc-9dfe-4b7edc872100.redirect_id_dfcad070-1f11-44cc-9dfe-4b7edc872100)
+ ![](assets/dfcad070-1f11-44cc-9dfe-4b7edc872100.png)
 
 
-> [!INFO]
-> **GOOD TO KNOW:** Trains MHS2_US_AU_P01\*, MHS2_US_AU_K01\*, MHS2_EU_AU_P01\*, MHS2_EU_AU_K01\*, MHS2_CN_AU_P08\*, MHS2_CN_AU_K08\*, MHS2_CN_AU_P12\*, MHS2_CN_AU_K12\*, MHS2_CN_AU_P16\*, MHS2_CN_AU_K16\* do not support Radio Logo and Gracenote2 DBs
+:::info
+**GOOD TO KNOW:** Trains MHS2_US_AU_P01\*, MHS2_US_AU_K01\*, MHS2_EU_AU_P01\*, MHS2_EU_AU_K01\*, MHS2_CN_AU_P08\*, MHS2_CN_AU_K08\*, MHS2_CN_AU_P12\*, MHS2_CN_AU_K12\*, MHS2_CN_AU_P16\*, MHS2_CN_AU_K16\* do not support Radio Logo and Gracenote2 DBs
+
+:::
+
 MMX chip located on top of the board. 64Mb NOR is mounted at `/net/mmx/fs/dev/fs0`
 
 and partitioned like:
@@ -39,11 +42,11 @@ partitioned like:
 /dev/mnand0t178.9            64M      3.2M       61M       6%  /mnt/media/
 ```
 
-` `      ![Top of the MMX board: nVidia_Tegra2(T30), MMX NOR 64Mb or 128Mb, NAND 15Gb](assets/bd39cb61-6e0e-49df-87a6-1a2eeadc5974.redirect_id_bd39cb61-6e0e-49df-87a6-1a2eeadc5974)
+` `      ![Top of the MMX board: nVidia_Tegra2(T30), MMX NOR 64Mb or 128Mb, NAND 15Gb](assets/bd39cb61-6e0e-49df-87a6-1a2eeadc5974.png)
 
 RCC  (Jacinto 5e) on the bottom. 64Mb (EU units) or 128Mb (US units) NOR is mounted at **/net/rcc/fs/dev/fs0**:
 
- ![](assets/3e5c6221-77d9-4c53-b6ea-196d88ea51bd.redirect_id_3e5c6221-77d9-4c53-b6ea-196d88ea51bd)
+ ![](assets/3e5c6221-77d9-4c53-b6ea-196d88ea51bd.png)
 
 To start EFU (Emergency Flash Utility), connect to MMX via quadlock, press and hold E on the keyboard and power on the unit via quadlock:
 
@@ -73,19 +76,22 @@ Starting /usr/sbin/startup.sh ...
 
 Then EFU starts:
 
- ![](assets/6be7ec3e-9cbc-4313-bb79-66a555e89db1.redirect_id_6be7ec3e-9cbc-4313-bb79-66a555e89db1)
+ ![](assets/6be7ec3e-9cbc-4313-bb79-66a555e89db1.png)
 
 and in the log you may see something like:
 
- ![](assets/37f32390-22a0-4270-b4a8-90f964f4dda8.redirect_id_37f32390-22a0-4270-b4a8-90f964f4dda8)
+ ![](assets/37f32390-22a0-4270-b4a8-90f964f4dda8.png)
 
 **GOOD TO KNOW:** When primary partition is corrupted then EFU starts directly:
 
- ![](assets/6baefbf9-9a4c-4ff0-b242-d2b4a4dc8108.redirect_id_6baefbf9-9a4c-4ff0-b242-d2b4a4dc8108)
+ ![](assets/6baefbf9-9a4c-4ff0-b242-d2b4a4dc8108.png)
 
 Insert stock MHS2 firmware on **FAT32** formatted SD card into SD1 slot and EFU will automatically start flashing.
 
 
-> [!INFO]
-> **IMPORTANT!** To prevent automatic shutdown of the unit, press DVD eject button. It will stop watchdog timer.
- ![](assets/23c3d30e-c20a-498b-9c5e-c771877e8181.redirect_id_23c3d30e-c20a-498b-9c5e-c771877e8181) ![](assets/fc9941c5-b15a-436a-8d36-d35c951c06bf.redirect_id_fc9941c5-b15a-436a-8d36-d35c951c06bf) ![](assets/5004c676-fa94-4468-8887-ac75f306c6ac.redirect_id_5004c676-fa94-4468-8887-ac75f306c6ac) ![](assets/b1b30d3b-0d62-4ad7-b299-8f3b6cac721f.redirect_id_b1b30d3b-0d62-4ad7-b299-8f3b6cac721f) ![](assets/ddce75b2-5ab6-4c04-ba31-268193224b79.redirect_id_ddce75b2-5ab6-4c04-ba31-268193224b79) ![](assets/e9d53ea0-b437-4148-a2c0-b6de96317e2e.redirect_id_e9d53ea0-b437-4148-a2c0-b6de96317e2e)
+:::info
+**IMPORTANT!** To prevent automatic shutdown of the unit, press DVD eject button. It will stop watchdog timer.
+
+:::
+
+ ![](assets/23c3d30e-c20a-498b-9c5e-c771877e8181.png) ![](assets/fc9941c5-b15a-436a-8d36-d35c951c06bf.png) ![](assets/5004c676-fa94-4468-8887-ac75f306c6ac.png) ![](assets/b1b30d3b-0d62-4ad7-b299-8f3b6cac721f.png) ![](assets/ddce75b2-5ab6-4c04-ba31-268193224b79.png) ![](assets/e9d53ea0-b437-4148-a2c0-b6de96317e2e.png)

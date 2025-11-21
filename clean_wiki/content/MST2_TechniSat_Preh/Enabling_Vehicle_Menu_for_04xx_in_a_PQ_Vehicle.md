@@ -26,15 +26,15 @@ The MIB2 System gets the Data for all of the Trip stuff like Consumption, Speed,
 There are a few different types. The following Cluster Screens could be supported:
 
 \
- ![](assets/048cfb03-b3e3-4a7e-bee7-8cc51527927a.redirect_id_048cfb03-b3e3-4a7e-bee7-8cc51527927a)    ![](assets/05491899-bccc-4df3-a1c7-0f4e90b9b1ed.redirect_id_05491899-bccc-4df3-a1c7-0f4e90b9b1ed)
+ ![](assets/048cfb03-b3e3-4a7e-bee7-8cc51527927a.png)    ![](assets/05491899-bccc-4df3-a1c7-0f4e90b9b1ed.png)
 
- ![](assets/3ed0bd3b-d151-4ae9-a4aa-5f09efca5067.redirect_id_3ed0bd3b-d151-4ae9-a4aa-5f09efca5067)
+ ![](assets/3ed0bd3b-d151-4ae9-a4aa-5f09efca5067.png)
 
 \
 But a special Software Version needs to be installed. To check for that, use OBD11 or VCDS to get your SW-Version:
 
 \
- ![](assets/d431195e-a567-4d39-b216-9bbc6159dcbe.redirect_id_d431195e-a567-4d39-b216-9bbc6159dcbe)
+ ![](assets/d431195e-a567-4d39-b216-9bbc6159dcbe.png)
 
 If your Software is 0500 or higher, your Trip Data can be obtained and some of the Menus will work. Some Clutsters can be upgraded through VCP/Odis, in some cases you need another cluster. Be aware that for MK6 Golf, the Immobilizer and Key Info is stored in the cluster and you have to be really careful. If you have a Passat B6/B7 you can easily replace the cluster with a fitting one but lets not go to deep into this topic.
 
@@ -43,7 +43,7 @@ If you have a PQ Unit from VW on Software 04xx and are from EU, you´ll have a r
 
 [https://mibsolution.one/#/1/9/MST2 - TechniSat Preh/Firmware/VW_PQ/EU](https://mibsolution.one/#/1/9/MST2%20-%20TechniSat%20Preh/Firmware/VW_PQ/EU)
 
- ![](assets/89d9af28-0881-4f6b-805a-e2b501543399.redirect_id_89d9af28-0881-4f6b-805a-e2b501543399)
+ ![](assets/89d9af28-0881-4f6b-805a-e2b501543399.png)
 
 \
 If you´re not on 0478T already, you have to update to that first. This firmware is also present in the folder.
@@ -69,7 +69,7 @@ Install Mib2STDToolbox on your unit, run it, go to tools and select the Metainfo
 
 Also run the SystemInformation in Toolbox and search for the Variant. Write that down like here:
 
- ![](assets/9577bffd-4765-4650-aa86-3e2417c735b6.redirect_id_9577bffd-4765-4650-aa86-3e2417c735b6)
+ ![](assets/9577bffd-4765-4650-aa86-3e2417c735b6.png)
 
 After that, move back to your PC. You now have to modify the ZR 0480T firmware to include your variant.
 
@@ -102,7 +102,7 @@ After that you need to do some adaptations in your 5F unit to get the Vehicle Me
 The following ones will enable at least the Vehicle Trip Data.
 
 \
- ![](assets/85202140-8d12-4192-9ccb-00422de5c242.redirect_id_85202140-8d12-4192-9ccb-00422de5c242)
+ ![](assets/85202140-8d12-4192-9ccb-00422de5c242.png)
 
 \
 \

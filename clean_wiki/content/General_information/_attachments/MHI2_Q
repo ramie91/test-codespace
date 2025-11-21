@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="application-name" content="FileRun">
+<title>MIB Solution :: Login</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=" />
+<link rel="stylesheet" href="css/ext.php?v=2021.03.26&theme=blue&custom=1" />
+<style>
+	</style>
+</head>
+<body id="theBODY">
+<div id="loadMsg"><div>Loading...</div></div>
+
+<script src="js/min.php?extjs=1&v=2021.03.26"></script>
+<script src="js/login.js?v=2021.03.26"></script>
+<script src="?module=fileman&section=utils&sec=Login%20Page&lang=english&v=2021.03.26&page=translation.js"></script>
+
+<script>
+var URLRoot = 'https://mibsolution.one';
+var Settings = {"ui_login_title":"MIB Solution","ui_login_logo":"","ui_login_text":"The firmware and utilities available here are provided free of charge for personal use only. Commercial \/ for-profit usage is strictly prohibited - if you paid for these you've been ripped off.<br \/>\n<br \/>\nUsername: guest<br \/>\nPassword: guest<br \/>\n<br \/>\nFor more details, ask on telegram or discord:<br \/>\n* https:\/\/t.me\/joinchat\/T_pADdwJyUXq0VoH<br \/>\n* https:\/\/discord.gg\/YU3rjatWjT<br \/>\n<br \/>\nDISCLAIMER<br \/>\n<br \/>\nThis website has no relation to VAG or Audi group, we're simply an enthusiast community sharing knowledge to update our personal cars.<br \/>\n<br \/>\nThe firmware and utilities listed here can cause permanent damage to your product if applied incorrectly. Before downloading any firmware updates, verify the firmware you are downloading is appropriate for the specific model number of your product. If you have any doubts, reach out on one of the discussion groups above for guidance.<br \/>\n<br \/>\nIN NO EVENT WILL THE FIRMWARE HOSTING PROVIDER BE LIABLE FOR ANY DAMAGES OF ANY KIND RELATING TO THE FIRMWARE UPDATES AND\/OR OTHER UTILITIES DOWNLOADABLE THROUGH THIS SITE, INCLUDING BUT NOT LIMITED TO, COMPENSATORY DAMAGES, LOST PROFITS, LOST DATA OR ANY FORM OF SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL OR PUNITIVE DAMAGES OF ANY KIND WHETHER BASED ON BREACH OF CONTRACT OR WARRANTY, NEGLIGENCE, PRODUCT LIABILITY OR ANY OTHER THEORY OF LIABILITY. ","ui_bg":null,"ui_bg_color":0,"ui_display_language_menu":false,"androidAppURL":null,"signUpEnabled":0,"ssoEnabled":0,"ssoOnly":0,"passwordRecoveryEnabled":0,"languages":[["english","English","en"]],"selectedLang":"English","message":false};
+var prefilledUsername = '';
+var prefilledPassword = '';
+var signUpURL = 'https://mibsolution.one/?page=register';
+</script>
+	<!-- login -->
+	<div style="font-size:11px !important;display:block !important;position:fixed !important;bottom:0px !important;right:0px !important;background-color:#EEEEEE !important;border-top-left-radius:2px;color:black !important;padding:3px;z-index:99999 !important;">Website powered by <a href="https://filerun.com" style="font-size:11px !important;color:#3079ED !important;" target="_blank">FileRun</a></div>
+
+</body></html>

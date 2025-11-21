@@ -1,6 +1,6 @@
 # Telnet access
 
-[1 mh2p tutorial.pdf 461443](assets/a4b4261b-13f0-4b5b-9d91-71d30a6e8635.redirect_id_a4b4261b-13f0-4b5b-9d91-71d30a6e8635)
+[1 mh2p tutorial.pdf 461443](assets/a4b4261b-13f0-4b5b-9d91-71d30a6e8635.pdf)
 
 \
 # Telnet activation
@@ -8,22 +8,22 @@
 
 1. Insert SD card with [Toolbox](https://disk.yandex.com/d/7WKZix6ocBNLCw) and hold two fingers in top right corner to enter **Engineering** (**RED**) menu
 
- ![](assets/288275af-f6a5-46c9-b7fc-d530985ce578.redirect_id_288275af-f6a5-46c9-b7fc-d530985ce578)
+ ![](assets/288275af-f6a5-46c9-b7fc-d530985ce578.png)
 
 
 2. Press **Update**
 
- ![](assets/fb5d7aaf-9181-418c-857e-6f2848b324bf.redirect_id_fb5d7aaf-9181-418c-857e-6f2848b324bf)
+ ![](assets/fb5d7aaf-9181-418c-857e-6f2848b324bf.png)
 
 
 3. **Start update**.
 
- ![](assets/c71d6edb-8887-4374-88b4-2efe220c0b2e.redirect_id_c71d6edb-8887-4374-88b4-2efe220c0b2e)
+ ![](assets/c71d6edb-8887-4374-88b4-2efe220c0b2e.png)
 
 
 4. Press **Resume**
 
- ![](assets/d012c96e-f2b8-4f27-8d72-252bedc17ba4.redirect_id_d012c96e-f2b8-4f27-8d72-252bedc17ba4)
+ ![](assets/d012c96e-f2b8-4f27-8d72-252bedc17ba4.png)
 
 \
 

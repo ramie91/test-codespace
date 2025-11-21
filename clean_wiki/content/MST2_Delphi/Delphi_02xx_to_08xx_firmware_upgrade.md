@@ -1,10 +1,17 @@
 # Delphi 02xx to 08xx firmware upgrade
 
 
-> [!TIP]
-> TDLR; Modify InstallationManager to include device variant for chosen firmware, run SWDL
-> [!INFO]
-> Credit: IvanMusk <https://www.drive2.ru/l/575748544720274648/>
+:::tip
+TDLR; Modify InstallationManager to include device variant for chosen firmware, run SWDL
+
+:::
+
+
+:::info
+Credit: IvanMusk <https://www.drive2.ru/l/575748544720274648/>
+
+:::
+
 # Disclaimer:
 
 /**Only  02XX MST2 NAV could be upgraded to 08xx in this way otherwise you will brick your unit !**
@@ -20,7 +27,7 @@ Using D-Link Ethernet Adapter, you will need to enable Ethernet connection in th
 
 With the Delphi scripts from [https://mibsolution.one](https://mibsolution.one/index.php/f/92414), use the `MST2_backup.sh` script to create a backup of the unit, most importantly the `InstallationManager` file.
 
- ![](assets/b4e76258-d164-435a-a92b-0702d9331b21.redirect_id_b4e76258-d164-435a-a92b-0702d9331b21)
+ ![](assets/b4e76258-d164-435a-a92b-0702d9331b21.jpg)
 
 \
 \
@@ -30,7 +37,7 @@ Firstly you’ll need to find the Variant number from your current unit so you k
 
 Then also do the same with the new firmware and find it’s Variant so you know what to change it to.
 
- ![](assets/be0c6324-6c94-43c2-99dc-1179c606df3b.redirect_id_be0c6324-6c94-43c2-99dc-1179c606df3b)
+ ![](assets/be0c6324-6c94-43c2-99dc-1179c606df3b.jpg)
 
 ## Modifying InstallationManager
 
@@ -42,23 +49,32 @@ You’ll need a hex editor tool such as HxD in order to open your `InstallationM
 Now you have your modified `InstallationManager` file, place it on your SD Card in the root directory and use the `MST2_US2EU.sh` script which will copy it to the unit.
 
 
-> [!WARNING]
-> It’s more than likely that you could get an Out of Space error. If this happens, your unit will fail to boot but will still be accessible over Telnet to retry or restore backup.
+:::warning
+It’s more than likely that you could get an Out of Space error. If this happens, your unit will fail to boot but will still be accessible over Telnet to retry or restore backup.
+
+:::
+
 \
 ## Begin SWDL
 
 Once you’ve successfully transferred your modified `InstallationManager`, immediately enable Manual SWDL mode and proceed with the update
 
 
-> [!WARNING]
-> Another warning, it’s advised to proceed with the update as soon as possible, otherwise you may be set to Emergency Update mode.
+:::warning
+Another warning, it’s advised to proceed with the update as soon as possible, otherwise you may be set to Emergency Update mode.
+
+:::
+
 \
 ## Complete
 
 \
 
-> [!INFO]
-> If updating to 8xx, you may be stuck as the boot logo once the update has completed, this is due to an invalid skin being chosen in your long coding. Therefore adjust your skin value on byte 17/18
+:::info
+If updating to 8xx, you may be stuck as the boot logo once the update has completed, this is due to an invalid skin being chosen in your long coding. Therefore adjust your skin value on byte 17/18
+
+:::
+
 \
 
 ***

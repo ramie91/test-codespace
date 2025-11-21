@@ -1,8 +1,11 @@
 # GEM.jar - AppDevelopment.jar
 
 
-> [!INFO]
-> Responsible for displaying GEM and building up menu structure from \*.esd files
+:::info
+Responsible for displaying GEM and building up menu structure from \*.esd files
+
+:::
+
 \
 Both located in `/net/mmx/mnt/app/eso/hmi/lsd/jars`
 
@@ -38,14 +41,17 @@ Older GEM versions do not support all elements used in latest \*.esd files
 
 Open \*.jar in e.g. 7zip - `\de\audi\gem\elements\`
 
- ![left MU0335 - middle MU1429 - right MU1440](assets/bb79c7ea-25ad-4764-b610-41c58add97a1.redirect_id_bb79c7ea-25ad-4764-b610-41c58add97a1)
+ ![left MU0335 - middle MU1429 - right MU1440](assets/bb79c7ea-25ad-4764-b610-41c58add97a1.png)
 
 \
 
-> [!INFO]
-> “Bit-Elements” were only introduced with later GEM versions (starting 4.0). Only 4.11+ support Bitvalue (used a lot by M.I.B).
-> 
-> GEM will fail loading \*.esd, as soon as an unknown element is parsed.
+:::info
+“Bit-Elements” were only introduced with later GEM versions (starting 4.0). Only 4.11+ support Bitvalue (used a lot by M.I.B).
+
+GEM will fail loading \*.esd, as soon as an unknown element is parsed.
+
+:::
+
 \
 ### M.I.B 3.0.0 BETA on GEM 3.6
 
@@ -53,4 +59,4 @@ Open \*.jar in e.g. 7zip - `\de\audi\gem\elements\`
 
 Still, backup_restore and patch_ifs_root_aio are usable.
 
- ![](assets/957befaa-31bf-4b68-af16-3516516d2916.redirect_id_957befaa-31bf-4b68-af16-3516516d2916)
+ ![](assets/957befaa-31bf-4b68-af16-3516516d2916.png)

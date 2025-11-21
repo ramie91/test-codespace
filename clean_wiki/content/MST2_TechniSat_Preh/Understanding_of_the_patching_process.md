@@ -1,12 +1,15 @@
 # Understanding of the patching process
 
 
-> [!TIP]
-> The simplest way to patch is to install MIB STD2 PQ/ZR Toolbox
-> 
-> Legacy methods can be found here
-> 
-> All information below serves only for the learning purposes.
+:::tip
+The simplest way to patch is to install MIB STD2 PQ/ZR Toolbox
+
+Legacy methods can be found here
+
+All information below serves only for the learning purposes.
+
+:::
+
 Getting a “Patch” done always consist of two main steps:
 
 
@@ -32,8 +35,11 @@ All this made possible by:
 
 \
 
-> [!INFO]
-> One of the ways to apply these tools is described in **[DIY - How to create a SD Patch](https://mibwiki.one/share/5260f4df-06c1-4e34-9cd8-2514b4b794f2)**
+:::info
+One of the ways to apply these tools is described in **[DIY - How to create a SD Patch](https://mibwiki.one/share/5260f4df-06c1-4e34-9cd8-2514b4b794f2)**
+
+:::
+
 # Now
 
 By utilizing a combination of knowledge based on patch tools, online approval and [MIB STD2 Toolbox](/doc/technisat-mib-std2-toolbox-installation-GIgwX2camY) we have it even better today!

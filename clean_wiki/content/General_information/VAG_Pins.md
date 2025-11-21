@@ -1,38 +1,52 @@
 # VAG Pins
 
 
-> [!WARNING]
-> This document and the author/editors are not responsible for:
-> 
-> * bricked devices,
-> * dead ECUs,
-> * data loss,
-> * spontanous combustion of devices
-> * thermonuclear war, or economic crisis caused
-> * and any other law / social / other reason
-> 
-> **YOU** **are choosing to make these modifications,**
-> 
-> **so do not point your finger at this document for messing up your whole car.**
-> 
-> **And, please, if your inexeperienced in automotive wiring, leave it to proffesionals.**
-> 
-> **Your and others lives depends on it! The price is high as the cost of human live is not measurable by ANYTHING!**
-> [!TIP]
-> At the time of writing this document, the author of this document  and the contents of this document are unverified data!
-> 
-> If you can personally attest to the validity of any data posted here feel free to edit this document!
-> [!INFO]
-> **Current revision is 0!**
-> 
-> Sorry for my grammar. English is not my native language.
-> 
-> Translator is advised as the links are have multiple languages.
+:::warning
+This document and the author/editors are not responsible for:
+
+* bricked devices,
+* dead ECUs,
+* data loss,
+* spontanous combustion of devices
+* thermonuclear war, or economic crisis caused
+* and any other law / social / other reason
+
+**YOU** **are choosing to make these modifications,**
+
+**so do not point your finger at this document for messing up your whole car.**
+
+**And, please, if your inexeperienced in automotive wiring, leave it to proffesionals.**
+
+**Your and others lives depends on it! The price is high as the cost of human live is not measurable by ANYTHING!**
+
+:::
+
+
+:::tip
+At the time of writing this document, the author of this document  and the contents of this document are unverified data!
+
+If you can personally attest to the validity of any data posted here feel free to edit this document!
+
+:::
+
+
+:::info
+**Current revision is 0!**
+
+Sorry for my grammar. English is not my native language.
+
+Translator is advised as the links are have multiple languages.
+
+:::
+
 # Introduction
 
 
-> [!INFO]
-> A nice introduction is at this [link](https://www.a4-freunde.com/showwiki.php?title=Pins+und+alles+was+dazu+gehoert).
+:::info
+A nice introduction is at this [link](https://www.a4-freunde.com/showwiki.php?title=Pins+und+alles+was+dazu+gehoert).
+
+:::
+
 First of all, thank you for reading or parcipating in this this document. We are a group of members who each of us have diffrent lives, but have many things together. Specifically MIB and stuff around it.
 
 As of you know, some retrofits require connector pins for automotive wires (FLRY), automotive wires, connector, connector housings and so on. On many retrofit guides on the internet are OEM numbers. Officially you can buy stuff from the dealer if their central warehouse has the desired item. As of now (year 2022) at the dealer you cannot buy sets of connectors with their adequate pin. You can buy separate connectors and their housing, but you cannot buy these pins separate. You can buy them only crimped on a automotive wire (usually 200cm).
@@ -44,15 +58,17 @@ So i found out that you can buy pins by their universal name VW JPT / VW MOST / 
 # Parts by their TYCO numbers
 
 
-> [!INFO]
-> Source:
-> 
-> <https://www.vwvortex.com/threads/electrical-connector-part-numbers.6948714/>
-> 
-> <https://www.vwvortex.com/threads/vw-terminal-connectors-reference.9202433/>
-> 
-> \
- ![](assets/fc9813ef-2630-416b-b26e-be3129ea721e.redirect_id_fc9813ef-2630-416b-b26e-be3129ea721e)
+:::info
+Source:
+
+<https://www.vwvortex.com/threads/electrical-connector-part-numbers.6948714/>
+
+<https://www.vwvortex.com/threads/vw-terminal-connectors-reference.9202433/>
+
+\
+:::
+
+ ![](assets/fc9813ef-2630-416b-b26e-be3129ea721e.png)
 
 ## TERMINALS/PINS
 
@@ -100,13 +116,13 @@ TYCO p/n, tin plated: 964275-2; TYCO p/n, gold plated: 964275-3
 
 Note: VW does not sell gold plated terminals. Tin plated pins are available in bags of 25 pieces:
 
- ![](assets/1ff37eda-c735-4865-bdfb-fb29159cb735.redirect_id_1ff37eda-c735-4865-bdfb-fb29159cb735)
+ ![](assets/1ff37eda-c735-4865-bdfb-fb29159cb735.png)
 
 ## WIRE SEALS
 
 ### 3.9x7.8mm wire seals for 1.5mm terminals:
 
- ![](assets/986dcec5-da0c-4f3e-91ee-586349041aad.redirect_id_986dcec5-da0c-4f3e-91ee-586349041aad)
+ ![](assets/986dcec5-da0c-4f3e-91ee-586349041aad.png)
 
 **357972740D** - grey, for 0.5-0.75mm² wire -> TYCO p/n: 963530-1
 
@@ -116,7 +132,7 @@ Note: VW does not sell gold plated terminals. Tin plated pins are available in b
 
 ### 5.6x7.8mm wire seals for 2.8mm terminals:
 
- ![](assets/32fda01c-85da-40d7-bea3-8ceaf67ef412.redirect_id_32fda01c-85da-40d7-bea3-8ceaf67ef412)
+ ![](assets/32fda01c-85da-40d7-bea3-8ceaf67ef412.png)
 
 **357972741** - blue, for 0.35-1.0mm² wire -> TYCO p/n: 963294-1
 
@@ -136,13 +152,13 @@ Note: VW does not sell gold plated terminals. Tin plated pins are available in b
 
 **357972842** - black, cavity plug -> TYCO p/n: 100132-1
 
- ![](assets/04584a64-08e7-495f-b379-02bd6755528d.redirect_id_04584a64-08e7-495f-b379-02bd6755528d)
+ ![](assets/04584a64-08e7-495f-b379-02bd6755528d.png)
 
 ## TUBING
 
 No. 1 - split convoluted tubing (coils of 5 meters):
 
- ![](assets/0e8fd6f5-5fed-43ef-bf20-47ff2fff8f12.redirect_id_0e8fd6f5-5fed-43ef-bf20-47ff2fff8f12)
+ ![](assets/0e8fd6f5-5fed-43ef-bf20-47ff2fff8f12.png)
 
 
 _________________
@@ -218,7 +234,7 @@ No. 4 - T piece: ______________A_____B_____C
 
 ## CABLE SHOES & SOLDER PINS
 
- ![](assets/e69c21bf-178d-4a15-8a7b-2d85714841b0.redirect_id_e69c21bf-178d-4a15-8a7b-2d85714841b0)
+ ![](assets/e69c21bf-178d-4a15-8a7b-2d85714841b0.png)
 
 **01 - 2D0972982D** - connector with solder pin for contact housing
 
@@ -259,14 +275,21 @@ No. 4 - T piece: ______________A_____B_____C
 # Parts that the author found from eshops
 
 
-> [!INFO]
-> Formatting: \n OEM/OE; description --> order number
-> 
-> ? - unknown order number
-> 
-> description - if the order number is not available
-> [!TIP]
-> Use CTRL + F to find desired number.
+:::info
+Formatting: \n OEM/OE; description --> order number
+
+? - unknown order number
+
+description - if the order number is not available
+
+:::
+
+
+:::tip
+Use CTRL + F to find desired number.
+
+:::
+
 **N 10319002 / N 103 190 02 ;** \n JPT Junior Power Timer Stift ; 2,8x0,8 Kontakt;  1,00²-2,50² VW
 
 **MQS Quadlock Kontakt Pin Female ;** \n 0,50²-0,75²;  cable Ø 1,70mm - 1,90mm ; FAKRA  --> 963715

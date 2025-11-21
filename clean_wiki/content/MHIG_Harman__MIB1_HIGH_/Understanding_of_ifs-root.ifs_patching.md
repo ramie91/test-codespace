@@ -9,7 +9,7 @@ On the MHIG units, the RCC NOR flash dump done with:
 **ifs-root.ifs** itself contains 2 ifs parts, one of which is **ifs-root-stage2** and contains QNX ELF binary **/usr/apps/MIBRoot** that does CP and FECs related checks.
 
 \
-To quickly find the offset of the **ifs-root-stage2.ifs** in **rcc_fs0** or **ifs-root.ifs**, you can search for **EB7EFF00010008** bytes or **#imagefs** string in HxD:                  ![](assets/6eac729d-c5a0-48d1-bafc-f43a8f60911a.redirect_id_6eac729d-c5a0-48d1-bafc-f43a8f60911a)
+To quickly find the offset of the **ifs-root-stage2.ifs** in **rcc_fs0** or **ifs-root.ifs**, you can search for **EB7EFF00010008** bytes or **#imagefs** string in HxD:                  ![](assets/6eac729d-c5a0-48d1-bafc-f43a8f60911a.png)
 
 At offset **0x24** you can see the size of the **ifs-root-stage2.ifs** file
 

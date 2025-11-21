@@ -1,42 +1,49 @@
 # MHS2 activator by Congo
 
 
-> [!INFO]
-> When MMI Radio Plus/Navigation (MHS2 unit) boots it runs`dlphi.sh` from the root of SD card. This allows to run MHS2 activator made by Congo.
+:::info
+When MMI Radio Plus/Navigation (MHS2 unit) boots it runs`dlphi.sh` from the root of SD card. This allows to run MHS2 activator made by Congo.
+
+:::
+
+
 1. Format [quality SD card](/doc/sd-card-testing-Gxi8EpfXTg) in FAT32 with the lowest `Allocation unit size`possible (usually 4096 bytes).*==(==****==NO==*** ==*micro sd card + adapter!)*==
 2. Unzip [activator](https://mega.nz/folder/skIyXTZD#xV0zbQP_ZkQOgcYei7nj2A) into the root of SD card so you see **dlphi.sh** there.
 3. Turn the ignition on
 
    
-> [!WARNING]
->    Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/doc/kessy-updates-JeN8RUuHyK).
-> 
->    :::
-> 4. Remove all SD cards from SD slots
-> 5. Set the Infotainment system screen to `RADIO`,
-> 6. Make sure that the system fully loaded (5 minutes to be safe),
-> 7. Insert the SD card into `SD1` slot and wait. Activator will start automatically and you should see a screen like:
-> 
->     ![](assets/cdb66214-0b86-40f8-b647-19b8be405f18.redirect_id_cdb66214-0b86-40f8-b647-19b8be405f18)
-> 8. It may take up to 5 minutes and MIB can reboot. Just wait for green screen with the “completed successsully” message:
-> 
->  ![](assets/a1e147d4-af23-4161-9cbd-e8ea0a50a69e.redirect_id_a1e147d4-af23-4161-9cbd-e8ea0a50a69e)
-> 
-> Shortly after this, MIB will automatically reboot one more time.
-> 
-> **GOOD TO KNOW!** Sometimes it may happen that you do not see the green screen. Then just remove SD card, insert into laptop and check log.txt. It should contain something like:
-> 
->  ![](assets/0a61716d-5409-4ecc-b426-d375489f73b2.redirect_id_0a61716d-5409-4ecc-b426-d375489f73b2)
-> 
-> You can also check “Activation keys” list in the [RED menu](https://mibwiki.one/doc/audi-mmi-hkbD36UasB) to see something like this:   ![025000F0 Lifetime EU maps025100F0 Lifetime NAR maps 
-> 025200F0 Lifetime China maps
-> 025D00F0 Lifetime RoW maps](assets/247aef7d-d584-4a82-8109-a8655393cbc4.redirect_id_247aef7d-d584-4a82-8109-a8655393cbc4)
-> 
-> ## Coding and adaptation change in block 5F
-> 
-> 
-> :::info
-> Activator enables navigation functionality so all you need is just to change coding and adaptations by using your favourite OBD2 diagnostic tool
+:::warning
+   Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/doc/kessy-updates-JeN8RUuHyK).
+
+   :::
+4. Remove all SD cards from SD slots
+5. Set the Infotainment system screen to `RADIO`,
+6. Make sure that the system fully loaded (5 minutes to be safe),
+7. Insert the SD card into `SD1` slot and wait. Activator will start automatically and you should see a screen like:
+
+    ![](assets/cdb66214-0b86-40f8-b647-19b8be405f18.png)
+8. It may take up to 5 minutes and MIB can reboot. Just wait for green screen with the “completed successsully” message:
+
+ ![](assets/a1e147d4-af23-4161-9cbd-e8ea0a50a69e.jpg)
+
+Shortly after this, MIB will automatically reboot one more time.
+
+**GOOD TO KNOW!** Sometimes it may happen that you do not see the green screen. Then just remove SD card, insert into laptop and check log.txt. It should contain something like:
+
+ ![](assets/0a61716d-5409-4ecc-b426-d375489f73b2.png)
+
+You can also check “Activation keys” list in the [RED menu](https://mibwiki.one/doc/audi-mmi-hkbD36UasB) to see something like this:   ![025000F0 Lifetime EU maps025100F0 Lifetime NAR maps 
+025200F0 Lifetime China maps
+025D00F0 Lifetime RoW maps](assets/247aef7d-d584-4a82-8109-a8655393cbc4.png)
+
+## Coding and adaptation change in block 5F
+
+
+:::info
+Activator enables navigation functionality so all you need is just to change coding and adaptations by using your favourite OBD2 diagnostic tool
+
+:::
+
 ### GPS navigation
 
 `5F` → Long Coding → Byte: `03` → `01=EU region`
@@ -62,15 +69,18 @@
 `5F` → Adaptation  → `vehicle configuration` → `Google GAL` → `enable Android Auto`` `
 
 
-> [!INFO]
-> Audi Smartphone (CarPlay+Android Auto) will only work when proper USB hub is installed
- ![Charge only USB port (on the left) and 2xUSB port hub compatible with Smartfone interface (on the right)](assets/943e8d06-b6ad-404a-b538-e1f177174807.redirect_id_943e8d06-b6ad-404a-b538-e1f177174807)
+:::info
+Audi Smartphone (CarPlay+Android Auto) will only work when proper USB hub is installed
+
+:::
+
+ ![Charge only USB port (on the left) and 2xUSB port hub compatible with Smartfone interface (on the right)](assets/943e8d06-b6ad-404a-b538-e1f177174807.jpg)
 
 ## Old dlphi.sh scripts for the learning purposes
 
-[MHS2 MU0129 SDCard auto patch.7z](assets/ba1cadb4-3f91-4e3e-bb9b-150af5b1e59c.redirect_id_ba1cadb4-3f91-4e3e-bb9b-150af5b1e59c)
+[MHS2 MU0129 SDCard auto patch.7z](assets/ba1cadb4-3f91-4e3e-bb9b-150af5b1e59c.7z)
 
-[MHS2 MU2035 SDCard auto patch.7z](assets/d8712818-b22d-4ae8-8d52-e8d9273a25b5.redirect_id_d8712818-b22d-4ae8-8d52-e8d9273a25b5)
+[MHS2 MU2035 SDCard auto patch.7z](assets/d8712818-b22d-4ae8-8d52-e8d9273a25b5.7z)
 
 ## Reference & additional information
 

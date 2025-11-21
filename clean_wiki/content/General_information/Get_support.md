@@ -1,8 +1,11 @@
 # Get support
 
 
-> [!INFO]
-> In case you get stuck after reading through the content on mibwiki get some community help!
+:::info
+In case you get stuck after reading through the content on mibwiki get some community help!
+
+:::
+
 Known places to get free support:
 
 * MIB2 Telegram Group

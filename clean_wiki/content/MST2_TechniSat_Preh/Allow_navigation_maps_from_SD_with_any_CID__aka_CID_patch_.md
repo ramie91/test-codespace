@@ -15,8 +15,15 @@ But doing this makes media and navi data scanners to interfere with each other a
 To avoid this, you can order  `32GB` Custom CID SD card from aliexpress.
 
 
-> [!INFO]
-> Custom CID SD cards from aliexpress are low quality and usually randomly die in winter or very hot summer.
-> [!TIP]
-> If you want to fit latest ECE AS maps onto 16GB SD card, you can remove unused languages from `/maps/00/sds/`
+:::info
+Custom CID SD cards from aliexpress are low quality and usually randomly die in winter or very hot summer.
+
+:::
+
+
+:::tip
+If you want to fit latest ECE AS maps onto 16GB SD card, you can remove unused languages from `/maps/00/sds/`
+
+:::
+
 \

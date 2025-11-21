@@ -47,28 +47,43 @@ https://mibsolution.one/#/1/15/MHS2
 ## MHIG/MHI2/MHI2Q (MIB1 and MIB2 High units)
 
 
-> [!INFO]
-> These units are known as VW Discover Pro, Seat Navi System Plus, Skoda Columbus, Audi MMI Navigation Plus
-> [!TIP]
-> MIB1 and MIB2 HIGH are using internal [NAND](https://en.wikipedia.org/wiki/Flash_memory#NAND_memories) to store navigation database.
-> 
-> For installation you will need any 64Gb SD card or USB drive formatted in `FAT32`, `exFAT` or `NTFS` .
-> 
-> Run update from **MENU>Settings>Software Versions (on non Audi cars)** or **System maintenance (on Audi)**.
-> 
-> Installation may take up to 2 hours but it is absolutely not requred to do it in one go. If have no time, just switch off the ignition, do not remove SD card and leave the car. When next time you will come back to the car and turn on ignition the installation will automatically continue from the file where it was interrupted.
-> 
-> On the bench it makes sense to run the installation from Service (long MENU press) or Engineering (RED) menu as it does not require ignition signal.
-> [!WARNING]
-> Do NOT delete `/MIB1/` folder from the map update as it is required for MIB2 units too!
-> [!INFO]
-> In case maps refuse to install/update, run the installation from Service (long MENU press) or Engineering (RED) menu as in that mode you will get more detailed description of the error.
-> 
-> To understand which installed FEC is required for particular map version, take a look into (for example) following file P330_N60S5MIBH3_EU.7z\\Mib2\\NavDB\\common_eu\\0\\default\\content.pkg.
-> 
-> This line shows which installed FECs is required: "FSC": "02300032,09300002,08300002,07300032,06300032,03300032.
-> 
-> For MIB1 High see [here](https://mibwiki.one/doc/supported-fecs-and-how-to-check-which-one-the-map-update-requires-2DbGXTOPM0).
+:::info
+These units are known as VW Discover Pro, Seat Navi System Plus, Skoda Columbus, Audi MMI Navigation Plus
+
+:::
+
+
+:::tip
+MIB1 and MIB2 HIGH are using internal [NAND](https://en.wikipedia.org/wiki/Flash_memory#NAND_memories) to store navigation database.
+
+For installation you will need any 64Gb SD card or USB drive formatted in `FAT32`, `exFAT` or `NTFS` .
+
+Run update from **MENU>Settings>Software Versions (on non Audi cars)** or **System maintenance (on Audi)**.
+
+Installation may take up to 2 hours but it is absolutely not requred to do it in one go. If have no time, just switch off the ignition, do not remove SD card and leave the car. When next time you will come back to the car and turn on ignition the installation will automatically continue from the file where it was interrupted.
+
+On the bench it makes sense to run the installation from Service (long MENU press) or Engineering (RED) menu as it does not require ignition signal.
+
+:::
+
+
+:::warning
+Do NOT delete `/MIB1/` folder from the map update as it is required for MIB2 units too!
+
+:::
+
+
+:::info
+In case maps refuse to install/update, run the installation from Service (long MENU press) or Engineering (RED) menu as in that mode you will get more detailed description of the error.
+
+To understand which installed FEC is required for particular map version, take a look into (for example) following file P330_N60S5MIBH3_EU.7z\\Mib2\\NavDB\\common_eu\\0\\default\\content.pkg.
+
+This line shows which installed FECs is required: "FSC": "02300032,09300002,08300002,07300032,06300032,03300032.
+
+For MIB1 High see [here](https://mibwiki.one/doc/supported-fecs-and-how-to-check-which-one-the-map-update-requires-2DbGXTOPM0).
+
+:::
+
 ### ECE (Europe)
 
 2025/2026 **MHI2(Q) only**: <https://navigation-maps.volkswagen.com/vw-maps/Update_25_25/P410_N60S5MIBH3_EU.7z>
@@ -100,25 +115,35 @@ https://mibsolution.one/#/1/15/MHS2
 2024: <https://navigation-maps.volkswagen.com/vw-maps/MapDB_TWN_9010.7z>\n2023: <https://navigation-maps.volkswagen.com/vw-maps/MapDB_TWN_8810.7z>\n2022: <https://navigation-maps.volkswagen.com/vw-maps/MapDB_TWN_8620.7z>
 
 
-> [!TIP]
-> Other regions are not available for direct download from VAG try to find them on [mibsolution.one](https://mibsolution.one/#/1/15/MHI2(Q))
-> 
-> GOOD TO KNOW: Maps can be dumped via putty and can be installed onto another units via putty and command line.
+:::tip
+Other regions are not available for direct download from VAG try to find them on [mibsolution.one](https://mibsolution.one/#/1/15/MHI2(Q))
+
+GOOD TO KNOW: Maps can be dumped via putty and can be installed onto another units via putty and command line.
+
+:::
+
 \
 ## MST2 (MIB STD2 PQ/ZR Technisat/Preh on VW/Seat/Skoda, MIB2 STD Delphi on VW
 
 
-> [!INFO]
-> These types of MIB2 are known as VW Discover Media, Seat Navi System (6P0), Skoda Amundsen.
-> 
-> On this units navigation database (maps) are working directly from original VW/Seat/Skoda SD card that has has a special [CID](https://www.cameramemoryspeed.com/sd-memory-card-faq/reading-sd-card-cid-serial-psn-internal-numbers/) `0941504D494253540210565936010201`
-> 
-> To make navigation database work from regular SD card you need:
-> 
-> * for MIB2 STD (Delphi) units install [Congo Activator with Autobackup](https://disk.yandex.com/d/qR3HkgjS-yFL0g)
-> * for MIB STD2 PQ/ZR (Technisat/Preh) units buy custom CID SD card from aliexpress (they are usually wear out in some months because of low quality) or install MIB2 PQ/ZR Toolbox and run there **mibstd2_toolbox→customization→navi→Patch navigation config**
-> [!TIP]
-> To make ECE AS maps package size fit 16Gb SD card you can remove unused languages from `/maps/00/sds/`
+:::info
+These types of MIB2 are known as VW Discover Media, Seat Navi System (6P0), Skoda Amundsen.
+
+On this units navigation database (maps) are working directly from original VW/Seat/Skoda SD card that has has a special [CID](https://www.cameramemoryspeed.com/sd-memory-card-faq/reading-sd-card-cid-serial-psn-internal-numbers/) `0941504D494253540210565936010201`
+
+To make navigation database work from regular SD card you need:
+
+* for MIB2 STD (Delphi) units install [Congo Activator with Autobackup](https://disk.yandex.com/d/qR3HkgjS-yFL0g)
+* for MIB STD2 PQ/ZR (Technisat/Preh) units buy custom CID SD card from aliexpress (they are usually wear out in some months because of low quality) or install MIB2 PQ/ZR Toolbox and run there **mibstd2_toolbox→customization→navi→Patch navigation config**
+
+:::
+
+
+:::tip
+To make ECE AS maps package size fit 16Gb SD card you can remove unused languages from `/maps/00/sds/`
+
+:::
+
 ## ECE 2026
 
 | Name | Size | Regions | Download Link |

@@ -1,14 +1,29 @@
 # 02xx to 04xx firmware update
 
 
-> [!TIP]
-> TL;DR: Patch SWDL, prepare custom `metainfo2.txt`, full update.
-> [!INFO]
-> After `02xx` to `04xx` firmware update WLAN option will no longer work as the old wireless chip Alps UGZZF-1 01A is not supported by the new firmware. If you want you can replace the wireless chip in your unit with the newer one A1A to regain WLAN capabilities. You still have option to access the filesystem via D-Link USB-to-Ethernet adapter.
-> [!INFO]
-> Firmware update will most likely overwrite any custom changes. This includes CP patch, SWaP patch, CID-lock patch, installed toolbox, custom skins and sounds, etc…
-> [!WARNING]
-> Some users report that firmware conversion procedure caused display damaged. At this point it’s unclear which displays and which firmware versions are at risk. Unchecking `DUV` from the update components list might be a safe move.
+:::tip
+TL;DR: Patch SWDL, prepare custom `metainfo2.txt`, full update.
+
+:::
+
+
+:::info
+After `02xx` to `04xx` firmware update WLAN option will no longer work as the old wireless chip Alps UGZZF-1 01A is not supported by the new firmware. If you want you can replace the wireless chip in your unit with the newer one A1A to regain WLAN capabilities. You still have option to access the filesystem via D-Link USB-to-Ethernet adapter.
+
+:::
+
+
+:::info
+Firmware update will most likely overwrite any custom changes. This includes CP patch, SWaP patch, CID-lock patch, installed toolbox, custom skins and sounds, etc…
+
+:::
+
+
+:::warning
+Some users report that firmware conversion procedure caused display damaged. At this point it’s unclear which displays and which firmware versions are at risk. Unchecking `DUV` from the update components list might be a safe move.
+
+:::
+
 ## Needed
 
 
@@ -30,17 +45,24 @@ Format an SD card with `FAT32` file system.
 
 Make sure to set the `Allocation unit size` to the smallest option available (example `4096B`).
 
- ![SD card formatting options](assets/24be8eba-05f5-4813-b2de-1e2120ebdd50.redirect_id_24be8eba-05f5-4813-b2de-1e2120ebdd50)
+ ![SD card formatting options](assets/24be8eba-05f5-4813-b2de-1e2120ebdd50.png)
 
 ## Update to highest supported firmware
 
 [https://youtu.be/6FlHM9VZl%5Fs](https://youtu.be/6FlHM9VZl%5Fs)
 
 
-> [!TIP]
-> You can update to `04xx` from lower versions but AFAIK it is recommended to have the latest firmware in the unit first. I believe it will make emergency update and unit recovery if needed.
-> [!WARNING]
-> Update from `01xx` to `04xx` can be done, but will not support all features because of  hardware differences. Units with software `01xx` (hardware `H1x`) are older and internal components are not enough to run all the new features (for example: not enough RAM for CarPlay).
+:::tip
+You can update to `04xx` from lower versions but AFAIK it is recommended to have the latest firmware in the unit first. I believe it will make emergency update and unit recovery if needed.
+
+:::
+
+
+:::warning
+Update from `01xx` to `04xx` can be done, but will not support all features because of  hardware differences. Units with software `01xx` (hardware `H1x`) are older and internal components are not enough to run all the new features (for example: not enough RAM for CarPlay).
+
+:::
+
 ## Enable developer mode
 
 Developer mode access is required to perform `02xx` to `04xx` firmware update.
@@ -54,15 +76,18 @@ SWDL app (`tsd.mibstd2.system.swdownload`) needs to be patched in order to accep
 ## Set default system skin
 
 
-> [!INFO]
-> If coding is set to use skin that’s not available in new firmware, you can end up in boot loop. Use diagnostic tool or hidden menu and set skin to the default one.
+:::info
+If coding is set to use skin that’s not available in new firmware, you can end up in boot loop. Use diagnostic tool or hidden menu and set skin to the default one.
+
+:::
+
 ## Prepare 04xx firmware custom metainfo2.txt
 
 
 1. Press `MENU` button for 3 seconds to engine hidden service menu.
 2. Go to `Software update/versions > Versions`, select your current firmware version, go to `CPU` and and check CPU ID.
 
-    ![Checking CPU ID number in update menu](assets/dc40d648-f0b9-4849-916d-7d0ee425f984.redirect_id_dc40d648-f0b9-4849-916d-7d0ee425f984)
+    ![Checking CPU ID number in update menu](assets/dc40d648-f0b9-4849-916d-7d0ee425f984.jpg)
 3. Go to https://github.com/lprot/MIB-Tools and download the repository. It includes a script will prepare `metainfo2.txt` file for your unit by changing value in `RequiredVersionOfDM` and linking CPU ID from 04xx version to the one in your unit.
 4. Place `metainfo_link_generator.py`file inside the 04xx firmware directory and run it. Provide CPU ID from your unit when asked.
 
@@ -79,17 +104,29 @@ SWDL app (`tsd.mibstd2.system.swdownload`) needs to be patched in order to accep
 8. Go to `main > emergency` and disable `Application`.
 
 
-> [!TIP]
-> Updating those two emergency apps would fail, because it would be performed at the end of the update procedure, when the patched SWDL app is already replaced with the stock one from the new firmware. It’s easier and faster to skip it now to avoid error messages while flashing the unit, and go back to it later.
-> [!WARNING]
-> Updating display firmware may cause display damage. It might me a safe move to uncheck ‘DUV’ update as well.
+:::tip
+Updating those two emergency apps would fail, because it would be performed at the end of the update procedure, when the patched SWDL app is already replaced with the stock one from the new firmware. It’s easier and faster to skip it now to avoid error messages while flashing the unit, and go back to it later.
+
+:::
+
+
+:::warning
+Updating display firmware may cause display damage. It might me a safe move to uncheck ‘DUV’ update as well.
+
+:::
+
+
 9. Press `Start`, cross fingers, and wait. Unit will reboot 2 or 3 times.
 
 ## Updating emergency apps
 
 
-> [!INFO]
-> The SWDL application of the now new firmware is stock and must be patched again. New firmware with the still modified `metainfo2.txt` on the SD card and start the update again. This time the emergency application should also be updated.
+:::info
+The SWDL application of the now new firmware is stock and must be patched again. New firmware with the still modified `metainfo2.txt` on the SD card and start the update again. This time the emergency application should also be updated.
+
+:::
+
+
 1. Patch current SWDL app (`tsd.mibstd2.system.swdownload`) the same way you did it with the old one.
 2. Press and hold `MENU` button for 3 seconds.
 3. Go to `Software update/versions` > `Update`, select `SD1` source.
@@ -107,10 +144,17 @@ TechniSat CID Patch with Toolbox
 ## Parametrization
 
 
-> [!WARNING]
-> Possible that this is required for correct sound profiles. In my experience (VW ZR EU 02xx to 04xx) it was not needed.
-> [!INFO]
-> Even with valid 00070400 FEC, feature in-car communication will not work without proper parameter uploaded with VCP or CarScanner. More about [parameterizations](/doc/parameterization-study-vBFBB4Np8w).
+:::warning
+Possible that this is required for correct sound profiles. In my experience (VW ZR EU 02xx to 04xx) it was not needed.
+
+:::
+
+
+:::info
+Even with valid 00070400 FEC, feature in-car communication will not work without proper parameter uploaded with VCP or CarScanner. More about [parameterizations](/doc/parameterization-study-vBFBB4Np8w).
+
+:::
+
 ## Coding review
 
 Newer firmware might not support older cars. Check variant coding and adjust if required.
@@ -128,8 +172,11 @@ Check how to clear the B201A fault over here: [5F - Fix B201A fault code](/doc/5
 ## What’s new?
 
 
-> [!INFO]
-> Visible differences spotted when comparing `MST2_EU_VW_ZR_P0254T` to `MST2_EU_VW_ZR_P0478T`. There’ s a lot of differences “under the hood” which contains bug fixes, improvements, and support for new optional equipment.
+:::info
+Visible differences spotted when comparing `MST2_EU_VW_ZR_P0254T` to `MST2_EU_VW_ZR_P0478T`. There’ s a lot of differences “under the hood” which contains bug fixes, improvements, and support for new optional equipment.
+
+:::
+
 * Support for facelift glass displays with `APP` buttons,
 * GEM version `4.11` with touch screen navigation support,
 * Support for VC/AID (Virtual Cockpit / Active Info Display),

@@ -3,7 +3,7 @@
 The idea is to have the Original VW Wireless Charger in my Passat B7 (EU). This guide will apply to a lot of other cars as well. Just a reminder that my Car is based on VW´s PQ Platform, so a few things might differ on your car.
 
 \
- ![](assets/56aa2eec-9212-41d0-b39c-bf537e2cded0.redirect_id_56aa2eec-9212-41d0-b39c-bf537e2cded0)
+ ![](assets/56aa2eec-9212-41d0-b39c-bf537e2cded0.jpg)
 
 \
 ## The following things will be needed:
@@ -84,7 +84,7 @@ Then just place some double sided tape on the charger and add the wireless charg
 
 \
 \
-[5NAPadHolder.stl 164084](assets/b5e4d830-b1bf-42e2-8c9e-e75e029ab371.redirect_id_b5e4d830-b1bf-42e2-8c9e-e75e029ab371)
+[5NAPadHolder.stl 164084](assets/b5e4d830-b1bf-42e2-8c9e-e75e029ab371)
 
 If you want to use this Adapter, you have to cut off the two holders of the one side.
 

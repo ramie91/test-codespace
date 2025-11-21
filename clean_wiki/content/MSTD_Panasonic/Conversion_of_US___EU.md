@@ -1,10 +1,13 @@
 # Conversion of US > EU
 
 
-> [!INFO]
-> Unit can be converted via Manual SWDL by skipping the update of some partitions
+:::info
+Unit can be converted via Manual SWDL by skipping the update of some partitions
+
+:::
+
 \
-Below is just a bricking example that many got while trying to convert MSTD_US_VW_P4430 or MSTD_US_VW_P3470 etc without knowing what to skip: ![](assets/0d30d39d-7ebc-4d23-85e0-501e2c1e65d2.redirect_id_0d30d39d-7ebc-4d23-85e0-501e2c1e65d2)
+Below is just a bricking example that many got while trying to convert MSTD_US_VW_P4430 or MSTD_US_VW_P3470 etc without knowing what to skip: ![](assets/0d30d39d-7ebc-4d23-85e0-501e2c1e65d2.png)
 
 to MSTD_EU_VW_P4470 by adding a variant to the very end of metainfo2.txt after the \[signature\] lines like:
 
@@ -28,12 +31,12 @@ Variant="17147"
 Region="USA"
 ```
 
-This allows to install EU firmware update:  ![](assets/b0ed82a0-bc9a-479d-b802-c1b8c29f983e.redirect_id_b0ed82a0-bc9a-479d-b802-c1b8c29f983e)
+This allows to install EU firmware update:  ![](assets/b0ed82a0-bc9a-479d-b802-c1b8c29f983e.png)
 
-But when the update finishes, you get endless bootloop: ![](assets/23649a02-8596-4872-97e5-ea96ca246f55.redirect_id_23649a02-8596-4872-97e5-ea96ca246f55)
+But when the update finishes, you get endless bootloop: ![](assets/23649a02-8596-4872-97e5-ea96ca246f55.png)
 
 The reason of the bootloop is crash of **CPU_HMI.EXE** (the log is collected via quadlock via TTL adapter on 115200bps speed)
 
-[US2EU_BRICK_115200bps_log.txt 69395](assets/bafcdfac-4a3c-45fe-8f02-a17b5bd627b3.redirect_id_bafcdfac-4a3c-45fe-8f02-a17b5bd627b3)
+[US2EU_BRICK_115200bps_log.txt 69395](assets/bafcdfac-4a3c-45fe-8f02-a17b5bd627b3)
 
 \

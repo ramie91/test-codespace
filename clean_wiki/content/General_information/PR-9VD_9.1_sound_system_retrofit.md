@@ -1,8 +1,11 @@
 # PR-9VD 9.1 sound system retrofit
 
 
-> [!WARNING]
-> This is experimental. `9VD` retrofits had been done before, but not exactly like this one.
+:::warning
+This is experimental. `9VD` retrofits had been done before, but not exactly like this one.
+
+:::
+
 ## Intro
 
 Some vehicles like Audi A3 (8V) and Seat Leon MK3 (5F) had option of `PR-9VD` sound system (Audi Sound System, Seat Sound System). It’s 9.1 configuration with 10 speakers connected to MIB main unit internal 6-channel amplifier, without MOST and external amplifier (like Bose, B&O, Dynaudio, Fender…).
@@ -20,13 +23,19 @@ In addition there should be a more precise equalizer available (5 slider instead
 4. Additional speakers (front center + subwoofer), cables, terminals, connectors.
 
 
-> [!INFO]
-> Some door speakers are different for 8.0 setup and 9.1 setup (4Ω 20W vs 2Ω 40W).
+:::info
+Some door speakers are different for 8.0 setup and 9.1 setup (4Ω 20W vs 2Ω 40W).
+
+:::
+
 ## Connection diagram
 
 
-> [!INFO]
-> Pending
+:::info
+Pending
+
+:::
+
 ## Wiring
 
 
@@ -41,8 +50,11 @@ In addition there should be a more precise equalizer available (5 slider instead
 3. Module `0x5F`, Parametrization, address `0x003000` - this controls sound curves for all audio channels.
 
 
-> [!INFO]
-> This file should be picked according to your car options (model, body style, steering wheel side).
+:::info
+This file should be picked according to your car options (model, body style, steering wheel side).
+
+:::
+
 ## Coding
 
 
@@ -52,17 +64,20 @@ In addition there should be a more precise equalizer available (5 slider instead
 ## VW with 9VD?
 
 
-> [!INFO]
-> What I’m trying to accomplish is to enable 9.1 config in VW Golf MK7, which never had the `PR-9VD` option available from the factory. This can be done in `MHI2` units, but not `MST2` units.
+:::info
+What I’m trying to accomplish is to enable 9.1 config in VW Golf MK7, which never had the `PR-9VD` option available from the factory. This can be done in `MHI2` units, but not `MST2` units.
+
+:::
+
 Connected speakers to quadlock, send dataset from Seat Leon Kombi Left-Hand-Drive with 9VD to `0x003000`, coded `0x5F` bytes `4-7` with `FF0A0000`.
 
 Effect? No sound from additional speakers, no new equalizer controls, `0x5F` fault code about incorrectly coded module. It looks like VW audio processing not the same as in Seat and Skoda. VW app controls 4 channels, Seat can control 6 channels, Skoda has an individual option with virtual subwoofer.
 
 Later on I opened my main unit only to find out that it’s missing some hardware. Looks like VW version of `MST2` main unit not equipped with required hardware for additional audio channels. Below you will find picture of Seat MST2 unit with 6-channel internal amp, and VW MST2 units with 4-channel internal amp, to compare the hardware differences.
 
- ![Seat Leon (5F) main unit with 6-channel internal audio amplifier](assets/57af3684-11f2-4b68-bec6-47ae4d38d743.redirect_id_57af3684-11f2-4b68-bec6-47ae4d38d743)
+ ![Seat Leon (5F) main unit with 6-channel internal audio amplifier](assets/57af3684-11f2-4b68-bec6-47ae4d38d743.jpg)
 
- ![VW Golf (5G) main unit with 4-channel internal audio amplifier](assets/1d45b11b-8692-44a9-96a3-2a4e3c7373b3.redirect_id_1d45b11b-8692-44a9-96a3-2a4e3c7373b3)
+ ![VW Golf (5G) main unit with 4-channel internal audio amplifier](assets/1d45b11b-8692-44a9-96a3-2a4e3c7373b3.jpg)
 
 ## Sources and reference
 

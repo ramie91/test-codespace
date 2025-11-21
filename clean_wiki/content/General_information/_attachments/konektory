@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="cs" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="cs" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="cs">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Konektory</title>
+<base href="https://www.autokabel.cz/" />
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin-ext" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=latin-ext" rel="stylesheet"> 
+<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+<link href="catalog/view/flyoutmenu/flyoutmenu.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="https://www.autokabel.cz/index.php?route=module/flyoutmenumodule/css" type="text/css" rel="stylesheet" media="screen" />
+<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+<link href="https://www.autokabel.cz/konektory" rel="canonical" />
+<link href="https://www.autokabel.cz/image/catalog/z_sablona/autokabel_iko.png" rel="icon" />
+<link rel="stylesheet" type="text/css" href="catalog/view/supermenu/supermenu.css?v=23" />
+<script type="text/javascript" src="catalog/view/supermenu/supermenu-responsive.js?v=23"></script>
+<style type="text/css">
+ #supermenu.alt1 ul li a.tll { font-size: 16px; }
+ #supermenu.alt1 ul li div a { font-size: 14px !important; }
+ #supermenu.alt1 { background:#474747;
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none; }
+ #supermenu.alt1 ul li a.tll { color: #ffffff; }
+ #supermenu.alt1 ul li.tlli:hover a.tll { color: #333333; }
+ #supermenu.alt1 ul li.tlli:hover a.tll { background: #f7f7f7; }
+ #supermenu.alt1 ul li div.bigdiv { background: #f7f7f7; }
+ #supermenu.alt1 ul li div.bigdiv.withflyout > .withchildfo > .flyouttoright { background: #f7f7f7; }
+ #supermenu.alt1 ul li div .withchild a.theparent, #supermenu.alt1 ul li div .dropbrands ul li a, #supermenu.alt1 ul li div .withimage .name a { color: #454545; }
+ #supermenu.alt1 ul li div .withchild a.theparent:hover, #supermenu.alt1 ul li div .withimage .name a:hover, #supermenu.alt1 ul li div .dropbrands ul li a:hover { color: #000000; }
+ #supermenu.alt1 ul li div .withchild a.theparent { background: #f7f7f7; }
+ #supermenu.alt1 ul li div .withchild a.theparent:hover { background: #f7f7f7; }
+	#supermenu.respsmall.alt1 .superdropper span, #supermenu.respsmall .withchildfo.hasflyout .superdropper span { background-color: #b02323; }
+	</style>
+			
+<script src="catalog/view/flyoutmenu/flyoutmenu.js" type="text/javascript"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-969527483">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-969527483');
+</script>
+
+
+<!-- Google tag (gtag.js) --> <script async src=" https://www.googletagmanager.com/gtag/js?id=AW-969527483"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-969527483'); </script>
+
+
+
+<script type="text/javascript" src="https://c.seznam.cz/js/rc.js"></script>
+
+<script>
+
+window.sznIVA.IS.updateIdentities({
+
+eid: null /* email či zahashovaný email*/
+
+});
+
+var retargetingConf = {
+
+rtgId: 31340,
+
+consent: 1 /* souhlas od návštěvníka na odeslání retargetingového hitu, povolené hodnoty: 0 (není souhlas) nebo 1 (je souhlas) */
+
+};
+
+window.rc.retargetingHit(retargetingConf);
+
+</script>
+
+
+
+
+
+
+
+
+
+                        <!-- Inteligentní košík:2.2 -->
+        <script src="catalog/view/javascript/ocdev_smart_cart/jquery.magnific-popup.min.js?v=2.2" type="text/javascript"></script>
+        <link href="catalog/view/javascript/ocdev_smart_cart/magnific-popup.css?v=2.2" rel="stylesheet" media="screen" />
+        <link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/ocdev_smart_cart/stylesheet.css?v=2.2"/>
+        <script type="text/javascript" src="catalog/view/javascript/ocdev_smart_cart/ocdev_smart_cart.js?v=2.2"></script>
+        <!-- Inteligentní košík:2.2 -->
+              
+
+      <!-- Global site tag (gtag.js) - Google Ads: 969527483 -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-969527483"></script>
+      <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-969527483');</script>
+      
+      
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script> 
+ 
+      
+</head>
+
+        <script>
+        $(document).ready(function () {
+           var maxHeight = 0;
+
+           $('body[class*="product-product"] .visible-md').remove();
+
+           $('.product-thumb .caption').each(function () {
+              if ($(this).height() > maxHeight) {
+                 maxHeight = $(this).height();
+              }
+           });
+
+           $('.product-thumb .caption').height(maxHeight + 15);
+        });
+        </script>
+      
+<body class="product-category-33">
+
+              
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<nav id="top">
+  <div class="container">
+    <div class="pull-left">
+<form action="https://www.autokabel.cz/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
+  <div class="btn-group">
+    <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+            <strong> Kč</strong>
+                    <span class="hidden-xs hidden-sm hidden-md">Měna</span> <i class="fa fa-caret-down"></i></button>
+    <ul class="dropdown-menu">
+                  <li><button class="currency-select btn btn-link btn-block" type="button" name="CZK"> Kč Česká koruna</button></li>
+                        <li><button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button></li>
+                </ul>
+  </div>
+  <input type="hidden" name="code" value="" />
+  <input type="hidden" name="redirect" value="https://www.autokabel.cz/konektory" />
+</form>
+</div>
+    <div class="pull-left">
+<form action="https://www.autokabel.cz/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
+  <div class="btn-group">
+    <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+            <img src="catalog/language/czech/czech.png" alt="Čeština" title="Čeština">
+                    <span class="hidden-xs hidden-sm hidden-md">Jazyk</span> <i class="fa fa-caret-down"></i></button>
+    <ul class="dropdown-menu">
+            <li><button class="btn btn-link btn-block language-select" type="button" name="czech"><img src="catalog/language/czech/czech.png" alt="Čeština" title="Čeština" /> Čeština</button></li>
+            <li><button class="btn btn-link btn-block language-select" type="button" name="en-gb"><img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English</button></li>
+          </ul>
+  </div>
+  <input type="hidden" name="code" value="" />
+  <input type="hidden" name="redirect" value="https://www.autokabel.cz/konektory?_route_=konektory" />
+</form>
+</div>
+    <div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+        <li class="tel-top"><a href="https://www.autokabel.cz/index.php?route=information/contact"> <i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">+420 775 044 261</span></li>
+        <li class="obchod-nazev"><a href="index.php?route=information/contact"><i class="fa fa-home"></i> <span class="hidden-xs hidden-sm hidden-md">Kontakt</span></a></li>
+        <li class="dropdown"><a href="https://www.autokabel.cz/index.php?route=account/account" title="Můj účet" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Můj účet</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="https://www.autokabel.cz/index.php?route=account/register">Zaregistrovat se</a></li>
+            <li><a href="https://www.autokabel.cz/index.php?route=account/login">Přihlásit se</a></li>
+                      </ul>
+        </li>
+        <li><a href="https://www.autokabel.cz/index.php?route=checkout/checkout" title="Objednat"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Objednat</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+             <div id="logo">
+                    <a href="https://www.autokabel.cz/index.php?route=common/home"><img src="https://www.autokabel.cz/image/catalog/z_sablona/autokabel_logo.png" title="AUTOKABEL.cz" alt="AUTOKABEL.cz" class="img-responsive" /></a>
+                  </div>
+      </div>
+      <div class="col-sm-5">       
+      <div id="search" class="input-group">
+  <input type="text" name="search" value="" placeholder="Vyhledat" class="form-control input-lg" />
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+  </span>
+</div>      </div>
+      <div class="col-sm-3"><div id="cart" class="btn-group btn-block">
+  <button type="button" data-toggle="dropdown" data-loading-text="Načítám..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">0 položek - 0,00 Kč</span></button>
+  <ul class="dropdown-menu pull-right">
+        <li>
+      <p class="text-center">Váš nákupní košík je prázdný!</p>
+    </li>
+      </ul>
+</div>
+</div>
+    </div>
+  </div>
+</header>
+<div class="jumbotron"><script type="text/javascript"> 
+$(document).ready(function(){ 
+	$("#supermenu ul li.tlli").on({
+		mouseenter: function(){
+		  if ($('#supermenu').hasClass('superbig')) {
+		   		    $(this).find('.bigdiv').show();
+		   		  }
+		},
+		mouseleave: function(){
+		  if ($('#supermenu').hasClass('superbig')) {
+		   		    $(this).find('.bigdiv').hide();
+		   		  }
+		}
+	});
+	$("#supermenu ul li div.bigdiv.withflyout > .withchildfo").on({
+		mouseenter: function(){
+		  if ($('#supermenu').hasClass('superbig')) {
+		   $(this).find('.flyouttoright').show();
+		  }
+		},
+		mouseleave: function(){
+		  if ($('#supermenu').hasClass('superbig')) {
+		   $(this).find('.flyouttoright').hide();
+		  }
+		}
+	});
+});
+</script>
+<nav id="supermenu" class="alt1 superbig">
+	<a class="mobile-trigger">NAVIGACE</a>
+		<ul>
+										<li class="tlli mkids mobile-menu">
+			  				<a class="superdropper" href="#"><span>+</span><span>-</span></a>
+			  				<a class="tll" >Autokabel</a>
+				
+													<div class="bigdiv">
+											
+																								<div class="supermenu-left" >
+								  
+														
+								  
+																																		<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/autoprislusenstvi">Autodoplňky a příslušenství</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry">Autovodiče FLY a FLRY</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/baterie-pro-ovladace">Baterie pro ovladače</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/bananky-a-svorky">Svorky pro autobaterie</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/izolacni-pasky">Izolačky </a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/jistice">Jističe</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/konektory">Konektory</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/konektory-autoradia">Konektory - autorádia</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/nase-vyrobky">Naše výrobky</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/naradi-a-vybaveni">Nářadí a vybavení</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/ochrana-kabelu">Ochrana kabelů</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky">Pojistky</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/pruchodky">Průchodky</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/rele-a-patice">Rel&eacute; a patice</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/specialni-vodice">Speciální vodiče</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/spinace-prepinace">Sp&iacute;nače, přep&iacute;nače</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/vazaci-pasky">V&aacute;zac&iacute; p&aacute;sky</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli sep"><span class="item-sep">&nbsp;</span></li>			<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/jak-nakupovat" >Jak nakupovat (FAQ)</a>
+				
+											</li>
+					<li class="tlli sep"><span class="item-sep">&nbsp;</span></li>			<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/doprava-platba" >Doprava a platba</a>
+				
+											</li>
+					<li class="tlli sep"><span class="item-sep">&nbsp;</span></li>			<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/stahovani" >Manuály a návody</a>
+				
+											</li>
+					<li class="tlli sep"><span class="item-sep">&nbsp;</span></li>			<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/obchodni-podminky" >Obchodní podmínky</a>
+				
+											</li>
+					<li class="tlli sep"><span class="item-sep">&nbsp;</span></li>			<li class="tlli">
+			  				<a class="tll"  href="autokabel-autoelektrina" >Blog</a>
+				
+											</li>
+			</ul>
+</nav>
+<script>
+var supermenu_width = $('#supermenu').outerWidth(false);
+if (supermenu_width < 768) {
+	$('#supermenu').removeClass('superbig');
+	$('#supermenu').addClass('respsmall');
+}
+</script>
+</div>
+        <div class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://www.autokabel.cz/index.php?route=common/home"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://www.autokabel.cz/konektory">Konektory</a></li>
+      </ul>
+  <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="fly_theme_1 superbig flyoutmenu sho flyoutmenu_2 relat_pos ontheleft">
+	<a class="mobile-trigger">KATEGORIE</a>
+	<ul>
+		<li class="menu-title"><span class="tll">KATEGORIE</span></li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/slevy-a-vyprodej" >Slevy a výprodej</a>
+				
+											</li>
+					<li class="tlli mkids">
+			  				<a class="superdropper"><span>+</span><span>-</span></a>
+			  				<a class="tll"  href="https://www.autokabel.cz/autovodice-fly-a-flry" >Autovodiče FLY a FLRY</a>
+				
+													<div class="bigdiv" data-width="880" style="width: 880px;">
+											
+																								<div class="flyoutmenu-left" >
+								  
+														
+								  
+																																		<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-v-baleni-autokabel-minipack-">Balení MINIPACK</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/can-bus-kroucene-vodice-">CAN BUS kroucené vodiče</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/doprodej-zbylych-autovodicu">Doprodej zbylých autovodičů</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/kroucene-autovodice">Kroucené autovodiče</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/silnoproude-vodice-flry-a-cya-">Silnoproudé vodiče FLRY a CYA</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/teflonove-vodice">Teflonové vodiče</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/signalove-vodice-a-kabely">Vícežilové kabely</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-0,22">Autovodiče FLRY 0,22 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-0,35">Autovodiče FLRY 0,35 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-0,50">Autovodiče FLRY 0,50 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-0,75">Autovodiče FLRY 0,75 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-1,0">Autovodiče FLRY 1,0 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-1,5">Autovodiče FLRY 1,5 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-2,5">Autovodiče FLRY 2,5 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-4,0">Autovodiče FLRY 4,0 mm²</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/autovodice-fly-a-flry/autovodice-flry-6-mm">Autovodiče FLRY 6 mm²</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/autoprislusenstvi" >Autodoplňky a příslušenství</a>
+				
+											</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/bananky-a-svorky" >Svorky pro autobaterie</a>
+				
+											</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/baterie-pro-ovladace" >Baterie pro ovladače</a>
+				
+											</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/izolacni-pasky" >Izolačky </a>
+				
+											</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/jistice" >Jističe</a>
+				
+											</li>
+					<li class="tlli mkids">
+			  				<a class="superdropper"><span>+</span><span>-</span></a>
+			  				<a class="tll"  href="https://www.autokabel.cz/konektory" >Konektory</a>
+				
+													<div class="bigdiv" data-width="880" style="width: 880px;">
+											
+																								<div class="flyoutmenu-left" >
+								  
+														
+								  
+																																		<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/autokonektory-ruzne-">Autokonektory různé </a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/automobilni-kontakty">Automobilní kontakty</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/kabelove-spojky-smrstovaci-letovaci">Kabelové spojky smršťovací / letovací</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-amphenol-at">Konektory Amphenol AT</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-amphenol-atm">Konektory Amphenol ATM</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-amphenol-atp">Konektory Amphenol ATP</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-bosch">Konektory BOSCH</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-delphi-sicma">Konektory Delphi SICMA</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-delphi-wp">Konektory Delphi WP</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-epc-ford">Konektory EPC / Ford</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-fep-jpt-mcp">Konektory FEP, JPT, MCP</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-kostal">Konektory KOSTAL</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-lemo">Konektory LEMO</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-mate-n-lok">Konektory Mate-N-Lok</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-mcon">Konektory MCON</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-molex-micro-fit-">Konektory Molex MicroFit</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-mqs">Konektory MQS</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-pro-kompresory-klimatizace">Konektory pro kompresory klimatizace</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-pro-vstrikovace">Konektory pro vstřikovače</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-superseal">Konektory Superseal</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-vyrobce-TE-connectivity">Konektory TE connectivity</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/Konektory TE MCP">Konektory TE MCP </a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-timer">Konektory TIMER</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/kontakty-faston">Kontakty FASTON</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/kulate-konektory-tyco-2.5">Kulaté konektory TYCO 2.5</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/trubickove-dutinky">Trubičkové dutinky</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/obd-ii-konektory">OBD II konektory</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/kabelova-oka">Kabelová očka a oka</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/silnoprouda-kabelova-oka-">Silnoproudá kabelová oka</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/izolovane-koncovky">Izolované koncovky</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/konektory/konektory-faston">Konektory FASTON</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/konektory-autoradia" >Konektory - autorádia</a>
+				
+											</li>
+					<li class="tlli mkids">
+			  				<a class="superdropper"><span>+</span><span>-</span></a>
+			  				<a class="tll"  href="https://www.autokabel.cz/nase-vyrobky" >Naše výrobky</a>
+				
+													<div class="bigdiv" data-width="880" style="width: 880px;">
+											
+																								<div class="flyoutmenu-left" >
+								  
+														
+								  
+																																		<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/nase-vyrobky/opravarenske-kabelove-svazky">Opravárenské svazky</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli mkids">
+			  				<a class="superdropper"><span>+</span><span>-</span></a>
+			  				<a class="tll"  href="https://www.autokabel.cz/naradi-a-vybaveni" >Nářadí a vybavení</a>
+				
+													<div class="bigdiv" data-width="270" style="width: 270px;">
+											
+																								<div class="flyoutmenu-left" >
+								  
+														
+								  
+																																		<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/naradi-a-vybaveni/chemie">Chemie...</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/naradi-a-vybaveni/kleste-naradi">Kle&scaron;tě, n&aacute;řad&iacute; ....</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/naradi-a-vybaveni/krimpovaci-kleste">Krimpovací kleště</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/naradi-a-vybaveni/pajeni-nahrivani">Pájení, nahřívání</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/naradi-a-vybaveni/extraktory-pro-kontakty">Extraktory na kontakty</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli mkids">
+			  				<a class="superdropper"><span>+</span><span>-</span></a>
+			  				<a class="tll"  href="https://www.autokabel.cz/ochrana-kabelu" >Ochrana kabelů</a>
+				
+													<div class="bigdiv" data-width="270" style="width: 270px;">
+											
+																								<div class="flyoutmenu-left" >
+								  
+														
+								  
+																																		<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/ochrana-kabelu/elektroizolacni-trubicky-buzirky">Elektroizolační trubičky / bužírky</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/ochrana-kabelu/polyesterove-opleteni">Polyesterové opletení</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/ochrana-kabelu/smrstovaci-buzirky">Smršťovací bužírky</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/ochrana-kabelu/trubky-a-spojky">Trubky a spojky</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli mkids">
+			  				<a class="superdropper"><span>+</span><span>-</span></a>
+			  				<a class="tll"  href="https://www.autokabel.cz/pojistky" >Pojistky</a>
+				
+													<div class="bigdiv" data-width="880" style="width: 880px;">
+											
+																								<div class="flyoutmenu-left" >
+								  
+														
+								  
+																																		<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/automobilove-maxipojistky">Automobilov&eacute; maxipojistky</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/automobilove-minipojistky">Automobilov&eacute; minipojistky</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/automobilove-mikropojistky-lp">Automobilové mikropojistky LP</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/drzaky-a-prislusenstvi">Držáky a příslušenství</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/maxipojistky-japval">Maxipojistky JAPVAL</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/paskove-pojistky-megaval">Páskové pojistky MEGAVAL</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/pojistkove-moduly-mta">Pojistkové moduly MTA</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/standardni-autopojistky-19mm">Standardn&iacute; autopojistky 19mm</a>
+																					</div>
+																			<div class="withchild" style="width: 270px;">
+											<a class="theparent" href="https://www.autokabel.cz/pojistky/paskove-autopojistky">P&aacute;skov&eacute; autopojistky</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/pruchodky" >Průchodky</a>
+				
+											</li>
+					<li class="tlli mkids">
+			  				<a class="superdropper"><span>+</span><span>-</span></a>
+			  				<a class="tll"  href="https://www.autokabel.cz/rele-a-patice" >Rel&eacute; a patice</a>
+				
+													<div class="bigdiv" data-width="270" style="width: 270px;">
+											
+																								<div class="flyoutmenu-left" >
+								  
+														
+								  
+																																		<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/rele-a-patice/patice-pro-rele">Patice pro relé</a>
+																					</div>
+																			<div class="withchild">
+											<a class="theparent" href="https://www.autokabel.cz/rele-a-patice/rele">Relé</a>
+																					</div>
+																														</div>
+																									<div class="addingaspace"></div>
+											</div>
+							</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/specialni-vodice" >Speciální vodiče</a>
+				
+											</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/spinace-prepinace" >Sp&iacute;nače, přep&iacute;nače</a>
+				
+											</li>
+					<li class="tlli">
+			  				<a class="tll"  href="https://www.autokabel.cz/vazaci-pasky" >V&aacute;zac&iacute; p&aacute;sky</a>
+				
+											</li>
+			</ul>
+</div>
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+	$(".flyoutmenu_2.flyoutmenu ul li.tlli").on({
+		mouseenter: function(){
+		  if ($('.flyoutmenu_2.flyoutmenu').hasClass('superbig')) {
+		   		    $(this).find('.bigdiv').show();
+		   		  }
+		},
+		mouseleave: function(){
+		  if ($('.flyoutmenu_2.flyoutmenu').hasClass('superbig')) {
+		   		    $(this).find('.bigdiv').hide();
+		   		  }
+		}
+	});
+	$(".flyoutmenu_2.flyoutmenu ul li div.bigdiv.withflyout > .withchildfo").on({
+		mouseenter: function(){
+		  if ($('.flyoutmenu_2.flyoutmenu').hasClass('superbig')) {
+							$(this).find('.flyouttoright').show();
+		    		  }
+		},
+		mouseleave: function(){
+		  if ($('.flyoutmenu_2.flyoutmenu').hasClass('superbig')) {
+							$(this).find('.flyouttoright').hide();
+		    		  }
+		}
+	});
+});
+</script>
+  </aside>
+                <div id="content" class="col-sm-9">      <h1>Konektory</h1>
+            <div class="row">
+                <div class="col-sm-2"><img src="https://www.autokabel.cz/image/cache/catalog/konektory/sicmalogo (2)-80x80.jpg" alt="Konektory" title="Konektory" class="img-thumbnail" /></div>
+                      </div>
+      <hr>
+                  <h3>Rozšířené hledání</h3>
+      
+				<div class="row">
+											<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/autokonektory-ruzne-">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/autokonektory-ruzne.jpg" alt="Autokonektory různé ">
+								
+								<div class="caption">
+									<h3>Autokonektory různé  </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/automobilni-kontakty">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/kont_logo.jpg" alt="Automobilní kontakty">
+								
+								<div class="caption">
+									<h3>Automobilní kontakty </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/kabelove-spojky-smrstovaci-letovaci">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/koncovky/hss.jpg" alt="Kabelové spojky smršťovací / letovací">
+								
+								<div class="caption">
+									<h3>Kabelové spojky smršťovací / letovací </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-amphenol-at">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/AT_logo.jpg" alt="Konektory Amphenol AT">
+								
+								<div class="caption">
+									<h3>Konektory Amphenol AT </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-amphenol-atm">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/atm_logo.jpg" alt="Konektory Amphenol ATM">
+								
+								<div class="caption">
+									<h3>Konektory Amphenol ATM </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-amphenol-atp">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/atp_logo.jpg" alt="Konektory Amphenol ATP">
+								
+								<div class="caption">
+									<h3>Konektory Amphenol ATP </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-bosch">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/bdklogo (3).jpg" alt="Konektory BOSCH">
+								
+								<div class="caption">
+									<h3>Konektory BOSCH </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-delphi-sicma">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/sicmalogo.jpg" alt="Konektory Delphi SICMA">
+								
+								<div class="caption">
+									<h3>Konektory Delphi SICMA </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-delphi-wp">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/dfwp-logo.jpg" alt="Konektory Delphi WP">
+								
+								<div class="caption">
+									<h3>Konektory Delphi WP </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-epc-ford">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/epc2fbset.jpg" alt="Konektory EPC / Ford">
+								
+								<div class="caption">
+									<h3>Konektory EPC / Ford </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-fep-jpt-mcp">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/ampstd4f.jpg" alt="Konektory FEP, JPT, MCP">
+								
+								<div class="caption">
+									<h3>Konektory FEP, JPT, MCP </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-kostal">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/ktlogo.jpg" alt="Konektory KOSTAL">
+								
+								<div class="caption">
+									<h3>Konektory KOSTAL </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-lemo">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/lemo/lemo-ffa-2.jpg" alt="Konektory LEMO">
+								
+								<div class="caption">
+									<h3>Konektory LEMO </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-mate-n-lok">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/mnl_logo.jpg" alt="Konektory Mate-N-Lok">
+								
+								<div class="caption">
+									<h3>Konektory Mate-N-Lok </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-mcon">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/mcon3f.jpg" alt="Konektory MCON">
+								
+								<div class="caption">
+									<h3>Konektory MCON </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-molex-micro-fit-">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/mxmcf.jpg" alt="Konektory Molex MicroFit">
+								
+								<div class="caption">
+									<h3>Konektory Molex MicroFit </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-mqs">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/mqs6f (2).jpg" alt="Konektory MQS">
+								
+								<div class="caption">
+									<h3>Konektory MQS </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-pro-kompresory-klimatizace">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/yzk7283set.jpg" alt="Konektory pro kompresory klimatizace">
+								
+								<div class="caption">
+									<h3>Konektory pro kompresory klimatizace </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-pro-vstrikovace">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/denso-inj.jpg" alt="Konektory pro vstřikovače">
+								
+								<div class="caption">
+									<h3>Konektory pro vstřikovače </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-superseal">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/ss3f.jpg" alt="Konektory Superseal">
+								
+								<div class="caption">
+									<h3>Konektory Superseal </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-vyrobce-TE-connectivity">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/tess34-keyA.jpg" alt="Konektory TE connectivity">
+								
+								<div class="caption">
+									<h3>Konektory TE connectivity </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/Konektory TE MCP">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/temcp15-logo.jpg" alt="Konektory TE MCP ">
+								
+								<div class="caption">
+									<h3>Konektory TE MCP  </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-timer">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/tim2fc.jpg" alt="Konektory TIMER">
+								
+								<div class="caption">
+									<h3>Konektory TIMER </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/kontakty-faston">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/koncovky/moj-srovnani.jpg" alt="Kontakty FASTON">
+								
+								<div class="caption">
+									<h3>Kontakty FASTON </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/kulate-konektory-tyco-2.5">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/konektory/kk_f2.jpg" alt="Kulaté konektory TYCO 2.5">
+								
+								<div class="caption">
+									<h3>Kulaté konektory TYCO 2.5 </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/trubickove-dutinky">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/koncovky/kki.jpg" alt="Trubičkové dutinky">
+								
+								<div class="caption">
+									<h3>Trubičkové dutinky </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/obd-ii-konektory">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/obd_logo.jpg" alt="OBD II konektory">
+								
+								<div class="caption">
+									<h3>OBD II konektory </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/kabelova-oka">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/z_kategorie/oka_logo.jpg" alt="Kabelová očka a oka">
+								
+								<div class="caption">
+									<h3>Kabelová očka a oka </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/silnoprouda-kabelova-oka-">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/koncovky/koxx.jpg" alt="Silnoproudá kabelová oka">
+								
+								<div class="caption">
+									<h3>Silnoproudá kabelová oka </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/izolovane-koncovky">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/koncovky/izol-konc.jpg" alt="Izolované koncovky">
+								
+								<div class="caption">
+									<h3>Izolované koncovky </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            								<div class="col-sm-6">
+						<a href="https://www.autokabel.cz/konektory/konektory-faston">
+						<div class="podkategorie-obrazky">
+							<div class="thumbnail">								
+									<img class="img-responsive" src="https://www.autokabel.cz//image/catalog/faston/fa1fz.jpg" alt="Konektory FASTON">
+								
+								<div class="caption">
+									<h3>Konektory FASTON </h3></a>
+		 							</div>
+									</div>
+							</div>
+           				</div>
+            					  </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+    </div>
+</div>
+
+              
+      
+<footer>
+  <div class="container">
+
+              
+      
+    <div class="row">
+  
+		  <div class="col-sm-3" style="min-height:125px;">
+			<h5>E-shop</h5>
+						<ul class="list-unstyled">
+								<li><a href="index.php?route=information/contact">Kontakt</a></li>
+								<li><a href="jak-nakupovat">Jak nakupovat ?</a></li>
+								<li><a href="obchodni-podminky">Obchodní podmínky</a></li>
+							</ul>
+					  </div>
+		    
+		  <div class="col-sm-3" style="min-height:125px;">
+			<h5>Informace</h5>
+						<ul class="list-unstyled">
+								<li><a href="gdpr">Zásady ochrany osobních údajů</a></li>
+								<li><a href="doprava-platba">Doprava a platba</a></li>
+								<li><a href="ochrana-osobnich-udaju">Ochrana osobních údajů</a></li>
+								<li><a href="cookies">Cookies</a></li>
+							</ul>
+					  </div>
+		    
+		  <div class="col-sm-3" style="min-height:125px;">
+			<h5>Novinky</h5>
+						<ul class="list-unstyled">
+								<li><a href="stahovani">Manualy a navody</a></li>
+								<li><a href="https://www.autokabel.cz/autokabel-sluzby-vyroba-">Autokabel-blog</a></li>
+							</ul>
+					  </div>
+		    
+		  <div class="col-sm-3" style="min-height:125px;">
+			<h5>---</h5>
+						<ul class="list-unstyled">
+								<li><a href="o-nas">O nás - Autokabel </a></li>
+							</ul>
+					  </div>
+		  		  
+		<div style="display:none">
+		<hr>
+		
+            <div class="col-sm-3">
+        <h5>Informace</h5>
+        <ul class="list-unstyled">
+                    <li><a href="https://www.autokabel.cz/o-nas">O nás</a></li>
+                    <li><a href="https://www.autokabel.cz/doprava-platba">Doprava a platba</a></li>
+                    <li><a href="https://www.autokabel.cz/ochrana-osobnich-udaju">Ochrana osobních údajů</a></li>
+                  </ul>
+      </div>
+            <div class="col-sm-3">
+        <h5>Zákaznický servis</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://www.autokabel.cz/index.php?route=information/contact">Napište nám</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=account/return/add">Reklamace</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=information/sitemap">Mapa stránek</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Doplňky</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://www.autokabel.cz/index.php?route=product/manufacturer">Výrobci</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=account/voucher">Dárkové poukazy</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=affiliate/account">Partneský program</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=product/special">Lepší nabídky</a></li>
+
+			<li><a href="https://www.autokabel.cz/autokabel-sluzby-vyroba-">Blog - články</a></li>
+			
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Můj účet</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://www.autokabel.cz/index.php?route=account/account">Můj účet</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=account/order">Historie objednávek</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=account/wishlist">Seznam přání</a></li>
+          <li><a href="https://www.autokabel.cz/index.php?route=account/newsletter">Novinky</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    </div>
+    <hr>
+    <p>Specialovaný e-shop AUTOKABEL.cz &copy; 2025 - kompletní sortiment pro autoelektriku</p>
+
+                <div>
+    <div class="platebni-karty">
+<img src="/image/catalog/comgate.png" height="40">
+<img src="/image/catalog/maestro.png" width="63" height="40">
+<img src="/image/catalog/paypal.png" width="63" height="40">
+<img src="/image/catalog/bank.png" width="63" height="40">
+<img src="/image/catalog/cash.png" width="63" height="40">
+</div></div>
+              
+      
+  </div>
+</footer>
+
+              
+      
+
+
+                        <!-- Inteligentní košík:2.2 -->
+        <script type="text/javascript">
+          $(function() {
+            $.ajax({
+              type: 'get',
+              url:  'index.php?route=module/ocdev_smart_cart/cartProducts',
+              dataType: 'json',
+              success: function(json) {
+                // one step
+                $.each($("[onclick^='"+json['add_function_selector']+"']"), function() {
+                  var product_id = $(this).attr('onclick').match(/[0-9]+/);
+                    $(this)
+                    .attr('onclick', 'getOCwizardModal_smca(\'' + $(this).attr('onclick').match(/[0-9]+/) + '\',\'' + 'add' + '\');')
+                    .addClass('smca-call-button');
+                });
+                var product_id_in_page = $("input[name='product_id']").val();
+                  $('#'+json['add_id_selector'])
+                  .unbind('click')
+                  .attr('onclick', 'getOCwizardModal_smca(\'' + product_id_in_page + '\',\'' + 'add_option' + '\');');
+                // two step
+                if (json['cart_products']) {
+                  $.each(json['cart_products'], function(i,value) {
+                    $('[onclick="getOCwizardModal_smca(\'' + value + '\',\'' + 'add' + '\');"]')
+                    .html('<i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">' + json['text_in_cart'] + '</span>')
+                    .attr('onclick', 'getOCwizardModal_smca(\'' + value + '\',\'' + 'load' + '\');');
+                    $('[onclick="getOCwizardModal_smca(\'' + value + '\',\'' + 'add_option' + '\');"]')
+                    .html(json['text_in_cart'])
+                    .attr('onclick', 'getOCwizardModal_smca(\'' + value + '\',\'' + 'load_option' + '\');');
+                  });
+                }
+                if (json['cart_products_vs_options']) {
+                  $.each(json['cart_products_vs_options'], function(i,value) {
+                    $('[onclick="getOCwizardModal_smca(\'' + value + '\',\'' + 'add' + '\');"]')
+                    .html('<i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">' + json['text_in_cart'] + '</span>');
+                    $('[onclick="getOCwizardModal_smca(\'' + value + '\',\'' + 'add_option' + '\');"]')
+                    .html(json['text_in_cart_vs_options']);
+                  });
+                }
+              }
+            });
+          });
+          function getOCwizardModal_smca(product_id, action) {
+            quantity = typeof(quantity) != 'undefined' ? quantity : 1;
+            if (action == "add") {
+              $.ajax({
+                url: 'index.php?route=checkout/cart/add',
+                type: 'post',
+                data: 'product_id=' + product_id + '&quantity=' + quantity,
+                dataType: 'json',
+                success: function(json) {
+                  if (json['redirect']) {
+                    location = json['redirect'];
+                  }
+                  if (json['success']) {
+                    buttonManipulate();
+                    getOCwizardModal_smca(product_id,'load');
+                    $('#cart-total').html(json['total']);
+                  }
+                }
+              });
+            }
+
+            if (action == "load" || action == "load_option") {
+              $.magnificPopup.open({
+                tLoading: '<img src="catalog/view/theme/default/stylesheet/ocdev_smart_cart/loading.svg" alt="" />',
+                items: {
+                  src: 'index.php?route=module/ocdev_smart_cart',
+                  type: 'ajax'
+                },
+                showCloseBtn: false
+              });
+              $('.mfp-bg').css({
+                'background': 'url(image/ocdev_smart_cart/background/bg_7.png)',
+                'opacity': '0.8'
+              });
+            }
+
+            if (action == "add_option") {
+              $.ajax({
+                url: 'index.php?route=checkout/cart/add',
+                type: 'post',
+                data: $('#product input[type=\'text\'], #product input[type=\'hidden\'], #product input[type=\'radio\']:checked, #product input[type=\'checkbox\']:checked, #product select, #product textarea'),
+                dataType: 'json',
+                beforeSend: function() {
+                  $('#button-cart').button('loading');
+                },
+                complete: function() {
+                  $('#button-cart').button('reset');
+                },
+                success: function(json) {
+                  $('.alert, .text-danger').remove();
+                  $('.form-group').removeClass('has-error');
+
+                  if (json['error']) {
+                    if (json['error']['option']) {
+                      for (i in json['error']['option']) {
+                        var element = $('#input-option' + i.replace('_', '-'));
+
+                        if (element.parent().hasClass('input-group')) {
+                          element.parent().after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
+                        } else {
+                          element.after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
+                        }
+                      }
+                    }
+                    $('.text-danger').parent().addClass('has-error');
+                  }
+                  if (json['success']) {
+                    buttonManipulate();
+                    getOCwizardModal_smca(product_id, 'load_option');
+                    $('#cart-total').html(json['total']);
+                  }
+                }
+              });
+            }
+          }
+        </script>
+        <!-- Inteligentní košík:2.2 -->
+              
+</body></html>

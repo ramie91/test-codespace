@@ -3,7 +3,7 @@
 ## **Add to \[common\] section**
 
 \
- ![EXAMPLE - MHI2_ER_AU57x_K3663_1 AIO](assets/22b9e25d-8991-42b7-ba72-884c2e63bfa9.redirect_id_22b9e25d-8991-42b7-ba72-884c2e63bfa9)
+ ![EXAMPLE - MHI2_ER_AU57x_K3663_1 AIO](assets/22b9e25d-8991-42b7-ba72-884c2e63bfa9.png)
 
 | command | value | details |
 |----|----|----|

@@ -1,8 +1,11 @@
 # Copy of FW patch overview - newest available FW, Online approval/SD Patch possibility
 
 
-> [!INFO]
-> Below you can find an overview based on the FW version which kind of patch can be applied
+:::info
+Below you can find an overview based on the FW version which kind of patch can be applied
+
+:::
+
 # MST2 ZR EU
 
 ## VW
@@ -51,11 +54,11 @@ Only by checking the data in ServiceMode allows you to know the real/latest FW V
 
 Label:
 
- ![](assets/415dc972-b2b2-4504-b6c5-3f22868f5fc5.redirect_id_415dc972-b2b2-4504-b6c5-3f22868f5fc5)
+ ![](assets/415dc972-b2b2-4504-b6c5-3f22868f5fc5.jpg)
 
 ### ServiceMode:
 
- ![](assets/dcb0bc81-ddb4-4106-803a-b7e218aece74.redirect_id_dcb0bc81-ddb4-4106-803a-b7e218aece74)
+ ![](assets/dcb0bc81-ddb4-4106-803a-b7e218aece74.jpg)
 
 # MST2 PQ EU
 
@@ -103,11 +106,11 @@ Only by checking the data in ServiceMode allows you to know the real/latest FW V
 
 Label:
 
- ![](assets/415dc972-b2b2-4504-b6c5-3f22868f5fc5.redirect_id_415dc972-b2b2-4504-b6c5-3f22868f5fc5)
+ ![](assets/415dc972-b2b2-4504-b6c5-3f22868f5fc5.jpg)
 
 ### ServiceMode:
 
- ![](assets/dcb0bc81-ddb4-4106-803a-b7e218aece74.redirect_id_dcb0bc81-ddb4-4106-803a-b7e218aece74)
+ ![](assets/dcb0bc81-ddb4-4106-803a-b7e218aece74.jpg)
 
 \
 \

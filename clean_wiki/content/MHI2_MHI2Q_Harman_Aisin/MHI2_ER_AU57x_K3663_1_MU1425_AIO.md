@@ -1,12 +1,23 @@
 # MHI2_ER_AU57x_K3663_1 MU1425 AIO
 
 
-> [!INFO]
-> Custom all-in-one FW update based on [metainfo2 exploit](/doc/metainfo2txt-exploit-VcFdFs4rds).
-> [!WARNING]
-> Read all before updating.
-> [!TIP]
-> Last update March 30 2022
+:::info
+Custom all-in-one FW update based on [metainfo2 exploit](/doc/metainfo2txt-exploit-VcFdFs4rds).
+
+:::
+
+
+:::warning
+Read all before updating.
+
+:::
+
+
+:::tip
+Last update March 30 2022
+
+:::
+
 ## Requirements
 
 * Audi with MMI MIB2 system (any `MHI2_ER_AUG11` or `MHI2_ER_AU57x`),
@@ -21,16 +32,24 @@
 3. Turn the ignition on, wait for the Audi MMI system to boot up.
 
 
-> [!WARNING]
-> Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/doc/kessy-updates-JeN8RUuHyK)).
+:::warning
+Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/doc/kessy-updates-JeN8RUuHyK)).
+
+:::
+
+
 4. Restore factory settings by going to `MENU` → `Setup MMI` → `Factory Settings` → `Select all entries` → `Restore factory settings`.
 5. Wait for about 20 seconds for the factory settings to be done.
 6. Place SD card in `SD 1` port.
 7. Press and hold `BACK` + `TOP-LEFT` to enter REM (hidden Red Engineering Menu).
 
 
-> [!INFO]
-> Check how to do it in your car with [Audi MIB2 key combinations](/doc/audi-mib2-key-combinations-hkbD36UasB).
+:::info
+Check how to do it in your car with [Audi MIB2 key combinations](/doc/audi-mib2-key-combinations-hkbD36UasB).
+
+:::
+
+
 6. Go to `Update` → `SD 1` → `Standard`.
 7. Scroll down to the end of the list and select `Start update` → `Start`.
 8. Wait for the update to be installed. It will take some time, the system will reboot couple times during firmware update procedure. Screen can stay off or stuck on Audi logo for several seconds. Be patient and wait. In my case it took 34 minutes to go from old `S0037` to new `K3663`.
@@ -57,8 +76,11 @@
 By default this procedure will not update Bose amplifier. `metainfo2.txt` was prepared to skip this component, because updated amplifier will required parametrization which must be done with VCP or ODIS.
 
 
-> [!WARNING]
-> Without the parametrization you will have no sound.
+:::warning
+Without the parametrization you will have no sound.
+
+:::
+
 If you wish to update Bose you can use different `metainfo2.txt` to do it.
 
 
@@ -67,7 +89,7 @@ If you wish to update Bose you can use different `metainfo2.txt` to do it.
 3. Run the update from red engineering menu.
 4. Perform parametrization afterwards.
 
- ![rename metainfo2-Bose.txt to metainfo2.txt if you want to enable BOSE update](assets/031e5730-483b-4df5-bafa-530538ed88e6.redirect_id_031e5730-483b-4df5-bafa-530538ed88e6)
+ ![rename metainfo2-Bose.txt to metainfo2.txt if you want to enable BOSE update](assets/031e5730-483b-4df5-bafa-530538ed88e6.png)
 
 ## SVM
 

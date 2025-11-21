@@ -1,10 +1,17 @@
 # Custom boot screen
 
 
-> [!WARNING]
-> This tutorial was made 2021, December 9th. Tools used here were still experimental and under development.
-> [!TIP]
-> Keep your working directory well organized. It will help you work faster and make a proper modification.
+:::warning
+This tutorial was made 2021, December 9th. Tools used here were still experimental and under development.
+
+:::
+
+
+:::tip
+Keep your working directory well organized. It will help you work faster and make a proper modification.
+
+:::
+
 ## Tools
 
 * `MIB STD2 Toolbox` [from here](https://github.com/olli991/mib-std2-pq-zr-toolbox/releases).
@@ -75,6 +82,9 @@ In this example I’m going to use `startup_4.boot` file from `VW ZR EU P0245T` 
 3. Reboot the unit with [button combination](/doc/key-combinations-and-shortcuts-7tk8NfVoLo).
 
 
-> [!INFO]
-> Special thanks to everyone that was involved in making this possible: Olli991, jille, jtomtos, yox2019.
+:::info
+Special thanks to everyone that was involved in making this possible: Olli991, jille, jtomtos, yox2019.
+
+:::
+
 \

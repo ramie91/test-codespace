@@ -4,8 +4,12 @@
 1. Make sure you have installed the latest version of the toolbox from here: [https://github.com/olli991/mib-std2-pq-zr-toolbox](https://github.com/olli991/mib-std2-pq-zr-toolbox/releases).
 
 
-> [!INFO]
-> Details about Technisat MIB STD2 Toolbox installation.
+:::info
+Details about Technisat MIB STD2 Toolbox installation.
+
+:::
+
+
 2. Make sure that Toolbox SD card is inserted into SD1 port. It’s required for original file backup before patching.
 3. Press and hold `MENU` button for 10 seconds to enter `Testmode menue`.
 4. Go to `Green Engineering Menu` →  `mibstd2_toolbox` → `customization` → `navi` → `Patch navigation config`.

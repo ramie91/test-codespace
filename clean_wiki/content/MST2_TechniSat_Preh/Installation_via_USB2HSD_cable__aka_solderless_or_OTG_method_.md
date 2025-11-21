@@ -1,10 +1,13 @@
 # Installation via USB2HSD cable (aka solderless or OTG method)
 
-[Video_Instruction.mp4 18089642](assets/561d1d5c-5408-43a6-84e5-962cb5f576e9.redirect_id_561d1d5c-5408-43a6-84e5-962cb5f576e9)
+[Video_Instruction.mp4 18089642](assets/561d1d5c-5408-43a6-84e5-962cb5f576e9.mp4)
 
 
-> [!INFO]
-> The video above serves only for illustrating purposes. This “solution” was stolen by evaldas who wanted to sell it but failed. Original author is **Malec**.
+:::info
+The video above serves only for illustrating purposes. This “solution” was stolen by evaldas who wanted to sell it but failed. Original author is **Malec**.
+
+:::
+
 \
 **LIMITATIONS:** This method is compatible with one and two SD slot `cpu` and `cpuplus` units but not with `mainstd` units **without** `iMX6` chipset. 
 

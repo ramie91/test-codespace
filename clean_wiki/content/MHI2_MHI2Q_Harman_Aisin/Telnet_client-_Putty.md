@@ -16,19 +16,25 @@ Each of its main components - MMX and RCC - have their own access.
 ·         MMX port: 23
 
 
-> [!INFO]
-> Recommendation: Always use RCC, in case of wrongly used flash commands the risk to damage MMX is smaller.
+:::info
+Recommendation: Always use RCC, in case of wrongly used flash commands the risk to damage MMX is smaller.
+
+:::
+
 ## Putty settings
 
 
-> [!INFO]
-> [D-LINK](/doc/d-link-dub-100-ver-d1-0x2001-0x1a02-pXHeQsqbwy) or compatible USB to ethernet adapter required
-> 
-> Set IP in PC to IP: 172.16.250.123 MASK: 255.255.255.0
- ![MMX settings](assets/b1ab754e-f8bf-4d4d-b5de-85c0bc7a0617.redirect_id_b1ab754e-f8bf-4d4d-b5de-85c0bc7a0617)
+:::info
+[D-LINK](/doc/d-link-dub-100-ver-d1-0x2001-0x1a02-pXHeQsqbwy) or compatible USB to ethernet adapter required
+
+Set IP in PC to IP: 172.16.250.123 MASK: 255.255.255.0
+
+:::
+
+ ![MMX settings](assets/b1ab754e-f8bf-4d4d-b5de-85c0bc7a0617.png)
 
 \
- ![RCC settings](assets/0af731dd-f58c-4803-ba7b-b1a92d9485b0.redirect_id_0af731dd-f58c-4803-ba7b-b1a92d9485b0)
+ ![RCC settings](assets/0af731dd-f58c-4803-ba7b-b1a92d9485b0.png)
 
 \
 \

@@ -1,12 +1,15 @@
 # format_nav_db on MHI2Q
 
 
-> [!WARNING]
-> This test was done on MHI2Q with the purpose to allow **format_nav_db** of **Most Incredible Bash** to work on **MHI2Q** units the same way as it successfully works on MHI2.
-> 
-> **The outcome of the test:**
-> 
-> Format worked but unit got into strange state which seems to be not related to the test itself so additional test is required.
+:::warning
+This test was done on MHI2Q with the purpose to allow **format_nav_db** of **Most Incredible Bash** to work on **MHI2Q** units the same way as it successfully works on MHI2.
+
+**The outcome of the test:**
+
+Format worked but unit got into strange state which seems to be not related to the test itself so additional test is required.
+
+:::
+
 \
 on -f mmx mount
 
@@ -183,7 +186,7 @@ unhandlederrorlinked
 
 and on unit
 
- ![](assets/64f1b5be-5fd0-4405-9001-f1a3b6d99b8e.redirect_id_64f1b5be-5fd0-4405-9001-f1a3b6d99b8e)Unit did not fully crash - RCC was still on and commands for formatting NavDB were still running on MMX. As per LOG file, the crash happend before umount was executed so it is not clear what exactly caused the crash.
+ ![](assets/64f1b5be-5fd0-4405-9001-f1a3b6d99b8e.png)Unit did not fully crash - RCC was still on and commands for formatting NavDB were still running on MMX. As per LOG file, the crash happend before umount was executed so it is not clear what exactly caused the crash.
 
 \
 code used to unmount navdb

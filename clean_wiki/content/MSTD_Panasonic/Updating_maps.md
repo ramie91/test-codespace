@@ -10,12 +10,15 @@ SystemName="ECE 2023"
 ```
 
 
-> [!INFO]
-> To fit P106 maps version onto 8Gb SD card, delete some not needed \*.psf countries
-> 
-> Maps work from original FAT32 formatted 8Gb SD card having special CID and are NOT copied into internal memory of the unit.
-> 
-> It is confirmed that P106_N60S3MIBS2_EU_NT maps work on **MSTD_EU_SE_P5310** from original SD card without installing any FEC! ![](/api/attachments.redirect?id=f158afbe-76a2-46ae-92f2-f465f26c04da " =36x45")
+:::info
+To fit P106 maps version onto 8Gb SD card, delete some not needed \*.psf countries
+
+Maps work from original FAT32 formatted 8Gb SD card having special CID and are NOT copied into internal memory of the unit.
+
+It is confirmed that P106_N60S3MIBS2_EU_NT maps work on **MSTD_EU_SE_P5310** from original SD card without installing any FEC! ![](/api/attachments.redirect?id=f158afbe-76a2-46ae-92f2-f465f26c04da " =36x45")
+
+:::
+
 ## Understanding original SD card and FEC protection
 
 To use the maps you need:
@@ -32,7 +35,7 @@ To use the maps you need:
    :::
 2. To have FECs 00040100 (Navigation) and 022000ee (lifetime EU maps) as **allowed** in “**Activation keys**” of [RED menu](https://mibwiki.one/doc/audi-mmi-hkbD36UasB):
 
-    ![](assets/06871fe1-e28b-44c0-8cdf-6afd1c9c3aef.redirect_id_06871fe1-e28b-44c0-8cdf-6afd1c9c3aef)
+    ![](assets/06871fe1-e28b-44c0-8cdf-6afd1c9c3aef.png)
 
    
 :::info
@@ -44,7 +47,7 @@ To use the maps you need:
 
    
 :::warning
-   Looking at the end of `*.psf`files of P106_N60S3MIBS2_EU_NT maps, you can see that on Audi, Activation key (FEC) `02200030` or higher is required.\n ![](assets/3b80989e-721c-46e4-a6f9-f77a5d929843.redirect_id_3b80989e-721c-46e4-a6f9-f77a5d929843)
+   Looking at the end of `*.psf`files of P106_N60S3MIBS2_EU_NT maps, you can see that on Audi, Activation key (FEC) `02200030` or higher is required.\n ![](assets/3b80989e-721c-46e4-a6f9-f77a5d929843.png)
 
    :::
 

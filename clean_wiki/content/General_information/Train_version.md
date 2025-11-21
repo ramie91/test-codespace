@@ -1,10 +1,13 @@
 # Train version
 
 
-> [!INFO]
-> Before asking any question it is a MUST to know and refer to Train (firmware version) of your MIB (Multimedia Infotainment Box). To see the Train version you need to press special button combination. 
-> 
-> Also check most recent firmware version for your unit.
+:::info
+Before asking any question it is a MUST to know and refer to Train (firmware version) of your MIB (Multimedia Infotainment Box). To see the Train version you need to press special button combination. 
+
+Also check most recent firmware version for your unit.
+
+:::
+
 ## Mapping of train version to unit generation, tier, manufacturer and brand
 
 | Train version | Generation | Tier and manufacturer | Audi | VW | Skoda | Seat | Bentley | Lamborghini | Porsche |

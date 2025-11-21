@@ -3,14 +3,22 @@
 ## What is it used for?
 
 
-> [!INFO]
-> On the power on and boot the firmware checks `/net/rcc/mnt/efs-persist/update.txt`and if it is not found then `/net/rcc/mnt/efs-persist/update.txt.backup` file. 
-> 
-> If it exists, the normal boot sequence is stopped and SWDL mode is run to complete updates listed in this file.
-> [!TIP]
-> In case you want to stop a failing FW update you can delete it with
-> 
-> `rm /net/rcc/mnt/efs-persist/update.*` 
+:::info
+On the power on and boot the firmware checks `/net/rcc/mnt/efs-persist/update.txt`and if it is not found then `/net/rcc/mnt/efs-persist/update.txt.backup` file. 
+
+If it exists, the normal boot sequence is stopped and SWDL mode is run to complete updates listed in this file.
+
+:::
+
+
+:::tip
+In case you want to stop a failing FW update you can delete it with
+
+`rm /net/rcc/mnt/efs-persist/update.*` 
+
+:::
+
+
 1. Checking the content of update.txt, helps to identify why a [Audi TT FW update](/doc/audi-tt-0Um0TH0aSv) failed on the mid way from a very old FW to the latest.
 2. You can manually generate or modify an `update.txt` to trigger:
 
@@ -21,10 +29,13 @@
 ## Editing/generation of a custom `update.txt`
 
 
-> [!WARNING]
-> The basics to edit an `update.txt` will be presented below.
-> 
-> However, this is very likely not complete yet. Feel free to test and add missing knowledge!
+:::warning
+The basics to edit an `update.txt` will be presented below.
+
+However, this is very likely not complete yet. Feel free to test and add missing knowledge!
+
+:::
+
 \
 As an EXAMPLE, let us use this `update.txt`:
 
@@ -129,13 +140,16 @@ Phase3Device = MuINIC
 ```
 
 
-> [!TIP]
-> update.txt will be accepted by the SWDL only if `CRC =` and `MetafileCRC =` contain correct values. Otherwise update.txt will be renamed to `update.txt.Cancelled`
+:::tip
+update.txt will be accepted by the SWDL only if `CRC =` and `MetafileCRC =` contain correct values. Otherwise update.txt will be renamed to `update.txt.Cancelled`
+
+:::
+
 ### CRC = is the CRC32 of all update.txt lines WITHOUT the CRC line (including \\n) - in this example: `CRC = 4ff4205f`
 
- ![CRC line removed](assets/13d4a9fd-8ec6-4ed1-abcd-9d2f20070792.redirect_id_13d4a9fd-8ec6-4ed1-abcd-9d2f20070792)
+ ![CRC line removed](assets/13d4a9fd-8ec6-4ed1-abcd-9d2f20070792.png)
 
-If you calculate CRC32 of the`update.txt`with the CRC line, SWDL will consider the file as damaged:            ![CRC32 of update.txt does not fit](assets/6abb8622-b8b8-47b5-933e-8698bf5e18a7.redirect_id_6abb8622-b8b8-47b5-933e-8698bf5e18a7)
+If you calculate CRC32 of the`update.txt`with the CRC line, SWDL will consider the file as damaged:            ![CRC32 of update.txt does not fit](assets/6abb8622-b8b8-47b5-933e-8698bf5e18a7.png)
 
 ### MetafileCRC = contains SHA1 value of `MetafileChecksum` from `metainfo2.txt`.
 
@@ -143,28 +157,40 @@ If you calculate CRC32 of the`update.txt`with the CRC line, SWDL will consider t
 
 Example from FW MHI2_ER_AU43x_P5098
 
- ![SHA1 hash matches](assets/513f50a5-7389-46fa-880c-382f6c80380f.redirect_id_513f50a5-7389-46fa-880c-382f6c80380f)
+ ![SHA1 hash matches](assets/513f50a5-7389-46fa-880c-382f6c80380f.png)
 
 
-> [!INFO]
-> `MetafileChecksum =` inside of the metainfo2.txt is SHA1 hash of the `metainfo2.txt`without removed `MetafileChecksum =` line.
+:::info
+`MetafileChecksum =` inside of the metainfo2.txt is SHA1 hash of the `metainfo2.txt`without removed `MetafileChecksum =` line.
+
+:::
+
 ### MetafileCRC = skip
 
 
-> [!TIP]
-> If you removed `MetafileChecksum` from metainfo.txt and used `skipMetaCRC = "true"` instead, then you must set `MetafileCRC = skip` in update.txt 
- ![](assets/bedf6dab-16bf-4afc-899c-1da9c901640d.redirect_id_bedf6dab-16bf-4afc-899c-1da9c901640d)
+:::tip
+If you removed `MetafileChecksum` from metainfo.txt and used `skipMetaCRC = "true"` instead, then you must set `MetafileCRC = skip` in update.txt 
+
+:::
+
+ ![](assets/bedf6dab-16bf-4afc-899c-1da9c901640d.png)
 
 
-> [!INFO]
-> To calculate CRC32 hash for CRC and SHA1 hash for MetafileCRChashes, use [HashMyFiles](https://www.nirsoft.net/utils/hash_my_files.html) or something similar
+:::info
+To calculate CRC32 hash for CRC and SHA1 hash for MetafileCRChashes, use [HashMyFiles](https://www.nirsoft.net/utils/hash_my_files.html) or something similar
+
+:::
+
 ### Update packages
 
 To quickly see how much packages are remaining to be installed, check with:
 
 
-> [!TIP]
-> `cat /net/rcc/mnt/efs-persist/update.txt | grep TODO `
+:::tip
+`cat /net/rcc/mnt/efs-persist/update.txt | grep TODO `
+
+:::
+
 Lines may look like:
 
 `[RCC\0\ifs-root\32\default\application]=TODO;8734;default;9558`
@@ -173,7 +199,7 @@ Letâ€™s break down the line contend:
 
 \[RCC\\0\\ifs-root\\32\\default\\application - similar to the line in metainfo2.txt with adding a device number\]===Status (see below)==;`version of the module in unit`;default(unknown)`target version on SD/USB card update`
 
- ![section from metainfo2.txt for MHI2_ER_AU43x_P5098](assets/203f10de-87d2-4165-abc0-3d48f84a13ac.redirect_id_203f10de-87d2-4165-abc0-3d48f84a13ac)
+ ![section from metainfo2.txt for MHI2_ER_AU43x_P5098](assets/203f10de-87d2-4165-abc0-3d48f84a13ac.png)
 
 ### Status: NO/TODO/DONE
 
@@ -198,7 +224,7 @@ Not all are used by the different types of FW updates, like map updates, POI, â€
 | MUversion = 0884 | MU version of original FW at start of update | ? |
 | RCCversion = U8228 |    | ? |
 | AssemblyID = 0 |    | ? |
-| ReleaseName = MHI2_ER_AU43x_P5098 | Pulled from metainfo2.txt \n   ![](assets/13b05c2c-a0b0-49fb-b85e-aac0152e39c6.redirect_id_13b05c2c-a0b0-49fb-b85e-aac0152e39c6) | ? |
+| ReleaseName = MHI2_ER_AU43x_P5098 | Pulled from metainfo2.txt \n   ![](assets/13b05c2c-a0b0-49fb-b85e-aac0152e39c6.png) | ? |
 | startTime = 2021-10-07 14:09 |    | ? |
 | LogSubDir = /HBpersistence/SWDL/Log/service/2 | storage location on unit on RCC for Log of this update | ? |
 | TransactionImageAddress = 0x540000 | RCC hex start address of ifs-root image | ? |
@@ -210,7 +236,7 @@ Not all are used by the different types of FW updates, like map updates, POI, â€
 | Phase3Device = MuINIC |    | ? |
 | {RCC\\Post}=TODO; |    | ? |
 | {RCC\\Pre}=DONE; |    | ? |
-| {Final}=TODO; | Status of FinalScript in metainfo2.txt \n   ![](assets/10203f16-7dc7-4f5f-9e7e-1e2c763d88f1.redirect_id_10203f16-7dc7-4f5f-9e7e-1e2c763d88f1) | ? |
+| {Final}=TODO; | Status of FinalScript in metainfo2.txt \n   ![](assets/10203f16-7dc7-4f5f-9e7e-1e2c763d88f1.png) | ? |
 | Feel free to add more here! |    |    |
 
 \

@@ -19,16 +19,23 @@
 4. Reboot the unit
 
    
-> [!INFO]
->    How to reboot Audi MMI
-> 
->    :::
-> 5. Go to MMI settings and turn on Wi-Fi hotspot,
-> 6. Pair the iPhone with MMI via Bluetooth - it will ask you if you want to use CarPlay.
-> 
-> 
-> :::tip
-> If you can’t use CarPlay, make sure Siri is turned on. Also check out CarPlay common issues.
-> [!TIP]
-> If, for some reason, you can’t make Wireless CarPlay to work, you can use one of the [wired-to-wireless adapters](/doc/wireless-carplay-adapters-iAnY9UQikZ).
+:::info
+   How to reboot Audi MMI
+
+   :::
+5. Go to MMI settings and turn on Wi-Fi hotspot,
+6. Pair the iPhone with MMI via Bluetooth - it will ask you if you want to use CarPlay.
+
+
+:::tip
+If you can’t use CarPlay, make sure Siri is turned on. Also check out CarPlay common issues.
+
+:::
+
+
+:::tip
+If, for some reason, you can’t make Wireless CarPlay to work, you can use one of the [wired-to-wireless adapters](/doc/wireless-carplay-adapters-iAnY9UQikZ).
+
+:::
+
 Source: https://forum.obdeleven.com/thread/6663/2019-wireless-carplay-activation-cars
