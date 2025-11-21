@@ -7,7 +7,7 @@ To be safe you should probably disconnect the 5V line in the USB cable somewhere
 
 \
 \
- ![](assets/c6c45ea1-6ca0-427c-81b3-ab0ecced4352.jpg)
+ ![](../../assets/c6c45ea1-6ca0-427c-81b3-ab0ecced4352.jpg)
 
 \
 When you plug in the USB and power up the MIB unit, you should get a new device popup in Windows. If this doesn’t happen, either your cable isn’t correct, or more likely the Tegra isn’t booting in CPU mode.
@@ -26,26 +26,26 @@ You should be able to take out all the screws on the bottom then pull just that 
 \
 Once you get it off though, the main PCB will be exposed:
 
- ![](assets/9f46df82-d060-4cb8-9107-cb3b4c95f3af.png)
+ ![](../../assets/9f46df82-d060-4cb8-9107-cb3b4c95f3af.png)
 
 Jumping these two pads together while powering on the MIB will force the MMX to boot in USB recovery mode.
 
 \
- ![](assets/3d59fb91-3f3e-4151-bb77-78d848564764.jpg)
+ ![](../../assets/3d59fb91-3f3e-4151-bb77-78d848564764.jpg)
 
 If you expect to use USB recovery mode often then you can solder a switch there:
 
- ![](assets/3028a58c-1f43-48df-a9fa-c1bc3e723805.jpg)
+ ![](../../assets/3028a58c-1f43-48df-a9fa-c1bc3e723805.jpg)
 
 Now, with the jumper/switch turned on (shorted out) while turning on the MIB, with USB cable plugged in, you should get a new device “APX” show up on windows.
 
 \
 Install tegram_rcm_usbpcdriver_32_64.zip and the device should then show up in the device manager as “NVIDIA USB Boot-recovery driver for Mobile devices“
 
-[ tegram_rcm_usbpcdriver_32_64.zip](assets/874199d3-1a31-4ec9-a07c-a8b008268529.zip)
+[ tegram_rcm_usbpcdriver_32_64.zip](../../assets/874199d3-1a31-4ec9-a07c-a8b008268529.zip)
 
 Once driver is installed you can run nvflash_3.1.zip
 
-[ nvflash_3.1.zip](assets/9ec7bf62-a191-425d-84da-d5c816c1bd30.zip)
+[ nvflash_3.1.zip](../../assets/9ec7bf62-a191-425d-84da-d5c816c1bd30.zip)
 
 \

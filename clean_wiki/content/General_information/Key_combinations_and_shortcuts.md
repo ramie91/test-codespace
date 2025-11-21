@@ -1,31 +1,17 @@
 # Key combinations and shortcuts
 
 
-:::info
-Button order is important. Pressing a key combination with incorrect order will not work.
-
-:::
-
-
-:::info
-Some functions and menus require enabling developer mode first. Check [this article](/doc/enabling-developer-mode-WgCLoao5cH) for more information about enabling developer mode.
-
-:::
-
-
-:::warning
-Hidden menus, bootloaders, etc… Don’t use functions that you are not 100% sure about or will brick your unit.
-
-:::
-
+> [!INFO]
+> Button order is important. Pressing a key combination with incorrect order will not work.
+> [!INFO]
+> Some functions and menus require enabling developer mode first. Check [this article](/doc/enabling-developer-mode-WgCLoao5cH) for more information about enabling developer mode.
+> [!WARNING]
+> Hidden menus, bootloaders, etc… Don’t use functions that you are not 100% sure about or will brick your unit.
 ## Audi
 
 
-:::tip
-Even more details about Audi key combinations can be found [here](/doc/audi-mib2-key-combinations-hkbD36UasB).
-
-:::
-
+> [!TIP]
+> Even more details about Audi key combinations can be found [here](/doc/audi-mib2-key-combinations-hkbD36UasB).
 ### Audi RMC (A1 8X, Q3 8U)
 
 | Function | Shortcut | Additional Info |
@@ -110,11 +96,8 @@ Even more details about Audi key combinations can be found [here](/doc/audi-mib2
 ## Bentley
 
 
-:::tip
-More information can be found [here](/doc/bentley-button-combinations-hqtRVIqq88).
-
-:::
-
+> [!TIP]
+> More information can be found [here](/doc/bentley-button-combinations-hqtRVIqq88).
 ## Skoda
 
 ### Skoda MSTD (MIB1 Standard: Bolero, Amundsen)
@@ -194,11 +177,8 @@ More information can be found [here](/doc/bentley-button-combinations-hqtRVIqq88
 ## Porsche
 
 
-:::tip
-More information can be found [here](/doc/porsche-button-combinations-UEJ2kn0ejh).
-
-:::
-
+> [!TIP]
+> More information can be found [here](/doc/porsche-button-combinations-UEJ2kn0ejh).
 ### MPR3 (MIB3 Premium Porsche Taycan)
 
 | Function | Shortcut | Additional Info |

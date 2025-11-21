@@ -1,11 +1,8 @@
 # Security access codes
 
 
-:::info
-List of currently known access codes
-
-:::
-
+> [!INFO]
+> List of currently known access codes
 ## Master key
 
 * `20103`
@@ -166,11 +163,8 @@ List of currently known access codes
 
 \
 
-:::info
-List of currently known access codes
-
-:::
-
+> [!INFO]
+> List of currently known access codes
 ## Master key
 
 * `20103`

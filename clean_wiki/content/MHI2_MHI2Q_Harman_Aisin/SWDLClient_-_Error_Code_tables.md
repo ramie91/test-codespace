@@ -1,23 +1,16 @@
 # SWDLClient - Error Code tables
 
 
-:::tip
-Especially section [2. Filecopy specific errors](https://mibwiki.one/doc/swdlclient-error-code-tables-3aXOIeCIM2/edit#h-21-filecopy-errors) error are normally related to bad FW SD, meaning:
-
-* bad partition on SD → format again FAT32
-* missing files → bad FW archive or skipped files during copying to SD
-* **damaged SD card! → this one is __very__ often the case**
-
-:::
-
-
-:::info
-Always get a 2nd SD just in case something is wrong!
-
-And yes, also brand new SD cards can be bad!
-
-:::
-
+> [!TIP]
+> Especially section [2. Filecopy specific errors](https://mibwiki.one/doc/swdlclient-error-code-tables-3aXOIeCIM2/edit#h-21-filecopy-errors) error are normally related to bad FW SD, meaning:
+> 
+> * bad partition on SD → format again FAT32
+> * missing files → bad FW archive or skipped files during copying to SD
+> * **damaged SD card! → this one is __very__ often the case**
+> [!INFO]
+> Always get a 2nd SD just in case something is wrong!
+> 
+> And yes, also brand new SD cards can be bad!
 # 1. Device specific errors
 
 ## 1.1.  Cinterion Errors

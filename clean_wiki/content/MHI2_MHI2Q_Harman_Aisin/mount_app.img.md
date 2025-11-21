@@ -1,13 +1,10 @@
 # mount app.img
 
 
-:::tip
-For some reason this is not working all the time …
-
- ![](assets/2d8b2437-9e38-43d2-8fb0-f314f0330d3c.png)After a few restarts, mounting suddenly started to work again…
-
-:::
-
+> [!TIP]
+> For some reason this is not working all the time …
+> 
+>  ![](../../assets/2d8b2437-9e38-43d2-8fb0-f314f0330d3c.png)After a few restarts, mounting suddenly started to work again…
 \
 ```bash
 #create new folder "mounted"
@@ -23,4 +20,4 @@ mount -t qnx6 -o loop /fs/sda0/app.img /mnt/app/mounted
 ```
 
 \
- ![read/write access to mounted app.img (here via SSH connection)](assets/06368b23-a354-487a-91d6-6628733b4a22.png)
+ ![read/write access to mounted app.img (here via SSH connection)](../../assets/06368b23-a354-487a-91d6-6628733b4a22.png)

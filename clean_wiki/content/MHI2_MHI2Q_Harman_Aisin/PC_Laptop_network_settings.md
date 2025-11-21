@@ -14,4 +14,4 @@ The following IPv4 settings are required on the PC you want to use to connect to
 ·         Subnet Mask: 255.255.255.0
 
 \
- ![](assets/2ecca52c-aacb-4b09-8df3-e29b3c180359.png)
+ ![](../../assets/2ecca52c-aacb-4b09-8df3-e29b3c180359.png)

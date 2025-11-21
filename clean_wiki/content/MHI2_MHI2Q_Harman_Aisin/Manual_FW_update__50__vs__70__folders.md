@@ -1,23 +1,20 @@
 # Manual FW update /50/ vs /70/ folders
 
 
-:::info
-While converting a DEV unit (MHI2_CN_AU57x_P0632 → MHI2_ER_SEG11_P4709) with H22 (manufactured in 2013) I noticed, that partitioning on MMX is different from what I have seen so far on G11 units.
-
-Assumption is, that for this configuration `/50/` folders from FW update are needed to run.
-
-:::
-
+> [!INFO]
+> While converting a DEV unit (MHI2_CN_AU57x_P0632 → MHI2_ER_SEG11_P4709) with H22 (manufactured in 2013) I noticed, that partitioning on MMX is different from what I have seen so far on G11 units.
+> 
+> Assumption is, that for this configuration `/50/` folders from FW update are needed to run.
 \
 Most (if not all) FW updates have two subfolders within the MMX2 update packages
 
- ![MU1447 - efs-sys](assets/c4f91842-7128-4423-a187-c3c9c9020c06.png)
+ ![MU1447 - efs-sys](../../assets/c4f91842-7128-4423-a187-c3c9c9020c06.png)
 
 Most (at least recent) FW versions seem to need files from `/70/` folders if one is available.
 
 e.g. eifs does not have a `70` folder and therefore `/50/` is used in all cases.
 
- ![MU1447 - eifs](assets/22027b44-7218-4657-b42b-f6cac2babaa7.png)
+ ![MU1447 - eifs](../../assets/22027b44-7218-4657-b42b-f6cac2babaa7.png)
 
 ## G11 - H22 MMX NOR partition layout
 
@@ -57,13 +54,10 @@ e.g. eifs does not have a `70` folder and therefore `/50/` is used in all cases.
 
 \
 
-:::tip
-SWDL, SPLASH, SYSTEM and PERSIST have different offsets between these versions
-
-[ images.zip](assets/f66cf523-bdcd-40a1-bc3d-d028a9103e16.7z)
-
-:::
-
+> [!TIP]
+> SWDL, SPLASH, SYSTEM and PERSIST have different offsets between these versions
+> 
+> [ images.zip](../../assets/f66cf523-bdcd-40a1-bc3d-d028a9103e16.7z)
 ## Manual FW restore commands for MHI2_CN_AU57x_P0632 or other `/50/` type units?
 
 ```bash
@@ -132,13 +126,10 @@ cat /net/mmx/fs/sda0/MMX2/app/50/default/app.img > /net/mmx/dev/mnand0t177
 ### [How to prepare mifs-stage1.img and eifs.img for flashing](/doc/how-to-prepare-mifs-stage1img-and-eifsimg-for-flashing-9LO3d7AH6D)
 
 
-:::warning
-follow link above to edit images
-
-Stock FW update image will brick your unit!
-
-:::
-
+> [!WARNING]
+> follow link above to edit images
+> 
+> Stock FW update image will brick your unit!
 ### Run normal FW update
 
 To apply updates for IOC, tuner, LTE modem, …

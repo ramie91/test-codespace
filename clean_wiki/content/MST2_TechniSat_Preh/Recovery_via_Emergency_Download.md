@@ -1,13 +1,10 @@
 # Recovery via Emergency Download
 
 
-:::info
-This tutorial was made base on my personal experience with recovering Technisat MIB2 in vehicle, without bench setup.
-
-I’m not sure if the procedure is the same for PQ units, for MIB2 Standard by Delphi, for MIB2High by Harman, and other MIB units.
-
-:::
-
+> [!INFO]
+> This tutorial was made base on my personal experience with recovering Technisat MIB2 in vehicle, without bench setup.
+> 
+> I’m not sure if the procedure is the same for PQ units, for MIB2 Standard by Delphi, for MIB2High by Harman, and other MIB units.
 ## Required
 
 * Quality SD card, `4GB` or larger ([how to check SD card](/doc/sd-card-testing-Gxi8EpfXTg)),
@@ -37,14 +34,10 @@ I’m not sure if the procedure is the same for PQ units, for MIB2 Standard by D
 ### Prepare and test serial communication
 
 
-:::info
-Check [Quadlock - pin layout](/doc/quadlock-pin-layout-u5Qkyar282) for details
-
- ![](assets/efd98ffd-fbbb-4116-b0e6-2377e4340943.png)
-
-:::
-
-
+> [!INFO]
+> Check [Quadlock - pin layout](/doc/quadlock-pin-layout-u5Qkyar282) for details
+> 
+>  ![](../../assets/efd98ffd-fbbb-4116-b0e6-2377e4340943.png)
  1. Set signal converter to `3.3V` logic level.
  2. Remove purple lock from QuadLock.
  3. Insert two terminals for `Tx` and `Rx` connection on the “J5” TTL terminals.
@@ -57,12 +50,9 @@ Check [Quadlock - pin layout](/doc/quadlock-pin-layout-u5Qkyar282) for details
 10. Connect QuadLock to confirm that the serial communication is working and you can see logs from MIB on your PC while the main unit is in boot loop.
 
 
-:::tip
-You can use crocodile clip for Gnd connection on the MIB housing. It’s easier and faster than to use GND from the QuadLock.
-
-:::
-
-|  ![MIB end of the cable.](/api/attachments.redirect?id=18f9e449-0131-4ec9-839d-74c56e1c6e35 " =250x250") |  ![PC end of the cable and USB serial converter.](/api/attachments.redirect?id=c2a5b6e1-d526-42c4-b376-4964070db601 " =83x83") |  ![MIB connected to PC over serial.](/api/attachments.redirect?id=b0abdbdf-0f1b-4e8b-8adf-a10f13e0bb30 "right-50 =277x277") |  ![Live logs from normal boot procedure.](assets/325df63d-4497-4fec-acbb-c25c52df3d37.jpg) |
+> [!TIP]
+> You can use crocodile clip for Gnd connection on the MIB housing. It’s easier and faster than to use GND from the QuadLock.
+|  ![MIB end of the cable.](/api/attachments.redirect?id=18f9e449-0131-4ec9-839d-74c56e1c6e35 " =250x250") |  ![PC end of the cable and USB serial converter.](/api/attachments.redirect?id=c2a5b6e1-d526-42c4-b376-4964070db601 " =83x83") |  ![MIB connected to PC over serial.](/api/attachments.redirect?id=b0abdbdf-0f1b-4e8b-8adf-a10f13e0bb30 "right-50 =277x277") |  ![Live logs from normal boot procedure.](../../assets/325df63d-4497-4fec-acbb-c25c52df3d37.jpg) |
 |----|----|----|----|
 
 2
@@ -70,18 +60,10 @@ You can use crocodile clip for Gnd connection on the MIB housing. It’s easier 
 ### Enter recovery Menu
 
 
-:::info
-TODO: photo of the main board jumper
-
-:::
-
-
-:::warning
-Use external power supply of 3A minimum or turn on the engine to prevent voltage drops and power issues while the procedure is in progress.
-
-:::
-
-
+> [!INFO]
+> TODO: photo of the main board jumper
+> [!WARNING]
+> Use external power supply of 3A minimum or turn on the engine to prevent voltage drops and power issues while the procedure is in progress.
 1. Turn the ignition on. If you have Kessy (keyless ignition) make sure that the key stays in the vehicle at all times (here’s why: [Kessy & Updates](/doc/kessy-updates-JeN8RUuHyK)).
 2. Disconnect QuadLock.
 3. Insert prepared SD card to `SD1` port.
@@ -103,7 +85,7 @@ Use external power supply of 3A minimum or turn on the engine to prevent voltage
 
    \
 
-|  ![Bridging ZR main board to enter recovery menu.](assets/b8f352a3-7eb5-4a2e-a1dc-f94894c9151a.jpg) |  ![PQ board connections](assets/24b282b5-dc29-4ca8-a9e1-06b399256744.jpg) |  ![Recovery menu available on PC.](assets/4da0f2a5-60dc-4648-b63f-946ef659e386.jpg) |  ![Emergency download in progress.](assets/1e6a4ead-cb55-4996-b18c-6f418c2a837f.jpg) |
+|  ![Bridging ZR main board to enter recovery menu.](../../assets/b8f352a3-7eb5-4a2e-a1dc-f94894c9151a.jpg) |  ![PQ board connections](../../assets/24b282b5-dc29-4ca8-a9e1-06b399256744.jpg) |  ![Recovery menu available on PC.](../../assets/4da0f2a5-60dc-4648-b63f-946ef659e386.jpg) |  ![Emergency download in progress.](../../assets/1e6a4ead-cb55-4996-b18c-6f418c2a837f.jpg) |
 |----|----|----|----|
 
 ## After the recovery

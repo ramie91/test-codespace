@@ -62,10 +62,10 @@ And when you realise that and decide to do a back reflash of AP_ZR_HIGH1 from EU
 
 When you reboot, IPL will detect that AP flashing went bad and will trigger EAU (Emergency Assist Utility):
 
- ![](assets/912d557f-7940-407e-ba97-bbccde4088e4.png)
+ ![](../../assets/912d557f-7940-407e-ba97-bbccde4088e4.png)
 
 If you are lucky (smart enough) to have SD card with stock US fw inserted into SD1 slot, EAU will repartition the NOR correctly and you can finish the fw update from RED menu (you will have about 5 minutes to start that).
 
 In case you have bad luck you will get a non booting soft brick. To fix it, connect TTL cable to MMX UART via quadlock, hold E in putty and Emergency Flash Utility will start. EFU will flash US fw from SD card:
 
- ![](assets/4a6f750a-084e-408d-9cd3-aa211cda0c3b.png)
+ ![](../../assets/4a6f750a-084e-408d-9cd3-aa211cda0c3b.png)

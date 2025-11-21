@@ -1,17 +1,10 @@
 # POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch
 
 
-:::info
-The patch is integrated into [M.I.B](/doc/mib-more-incredible-bash-CO492qmzLk)
-
-:::
-
-
-:::tip
-Any `*.jar` file placed in `/net/mmx/mnt/app/eso/hmi/lsd/jars/`is loaded during the boot of the unit.
-
-:::
-
+> [!INFO]
+> The patch is integrated into [M.I.B](/doc/mib-more-incredible-bash-CO492qmzLk)
+> [!TIP]
+> Any `*.jar` file placed in `/net/mmx/mnt/app/eso/hmi/lsd/jars/`is loaded during the boot of the unit.
 ## Java Code
 
 ```javascript
@@ -143,20 +136,20 @@ extends AbstractTerminalModeConfiguration {
 
 ## Compiled jar
 
-[g24ws.jar 1672](assets/68032750-ce81-4576-b0ad-f8239bd15a49.zip)
+[g24ws.jar 1672](../../assets/68032750-ce81-4576-b0ad-f8239bd15a49.zip)
 
 \
 ## Porsche POG24 - AndroidAuto
 
- ![](assets/ca41c710-2278-4706-b28b-a32fea0900f1.png)
+ ![](../../assets/ca41c710-2278-4706-b28b-a32fea0900f1.png)
 
 ## Porsche POG24 - CarPlay
 
- ![](assets/7c6ba198-c49e-4f67-94dc-24eb1a26ff5a.png)
+ ![](../../assets/7c6ba198-c49e-4f67-94dc-24eb1a26ff5a.png)
 
 ## Bentley BYG24 - CarPlay
 
- ![](assets/1324b290-95a0-4fcd-8a02-2c4b6ab53f70.png)
+ ![](../../assets/1324b290-95a0-4fcd-8a02-2c4b6ab53f70.png)
 
 ## Bentley BYG24 - AndroidAuto
 

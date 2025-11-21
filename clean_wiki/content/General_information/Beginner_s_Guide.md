@@ -38,11 +38,8 @@ This chapter serves as a general guideline on how to ask questions in the Telegr
 ## Definitions
 
 
-:::tip
-Good to know some most common terms and acronyms before starting.
-
-:::
-
+> [!TIP]
+> Good to know some most common terms and acronyms before starting.
 MIB (Modular Infotainment System; Modularer Infotainment-Baukasten)
 
 M.I.B. (More Incredible Bash)

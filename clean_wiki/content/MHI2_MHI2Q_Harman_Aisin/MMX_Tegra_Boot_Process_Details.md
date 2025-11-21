@@ -59,10 +59,10 @@ The gap in between certainly does get data loaded into it too, but that data doe
 When a Kernel is running on a working system it seems to be loaded / running from addresses in the 0xFC000000 or 0xFE000000 range, not in 0x84060000. Memory read from these ranges again doesn’t seem to match anything in the compressed or decompressed images directly, so again there appears to be more complex memory organising taking place than the static table I started with above.
 
 \
-For reference I used the following script to handle merging partitions into one binary image, feel free to play around with it: [create_image.py](assets/7146202c-106d-4623-a022-8837a472504c)
+For reference I used the following script to handle merging partitions into one binary image, feel free to play around with it: [create_image.py](../../assets/7146202c-106d-4623-a022-8837a472504c)
 
 \
-Also useful is the [Tegra3_publicTRM_DP05644001_v03.pdf](assets/3e39d466-d7f6-4f8d-91da-fb043e9fd9c8.pdf)
+Also useful is the [Tegra3_publicTRM_DP05644001_v03.pdf](../../assets/3e39d466-d7f6-4f8d-91da-fb043e9fd9c8.pdf)
 
 \
 This project describes patches to fastboot to enable uart logs <https://github.com/tofurky/tegra30_debrick>
@@ -70,7 +70,7 @@ This project describes patches to fastboot to enable uart logs <https://github.c
 The MMX uses UARTD rather than UARTA used on most off-the-shelf tegra boards. [uart_payload_ouya.bin](https://github.com/tofurky/tegra30_debrick/blob/master/payload/uart_payload_ouya.bin) in that project appears to be configured for UARTD so might work if patched into a fastboot (or other bootloader) that works in other ways.
 
 \
-Here’s a copy of u-boot (compiled by @coronafire) that works on the MMX too, it can be used to load / run binaries. Fastboot has been enabled too, so from u-boot you can run `fastboot 0` to enable android fastboot desktop too to run, though unfortunately loading KERNEL_RECOVERY with it didn’t work for me: [u-boot-dtb-tegra.bin](assets/8b10d51b-3e32-4233-859f-d45fafb431e4)
+Here’s a copy of u-boot (compiled by @coronafire) that works on the MMX too, it can be used to load / run binaries. Fastboot has been enabled too, so from u-boot you can run `fastboot 0` to enable android fastboot desktop too to run, though unfortunately loading KERNEL_RECOVERY with it didn’t work for me: [u-boot-dtb-tegra.bin](../../assets/8b10d51b-3e32-4233-859f-d45fafb431e4)
 
 ```javascript
 nvflash --bct BCT.img --bl u-boot-dtb-tegra.bin --go

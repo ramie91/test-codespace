@@ -8,12 +8,8 @@ If MIB STD2 Toolbox does not support live patching of your unit, you can patch f
 1. Make sure you have installed the latest version of the toolbox from here: [https://github.com/olli991/mib-std2-pq-zr-toolbox](https://github.com/olli991/mib-std2-pq-zr-toolbox/releases).
 
 
-:::info
-Details about [Technisat MIB STD2 Toolbox installation](/doc/technisat-mib-std2-toolbox-installation-GIgwX2camY).
-
-:::
-
-
+> [!INFO]
+> Details about [Technisat MIB STD2 Toolbox installation](/doc/technisat-mib-std2-toolbox-installation-GIgwX2camY).
 2. Place the external file (for example patched SWDL app) in the proper `custom` directory on the Toolbox SD card.
 3. Turn on infotainment, place the SD card in `SD1` port.
 4. Enter the Toolbox.
@@ -23,7 +19,7 @@ Details about [Technisat MIB STD2 Toolbox installation](/doc/technisat-mib-std2-
 
 ## Example with inserting externally patched SWDL app
 
-|  ![](assets/9ae70443-e1b3-4f02-b04a-a35929c13d34.jpg) |  ![](assets/bdf24362-c45d-47e0-9604-ee995f73c2fb.jpg) |  ![](assets/38222171-4db0-45ef-a237-92a87615afea.jpg) |
+|  ![](../../assets/9ae70443-e1b3-4f02-b04a-a35929c13d34.jpg) |  ![](../../assets/bdf24362-c45d-47e0-9604-ee995f73c2fb.jpg) |  ![](../../assets/38222171-4db0-45ef-a237-92a87615afea.jpg) |
 |----|----|----|
 
 \

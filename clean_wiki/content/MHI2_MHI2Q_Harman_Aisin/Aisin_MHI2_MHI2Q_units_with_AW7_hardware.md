@@ -1,16 +1,13 @@
 # Aisin MHI2/MHI2Q units with AW7 hardware
 
 
-:::info
-Aisin MHI2 and MHI2Q units are manufactured by AISIN AW CO., LTD. for Audi, Porsche, and VW in the Asian market. These units are based on the same MHI2/MHI2Q hardware, but have some software differences.
-
-They feature CN/JP/KR/TW train versions.
-
-In these units, the FAZIT in the EEPROM does not start with "JTB" (as in EU units), "JTH" (as in US units), or other typical Harman identifiers, but instead starts with the characters "AW7", which can also be found on the label:
-
-:::
-
- ![FAZIT AW7 = AISIN](assets/0703b5cd-6ddf-421d-bfea-68bbab2cfe8e.png)
+> [!INFO]
+> Aisin MHI2 and MHI2Q units are manufactured by AISIN AW CO., LTD. for Audi, Porsche, and VW in the Asian market. These units are based on the same MHI2/MHI2Q hardware, but have some software differences.
+> 
+> They feature CN/JP/KR/TW train versions.
+> 
+> In these units, the FAZIT in the EEPROM does not start with "JTB" (as in EU units), "JTH" (as in US units), or other typical Harman identifiers, but instead starts with the characters "AW7", which can also be found on the label:
+ ![FAZIT AW7 = AISIN](../../assets/0703b5cd-6ddf-421d-bfea-68bbab2cfe8e.png)
 
 ## MMX Board information
 
@@ -43,24 +40,18 @@ Version: 900
   * MU1201-MHI2_JP_VW48x_P1201-AW7-MON22.07.1900012345
 
 
-:::success
-The first Aisin unit coverted to EU had train MHI2_TW_VW48x_P0952 MU0836 and was converted to MHI2_ER_VWG13_P4521 MU1367
-
-:::
-
- ![MHI2_TW_VW48x_P0952 MU0836 - PN: 5NA035032](assets/d103a28d-a4cd-49e6-8ea9-670b58b2e865.png)
+> [!SUCCESS]
+> The first Aisin unit coverted to EU had train MHI2_TW_VW48x_P0952 MU0836 and was converted to MHI2_ER_VWG13_P4521 MU1367
+ ![MHI2_TW_VW48x_P0952 MU0836 - PN: 5NA035032](../../assets/d103a28d-a4cd-49e6-8ea9-670b58b2e865.png)
 
 
-:::info
-Conversion was **successful** but take into consideration that [MMX NAND](https://mibwiki.one/doc/hardware-mhi2-8AW9FZx7e0#h-mmx-pcb) on AW7 is partitioned differently compared to Harman G11/G13 units.
-
-:::
-
+> [!INFO]
+> Conversion was **successful** but take into consideration that [MMX NAND](https://mibwiki.one/doc/hardware-mhi2-8AW9FZx7e0#h-mmx-pcb) on AW7 is partitioned differently compared to Harman G11/G13 units.
 # NAND partitions
 
 Partition mapping of the [Harman units](/doc/mib25-g13-mib2-g11-conversion-tRLwExVcWG) differs from [Aisin G11 and G13 units](https://mibwiki.one/doc/train-version-ZhFzTqov38):
 
- ![on the left Harman G13, on the right Aisin G13](assets/f633720f-975a-4cdd-afdf-15b12ef123d1.png)
+ ![on the left Harman G13, on the right Aisin G13](../../assets/f633720f-975a-4cdd-afdf-15b12ef123d1.png)
 
 ```
  _____OS_____     Start      End     ______Number______   Size    Boot  
@@ -91,7 +82,7 @@ Partition 2.8 is smaller and partition 2.11 is added:
 
 MU0623-Partition.txt
 
-[ MU0623-Partition.txt](assets/e25e639b-fe04-4916-a7c1-7164a4d51ce0)
+[ MU0623-Partition.txt](../../assets/e25e639b-fe04-4916-a7c1-7164a4d51ce0)
 
 MU0836-Partition.txt
 
@@ -107,11 +98,8 @@ MEN2
 ```
 
 
-:::tip
-There might be more, but time and access to this unit was limited.
-
-:::
-
+> [!TIP]
+> There might be more, but time and access to this unit was limited.
 # Conclusions
 
 For a cleaner conversion to EU it would be better to repartition the NAND too.

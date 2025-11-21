@@ -1,35 +1,16 @@
 # 5F - Rear View Camera (RVC-HIGH) installation
 
 
-:::warning
-Units `xxx 035 819` and `xxx 035 820` do not support RVC (no video input support).
-
-:::
-
-
-:::info
-RVC-HIGH have orange dynamic guidance lines, additional view modes (parallel parking, towing, fish-eye), video feed is visible while the vehicle is moving forward, and the camera can be triggered with parking sensor button.
-
-:::
-
-
-:::info
-RVC-HIGH requires calibration/parametrization if the camera is new of from a different model of vehicle. Getting used camera might be saving you some time.
-
-:::
-
-
-:::info
-RVC-HIGH is connected to CAN-BUS network and is accessible at address `0x6C`.
-
-:::
-
-
-:::info
-[RVC-LOW retrofit](/doc/5f-rear-view-camera-rvc-low-installation-4Qw4oKwCAJ) will be a little bit simpler and less expensive.
-
-:::
-
+> [!WARNING]
+> Units `xxx 035 819` and `xxx 035 820` do not support RVC (no video input support).
+> [!INFO]
+> RVC-HIGH have orange dynamic guidance lines, additional view modes (parallel parking, towing, fish-eye), video feed is visible while the vehicle is moving forward, and the camera can be triggered with parking sensor button.
+> [!INFO]
+> RVC-HIGH requires calibration/parametrization if the camera is new of from a different model of vehicle. Getting used camera might be saving you some time.
+> [!INFO]
+> RVC-HIGH is connected to CAN-BUS network and is accessible at address `0x6C`.
+> [!INFO]
+> [RVC-LOW retrofit](/doc/5f-rear-view-camera-rvc-low-installation-4Qw4oKwCAJ) will be a little bit simpler and less expensive.
 ## Parts
 
 ### Camera
@@ -57,17 +38,10 @@ RVC-HIGH is connected to CAN-BUS network and is accessible at address `0x6C`.
   `3G0-827-469-EG`, `3G0-827-469-EN`, `3G0-827-469-FL`, `3G0-827-469-FH`, `3G0-827-469-HB`.
 
 
-:::tip
-Seems like golf sportsvan and passat/arteon share the same camera with different badging.
-
-:::
-
-
-:::tip
-To distinguish camera between highline (`PR-KA2`) and rear camera for area view (`PR-KA6`) look at video connector, grey for low and highline and blue (with 4 video wires) for area view.
-
-:::
-
+> [!TIP]
+> Seems like golf sportsvan and passat/arteon share the same camera with different badging.
+> [!TIP]
+> To distinguish camera between highline (`PR-KA2`) and rear camera for area view (`PR-KA6`) look at video connector, grey for low and highline and blue (with 4 video wires) for area view.
 ### Wiring kit
 
 AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
@@ -90,11 +64,8 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 * `10` → Long Coding → Byte: `02` → Bit: `5` → `disable`
 
 
-:::info
-Some older cars will have parktronic module available at address `0x76` instead of `0x10`.
-
-:::
-
+> [!INFO]
+> Some older cars will have parktronic module available at address `0x76` instead of `0x10`.
 ### Enable camera BAP communication
 
 * `6C` → Long Coding → Byte: `10`  → Bit `6` BAP for display data
@@ -109,11 +80,8 @@ Some older cars will have parktronic module available at address `0x76` instead 
 ### Code vehicle optional equipment
 
 
-:::info
-Your car might not support all the features below. Only enable those that are actually installed in your car
-
-:::
-
+> [!INFO]
+> Your car might not support all the features below. Only enable those that are actually installed in your car
 * `6C` → Long Coding → Byte: `04`  → Bit `0` Trailer Control Unit (`J345`) installed
 * `6C` → Long Coding → Byte: `04`  → Bit `1` Optical Parking Sensors (OPS) installed
 * `6C` → Long Coding → Byte: `04`  → Bit `2` ParkSteer Assist (PLA) installed
@@ -128,11 +96,8 @@ Your car might not support all the features below. Only enable those that are ac
 ### Enable all 4 view modes in camera module
 
 
-:::info
-This might be VW/Seat/Skoda specific. Not sure if Audi supports all those 4 modes.
-
-:::
-
+> [!INFO]
+> This might be VW/Seat/Skoda specific. Not sure if Audi supports all those 4 modes.
 * `6C` → Long Coding → Byte: `07` → Bit: `0` → `enable` (standard 90° view)
 * `6C` → Long Coding → Byte: `07` → Bit: `1` → `enable` (parallel parking assist view)
 * `6C` → Long Coding → Byte: `07` → Bit: `2` → `enable` (trailer towing view)
@@ -141,11 +106,8 @@ This might be VW/Seat/Skoda specific. Not sure if Audi supports all those 4 mode
 ### Other coding options
 
 
-:::info
-The same coding template is used both for RVC-High and Area View. Not all options will be available for all camera setups.
-
-:::
-
+> [!INFO]
+> The same coding template is used both for RVC-High and Area View. Not all options will be available for all camera setups.
 * `6C` → Long Coding → Byte: `04` → Bit: `3-4` Steering variant
 * `6C` → Long Coding → Byte: `05` → Bit: `0` Camera input: Rear
 * `6C` → Long Coding → Byte: `05` → Bit: `1` Camera input: Left
@@ -166,11 +128,8 @@ The same coding template is used both for RVC-High and Area View. Not all option
 ### Additional light when using camera
 
 
-:::info
-This will turn on welcome lights fitted under side mirrors to improve visibility. This feature was designed to 360 Area View (4 camera system), but you can use it with RVC High as well.
-
-:::
-
+> [!INFO]
+> This will turn on welcome lights fitted under side mirrors to improve visibility. This feature was designed to 360 Area View (4 camera system), but you can use it with RVC High as well.
 * `6C` → Long Coding → Byte: `08` → Bit: `2` → `enable` (manoeuvre light)
 * `09` → Security Access → Code: `31347`
 * `09` → Adaptation → `Aussenlicht_uebergreifend - Umfeldleuchte als Manoevrierleuchte` → `enable`
@@ -190,11 +149,8 @@ This will turn on welcome lights fitted under side mirrors to improve visibility
 ## Parameterization
 
 
-:::info
-Not needed if installing used camera from the same model of vehicle.
-
-:::
-
+> [!INFO]
+> Not needed if installing used camera from the same model of vehicle.
 ==pending…==
 
 * Camera control unit module is `5QO-980-556B or 5Q0-980-568-B,… `
@@ -206,17 +162,10 @@ Not needed if installing used camera from the same model of vehicle.
 ## Basic settings
 
 
-:::info
-Not needed if installing used camera from the same model of vehicle.
-
-:::
-
-
-:::tip
-Good to perform anyway to make sure that the guide lines and optional views are displayed correctly. This should be performed when camera position changes (removing and reinstalling the camera assembly, lowering the vehicle…).
-
-:::
-
+> [!INFO]
+> Not needed if installing used camera from the same model of vehicle.
+> [!TIP]
+> Good to perform anyway to make sure that the guide lines and optional views are displayed correctly. This should be performed when camera position changes (removing and reinstalling the camera assembly, lowering the vehicle…).
 ==pending…==
 
 * Best performed with ODIS-S using guided functions, needs calibration board `VAS 6350`. Look into car workshop manual for the distance from the rear axle, typically it's 1.5M-2M. ODIS-S might provide suggestions during the guided function.
@@ -231,7 +180,7 @@ Good to perform anyway to make sure that the guide lines and optional views are 
 * Cabin fusebox → fuse `18` → term. 30 power to camera and mechanism (`7.5` Amp fuse)
 * Cars with swinging emblem need to add two wires to the lid handle release connector (E234): power from Sc18 on pin4, opening signal from camera control unit to pin3 (pin on camera control unit depends on the control unit, look R189 in the specific car diagram)
 
-[VW Golf MK7 5G - Current Flow Diagram - high RVC.jpg 299530](assets/2f91b9ec-f954-4734-ab69-22bae6b0aa3b.jpg)
+[VW Golf MK7 5G - Current Flow Diagram - high RVC.jpg 299530](../../assets/2f91b9ec-f954-4734-ab69-22bae6b0aa3b.jpg)
 
 ## Video tutorials (VW Golf MK7 specific)
 

@@ -1,11 +1,8 @@
 # SD card patch for MU0235
 
 
-:::warning
-The script below is just for learning purposes. Use [SD activator by Congo](https://mibwiki.one/doc/sd-activator-by-congo-ch7lOH8UQz) instead.
-
-:::
-
+> [!WARNING]
+> The script below is just for learning purposes. Use [SD activator by Congo](https://mibwiki.one/doc/sd-activator-by-congo-ch7lOH8UQz) instead.
 # dlphi.sh
 
 ```bash

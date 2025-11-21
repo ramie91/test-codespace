@@ -4,11 +4,8 @@
 ## CarPlay
 
 
-:::info
-As far as functionality goes, CarPlay requires [specific hardware](/doc/usb-port-carplay-android-auto-GOvU5Ji0LN) to work with MIB. Both Android Auto and MirrorLink will work with [any USB ports](/doc/usb-port-d-link-android-auto-only-aGZ7ofACzq).
-
-:::
-
+> [!INFO]
+> As far as functionality goes, CarPlay requires [specific hardware](/doc/usb-port-carplay-android-auto-GOvU5Ji0LN) to work with MIB. Both Android Auto and MirrorLink will work with [any USB ports](/doc/usb-port-d-link-android-auto-only-aGZ7ofACzq).
 ### `5Q0 035 726`
 
 ### `5Q0 035 726 B` USB port - (short - white connector)
@@ -32,7 +29,7 @@ As far as functionality goes, CarPlay requires [specific hardware](/doc/usb-port
 * Android/MirrorLink support
 * 1,5A current
 
- ![](assets/c21b635a-923b-4ae3-a4ef-a2f0f56d423c.png)
+ ![](../../assets/c21b635a-923b-4ae3-a4ef-a2f0f56d423c.png)
 
 ### 
 

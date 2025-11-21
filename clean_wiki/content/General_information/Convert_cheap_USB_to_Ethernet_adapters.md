@@ -5,13 +5,10 @@
 \
 \
 
-:::info
-M.I.B is adding support for these cheap adapters to MHI2(Q) units during install!
-
-No need to change vid/pid of adapter in this case.
-
-:::
-
+> [!INFO]
+> M.I.B is adding support for these cheap adapters to MHI2(Q) units during install!
+> 
+> No need to change vid/pid of adapter in this case.
 ```bash
 # Install required tools
 sudo apt-get update && sudo apt-get install ethtool
